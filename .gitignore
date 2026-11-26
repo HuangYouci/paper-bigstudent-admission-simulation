@@ -1,0 +1,6 @@
+out/
+__pycache__/
+*.pyc
+.DS_Store
+# Controlled-tier files are never committed:
+data/weighting-granularity-departments.csv
