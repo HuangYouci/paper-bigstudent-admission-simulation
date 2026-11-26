@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="235" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 235" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="235"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-235)" style="clip-path: url(#clip)">
+		<g transform="">
+			<g transform="">
+				<g transform="">
+					<rect x="90.0" y="45.833333333333336" width="140.88477401726522" height="23.333333333333336" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+					<rect x="90.0" y="80.83333333333333" width="157.66213635606056" height="23.33333333333333" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+					<rect x="90.0" y="115.83333333333333" width="173.52541247548135" height="23.33333333333333" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+					<rect x="90.0" y="150.83333333333334" width="209.0151464053319" height="23.333333333333343" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+					<rect x="90.0" y="185.83333333333334" width="318.67530476699545" height="23.333333333333343" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(46%,46%,46%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 90,40 L 90,215 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 90,40 L 85,40 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 90,75 L 85,75 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 90,110 L 85,110 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 90,145 L 85,145 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 90,180 L 85,180 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 90,215 L 85,215 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,85,57.5)">
+							<text x="-41.11" y="-4.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Historical</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,85,92.5)">
+							<text x="-10.56" y="-4.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">v3</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,85,127.5)">
+							<text x="-43.9" y="-4.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">Fractional</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,85,162.5)">
+							<text x="-10.56" y="-4.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">v2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,85,197.5)">
+							<text x="-10.56" y="-4.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">v1</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 90,40 L 435,40 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 90,40 L 90,35 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 185.833333,40 L 185.833333,35 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 281.666667,40 L 281.666667,35 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 377.5,40 L 377.5,35 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,90,35)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,185.833333,35)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,281.666667,35)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,377.5,35)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">3</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="236.88477401726522" y="54.5" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,109) scale(1,-1)">1.47</text>
+			<text x="253.66213635606056" y="89.5" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,179) scale(1,-1)">1.65</text>
+			<text x="269.5254124754814" y="124.5" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,249) scale(1,-1)">1.81</text>
+			<text x="305.0151464053319" y="159.5" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,319) scale(1,-1)">2.18</text>
+			<text x="414.67530476699545" y="194.5" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,389) scale(1,-1)">3.33</text>
+			<text x="120.155" y="10" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Multiplier-standardized MAE (1,361 common departments)</text>
+		</g>
+	</g>
+</svg>

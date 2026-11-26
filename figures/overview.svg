@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="352" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 352" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="352"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-352)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 262,30 L 490,30 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 297.257732,27 L 297.257732,30 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="290.5299819587629" y="16" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,32) scale(1,-1)">-0.6</text>
+			<path d="M 344.268041,27 L 344.268041,30 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="337.54029123711337" y="16" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,32) scale(1,-1)">-0.4</text>
+			<path d="M 391.278351,27 L 391.278351,30 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="384.5506005154639" y="16" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,32) scale(1,-1)">-0.2</text>
+			<path d="M 438.28866,27 L 438.28866,30 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="436.1636597938144" y="16" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,32) scale(1,-1)">0</text>
+			<path d="M 485.298969,27 L 485.298969,30 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="477.58946907216495" y="16" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,32) scale(1,-1)">+0.2</text>
+			<text x="267.154" y="3" style="font-family: Times-Roman; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,6) scale(1,-1)">MAE difference in grades (negative favors the combination)</text>
+			<path d="M 438.28866,30 L 438.28866,344 Z" style="stroke: rgb(50%,50%,50%); stroke-linecap: butt; stroke-width: 0.6; stroke-dasharray: 3, 3;"/>
+			<text x="4" y="331" style="font-family: Times-Bold; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,662) scale(1,-1)">Evaluated run, 1,521 departments: combination minus</text>
+			<text x="12" y="314" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,628) scale(1,-1)">planned baseline (converted history)</text>
+			<path d="M 361.557181,317 L 395.754519,317 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 361.557181,314 L 361.557181,320 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 395.754519,314 L 395.754519,320 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="379.4814955884815" cy="317" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="300" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,600) scale(1,-1)">history adjusted for announced quotas</text>
+			<path d="M 391.429324,303 L 419.717945,303 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 391.429324,300 L 391.429324,306 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 419.717945,300 L 419.717945,306 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="405.7413326118768" cy="303" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="286" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,572) scale(1,-1)">production engine (reconstructed)</text>
+			<path d="M 394.499929,289 L 424.747986,289 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 394.499929,286 L 394.499929,292 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 424.747986,286 L 424.747986,292 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="409.76756479609793" cy="289" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="272" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,544) scale(1,-1)">same weight on quota-adjusted history, minus it</text>
+			<path d="M 380.625089,275 L 413.474946,275 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 380.625089,272 L 380.625089,278 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 413.474946,272 L 413.474946,278 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="396.9656861264401" cy="275" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="258" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,516) scale(1,-1)">backtest rule with the engine, minus the engine</text>
+			<path d="M 384.371809,261 L 418.79146,261 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 384.371809,258 L 384.371809,264 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 418.79146,258 L 418.79146,264 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="401.26020906913016" cy="261" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="4" y="244" style="font-family: Times-Bold; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,488) scale(1,-1)">Rerun on the evaluated records, minus planned baseline</text>
+			<text x="12" y="227" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,454) scale(1,-1)">2025 quotas instead of 2026</text>
+			<path d="M 386.181991,230 L 416.131616,230 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 386.181991,227 L 386.181991,233 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 416.131616,227 L 416.131616,233 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="401.44174335424646" cy="230" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="213" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">lists generated from public information</text>
+			<path d="M 440.230239,216 L 447.270475,216 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 440.230239,213 L 440.230239,219 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 447.270475,213 L 447.270475,219 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="443.58698371020097" cy="216" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="199" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,398) scale(1,-1)">each account's earliest saved list</text>
+			<path d="M 367.052785,202 L 404.676767,202 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 367.052785,199 L 367.052785,205 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 404.676767,199 L 404.676767,205 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="386.36505331614853" cy="202" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="185" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,370) scale(1,-1)">Fractional in place of v3</text>
+			<path d="M 379.437378,188 L 411.739717,188 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 379.437378,185 L 379.437378,191 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 411.739717,185 L 411.739717,191 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="395.683194258659" cy="188" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="4" y="171" style="font-family: Times-Bold; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,342) scale(1,-1)">Records saved before the deadline, minus planned baseline</text>
+			<text x="12" y="154" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,308) scale(1,-1)">v3 rerun on the run of 8 Aug 12:01</text>
+			<path d="M 374.86752,157 L 406.384828,157 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 374.86752,154 L 374.86752,160 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 406.384828,154 L 406.384828,160 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="391.1286024452929" cy="157" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="140" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,280) scale(1,-1)">v3 rerun on the deadline reconstruction</text>
+			<path d="M 369.521126,143 L 401.436385,143 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 369.521126,140 L 369.521126,146 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 401.436385,140 L 401.436385,146 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="386.2090856740831" cy="143" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="126" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,252) scale(1,-1)">output saved at 12:01 (deployed v2; 1,389)</text>
+			<path d="M 430.233279,129 L 473.995884,129 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 430.233279,126 L 430.233279,132 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 473.995884,126 L 473.995884,132 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="451.5349670413682" cy="129" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="4" y="112" style="font-family: Times-Bold; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">Evaluated run by listings, minus planned baseline</text>
+			<text x="12" y="95" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">5–9 listings (26)</text>
+			<path d="M 262,98 L 480.796992,98 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 262,95 L 262,101 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 480.796992,95 L 480.796992,101 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="347.0581663470045" cy="98" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="253" y="95" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">←</text>
+			<text x="12" y="81" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,162) scale(1,-1)">10–19 listings (118)</text>
+			<path d="M 272.298752,84 L 440.943418,84 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 272.298752,81 L 272.298752,87 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 440.943418,81 L 440.943418,87 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="356.0625455180048" cy="84" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="67" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,134) scale(1,-1)">20–39 listings (295)</text>
+			<path d="M 327.800643,70 L 397.079495,70 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 327.800643,67 L 327.800643,73 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 397.079495,67 L 397.079495,73 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="363.5996871532383" cy="70" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="53" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,106) scale(1,-1)">40–79 listings (521)</text>
+			<path d="M 366.504313,56 L 405.116322,56 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 366.504313,53 L 366.504313,59 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 405.116322,53 L 405.116322,59 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="386.0959612834894" cy="56" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<text x="12" y="39" style="font-family: Times-Roman; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,78) scale(1,-1)">80 or more listings (561)</text>
+			<path d="M 368.109252,42 L 403.881578,42 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 368.109252,39 L 368.109252,45 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 403.881578,39 L 403.881578,45 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<circle cx="388.1186427005889" cy="42" r="2.8" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>
