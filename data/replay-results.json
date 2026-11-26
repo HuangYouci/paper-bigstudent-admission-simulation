@@ -1,0 +1,2880 @@
+{
+  "checkedAt": "2026-10-08T14:04:33.552Z",
+  "runId": "ast_20260815T150000Z",
+  "databaseSHA256": "ef34272ca184cafe4120b5bcfb8103030f4d86917875bb480eecf07348555ab2",
+  "repositoryHead": "08ffbc85d424a8e6988260b57c57581273830e7a",
+  "node": "v26.5.0",
+  "counts": {
+    "documents": 4631,
+    "markedDuplicates": 4,
+    "noNormalizedScore": 0,
+    "zeroCleaningPeople": 0,
+    "zeroCleaningFields": 0,
+    "additionalMerged": 0,
+    "effectiveCandidates": 4627
+  },
+  "concordance": {
+    "v1": {
+      "supported": 1478,
+      "maxDifference": 0
+    },
+    "v2": {
+      "supported": 1485,
+      "maxDifference": 0
+    },
+    "fractional": {
+      "supported": 1626,
+      "maxDifference": 0
+    },
+    "v3": {
+      "supported": 1626,
+      "maxDifference": 0
+    }
+  },
+  "allocationAudit": {
+    "maxCapacityExcess": 0,
+    "maxSupplyExcess": 1e-14,
+    "minimumMass": 0.002,
+    "blockingPairs": 0,
+    "tolerance": 1e-06,
+    "note": "按供給、容量及完整比序獨立掃描全部合格邊；非僅總分倒掛計數。"
+  },
+  "sensitivity": {
+    "reference": {
+      "iterations": 84,
+      "converged": true,
+      "emptyCells": 0,
+      "sumW": 35911.53,
+      "nEff": 3456.06,
+      "min": 1.97,
+      "median": 6.61,
+      "max": 101.8,
+      "updateCriterion": 0.0009,
+      "n": 1525,
+      "standardizedMAE": 1.84,
+      "fixedSetSize": 1525,
+      "missing": 0,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.002,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 4492.59,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 8476.46,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5817.62,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 3386.95,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 9325.55,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 6374.59,
+            "relativeResidual": 0.002
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 1025.64,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5582.96,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5606.0,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 492.21,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7633.66,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 9662.27,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 693.37,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6522.32,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7901.27,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 1152.1,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9808.32,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7840.96,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 7578.42,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 9322.31,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3906.59,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5790.7,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4829.46,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 4055.27,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 400.13,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 13838.42,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 21600.46,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7898.94,
+            "relativeResidual": 0.0001
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 12960.77,
+            "relativeResidual": 0.0002
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 15043.9,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 6375.48,
+            "relativeResidual": 7e-05
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 16091.75,
+            "relativeResidual": 0.0002
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6719.78,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 12048.34,
+            "relativeResidual": -0.0001
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10970.5,
+            "relativeResidual": -5e-05
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 5015.47,
+            "relativeResidual": 9e-05
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2319.55,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 10390.44,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 11176.76,
+            "relativeResidual": -0.0001
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 554.0,
+            "relativeResidual": -6e-16
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 12635.0,
+            "relativeResidual": 1e-15
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 15488.0,
+            "relativeResidual": -6e-16
+          }
+        ]
+      },
+      "events": 300424
+    },
+    "initialize_33071": {
+      "iterations": 83,
+      "converged": true,
+      "emptyCells": 0,
+      "sumW": 35908.21,
+      "nEff": 3456.05,
+      "min": 1.97,
+      "median": 6.62,
+      "max": 101.74,
+      "updateCriterion": 0.001,
+      "n": 1525,
+      "standardizedMAE": 1.84,
+      "fixedSetSize": 1525,
+      "missing": 0,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.001,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 4493.17,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 8477.27,
+            "relativeResidual": 0.0007
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5818.25,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 3386.87,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 9324.81,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 6374.0,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 1025.65,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5582.65,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5605.43,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 492.23,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7633.77,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 9662.27,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 693.39,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6522.53,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7901.37,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 1151.97,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9807.04,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7839.77,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 7576.86,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 9320.08,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3905.63,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5789.76,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4828.55,
+            "relativeResidual": 0.0007
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 4054.39,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 400.23,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 13841.37,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 21604.35,
+            "relativeResidual": 0.0007
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7898.59,
+            "relativeResidual": 7e-05
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 12959.94,
+            "relativeResidual": 0.0001
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 15042.56,
+            "relativeResidual": 0.0002
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 6375.15,
+            "relativeResidual": 2e-05
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 16090.39,
+            "relativeResidual": 9e-05
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6719.02,
+            "relativeResidual": 0.0002
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 12047.78,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10969.68,
+            "relativeResidual": -0.0001
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 5014.93,
+            "relativeResidual": -1e-05
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2319.51,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 10390.28,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 11176.61,
+            "relativeResidual": -0.0001
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 554.0,
+            "relativeResidual": 2e-16
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 12635.0,
+            "relativeResidual": -1e-16
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 15488.0,
+            "relativeResidual": 3e-15
+          }
+        ]
+      }
+    },
+    "initialize_4627": {
+      "iterations": 1067,
+      "converged": true,
+      "emptyCells": 0,
+      "sumW": 35896.51,
+      "nEff": 3453.44,
+      "min": 0.57,
+      "median": 6.65,
+      "max": 101.45,
+      "updateCriterion": 0.001,
+      "n": 1525,
+      "standardizedMAE": 1.83,
+      "fixedSetSize": 1525,
+      "missing": 0,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.001,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 4491.0,
+            "relativeResidual": 2e-07
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 8471.0,
+            "relativeResidual": -4e-07
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5813.0,
+            "relativeResidual": 4e-07
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 3384.01,
+            "relativeResidual": 2e-06
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 9314.03,
+            "relativeResidual": 3e-06
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 6365.04,
+            "relativeResidual": 6e-06
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 1025.0,
+            "relativeResidual": 8e-07
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5577.01,
+            "relativeResidual": 2e-06
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5598.04,
+            "relativeResidual": 6e-06
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 492.0,
+            "relativeResidual": -3e-06
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7629.99,
+            "relativeResidual": -2e-06
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 9657.98,
+            "relativeResidual": -2e-06
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 693.0,
+            "relativeResidual": -2e-06
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6518.99,
+            "relativeResidual": -2e-06
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7896.99,
+            "relativeResidual": -1e-06
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 1151.0,
+            "relativeResidual": 2e-07
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9799.0,
+            "relativeResidual": 5e-07
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7833.0,
+            "relativeResidual": 4e-07
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 7571.02,
+            "relativeResidual": 3e-06
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 9312.05,
+            "relativeResidual": 5e-06
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3902.05,
+            "relativeResidual": 1e-05
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5786.0,
+            "relativeResidual": 3e-07
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4825.01,
+            "relativeResidual": 2e-06
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 4051.02,
+            "relativeResidual": 4e-06
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 400.4,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 13846.86,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 21610.66,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7898.05,
+            "relativeResidual": 6e-06
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 12958.1,
+            "relativeResidual": 7e-06
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 15039.15,
+            "relativeResidual": 1e-05
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 6375.03,
+            "relativeResidual": 5e-06
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 16089.1,
+            "relativeResidual": 6e-06
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6718.06,
+            "relativeResidual": 8e-06
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 12050.06,
+            "relativeResidual": 5e-06
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10971.07,
+            "relativeResidual": 6e-06
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 5015.04,
+            "relativeResidual": 9e-06
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2320.01,
+            "relativeResidual": 4e-06
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 10392.03,
+            "relativeResidual": 3e-06
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 11178.03,
+            "relativeResidual": 3e-06
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 554.0,
+            "relativeResidual": 4e-16
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 12635.0,
+            "relativeResidual": 3e-16
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 15488.0,
+            "relativeResidual": -5e-16
+          }
+        ]
+      }
+    },
+    "cap_0.95": {
+      "cap": 15.55,
+      "n": 1509,
+      "standardizedMAE": 1.84,
+      "fixedSetSize": 1525,
+      "missing": 16,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.73,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 3966.99,
+            "relativeResidual": -0.12
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 8123.52,
+            "relativeResidual": -0.04
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5774.31,
+            "relativeResidual": -0.007
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 2874.41,
+            "relativeResidual": -0.15
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 9040.11,
+            "relativeResidual": -0.03
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 6324.84,
+            "relativeResidual": -0.006
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 935.63,
+            "relativeResidual": -0.09
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5350.21,
+            "relativeResidual": -0.04
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5553.18,
+            "relativeResidual": -0.008
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 383.37,
+            "relativeResidual": -0.22
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7360.24,
+            "relativeResidual": -0.04
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 9652.31,
+            "relativeResidual": -0.0006
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 494.04,
+            "relativeResidual": -0.29
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6347.98,
+            "relativeResidual": -0.03
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7897.45,
+            "relativeResidual": 6e-05
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 845.62,
+            "relativeResidual": -0.27
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9745.73,
+            "relativeResidual": -0.005
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7840.96,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 6831.01,
+            "relativeResidual": -0.1
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 9138.51,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3889.7,
+            "relativeResidual": -0.003
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5414.56,
+            "relativeResidual": -0.06
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4719.74,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 4053.73,
+            "relativeResidual": 0.0007
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 108.82,
+            "relativeResidual": -0.73
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 13151.6,
+            "relativeResidual": -0.05
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 21475.7,
+            "relativeResidual": -0.005
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7192.89,
+            "relativeResidual": -0.09
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 12700.21,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 14907.61,
+            "relativeResidual": -0.009
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 6002.9,
+            "relativeResidual": -0.06
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 15596.57,
+            "relativeResidual": -0.03
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6636.58,
+            "relativeResidual": -0.01
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 11441.39,
+            "relativeResidual": -0.05
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10627.69,
+            "relativeResidual": -0.03
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 4974.66,
+            "relativeResidual": -0.008
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2045.15,
+            "relativeResidual": -0.12
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 9868.84,
+            "relativeResidual": -0.05
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 10994.51,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 459.82,
+            "relativeResidual": -0.17
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 11849.04,
+            "relativeResidual": -0.06
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 15330.29,
+            "relativeResidual": -0.01
+          }
+        ]
+      },
+      "note": "校準後截尾且不再校準；故意檢查邊際失配的代價，非新模型效能宣稱"
+    },
+    "cap_0.99": {
+      "cap": 21.68,
+      "n": 1519,
+      "standardizedMAE": 1.82,
+      "fixedSetSize": 1525,
+      "missing": 6,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.62,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 4225.91,
+            "relativeResidual": -0.06
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 8431.73,
+            "relativeResidual": -0.005
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5786.57,
+            "relativeResidual": -0.005
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 3161.77,
+            "relativeResidual": -0.07
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 9261.95,
+            "relativeResidual": -0.006
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 6343.54,
+            "relativeResidual": -0.003
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 1013.67,
+            "relativeResidual": -0.01
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5536.84,
+            "relativeResidual": -0.007
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5582.63,
+            "relativeResidual": -0.003
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 434.91,
+            "relativeResidual": -0.12
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7468.6,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 9660.64,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 581.28,
+            "relativeResidual": -0.16
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6410.99,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7901.27,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 974.56,
+            "relativeResidual": -0.15
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9782.45,
+            "relativeResidual": -0.002
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7840.96,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 7281.8,
+            "relativeResidual": -0.04
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 9284.11,
+            "relativeResidual": -0.003
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3898.91,
+            "relativeResidual": -0.0008
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5561.08,
+            "relativeResidual": -0.04
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4768.32,
+            "relativeResidual": -0.01
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 4055.27,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 151.74,
+            "relativeResidual": -0.62
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 13676.85,
+            "relativeResidual": -0.01
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 21594.74,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7527.21,
+            "relativeResidual": -0.05
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 12949.51,
+            "relativeResidual": -0.0007
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 15011.22,
+            "relativeResidual": -0.002
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 6201.01,
+            "relativeResidual": -0.03
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 15971.23,
+            "relativeResidual": -0.007
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6698.05,
+            "relativeResidual": -0.003
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 11781.09,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10859.73,
+            "relativeResidual": -0.01
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 5015.47,
+            "relativeResidual": 9e-05
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2138.29,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 10268.33,
+            "relativeResidual": -0.01
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 11146.48,
+            "relativeResidual": -0.003
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 505.97,
+            "relativeResidual": -0.09
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 12323.08,
+            "relativeResidual": -0.02
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 15467.78,
+            "relativeResidual": -0.001
+          }
+        ]
+      },
+      "note": "校準後截尾且不再校準；故意檢查邊際失配的代價，非新模型效能宣稱"
+    },
+    "total_33071": {
+      "n": 1486,
+      "standardizedMAE": 2.18,
+      "fixedSetSize": 1525,
+      "missing": 39,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.08,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 4137.24,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 7805.99,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5357.46,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 3119.05,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 8587.91,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 5870.37,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 944.51,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5141.36,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5162.58,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 453.28,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7029.85,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 8898.0,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 638.53,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6006.41,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7276.3,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 1060.97,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9032.5,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7220.76,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 6978.98,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 8584.94,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3597.59,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5332.66,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4447.46,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 3734.51,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 368.49,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 12743.83,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 19891.91,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7274.15,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 11935.6,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 13853.96,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 5871.19,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 14818.92,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6188.26,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 11095.34,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10102.76,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 4618.76,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2136.08,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 9568.57,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 10292.71,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 510.18,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 11635.6,
+            "relativeResidual": -0.08
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 14262.93,
+            "relativeResidual": -0.08
+          }
+        ]
+      },
+      "note": "校準後整體縮放至登記人數；不保留原考試邊際，不等同登記考生的有效校準"
+    },
+    "keep_zero": {
+      "candidates": 4627,
+      "iterations": 84,
+      "converged": true,
+      "emptyCells": 0,
+      "sumW": 35911.53,
+      "nEff": 3456.06,
+      "min": 1.97,
+      "median": 6.61,
+      "max": 101.8,
+      "updateCriterion": 0.0009,
+      "n": 1525,
+      "standardizedMAE": 1.84,
+      "fixedSetSize": 1525,
+      "missing": 0,
+      "residuals": {
+        "maxAbsoluteRelativeResidual": 0.002,
+        "cells": [
+          {
+            "subject": "ast_physics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 367,
+            "target": 4491,
+            "fitted": 4492.59,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 740,
+            "target": 8471,
+            "fitted": 8476.46,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_physics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 770,
+            "target": 5813,
+            "fitted": 5817.62,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 0,
+            "hi": 19,
+            "sample": 240,
+            "target": 3384,
+            "fitted": 3386.95,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 20,
+            "hi": 39,
+            "sample": 874,
+            "target": 9314,
+            "fitted": 9325.55,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_chemistry",
+            "lo": 40,
+            "hi": 60,
+            "sample": 825,
+            "target": 6365,
+            "fitted": 6374.59,
+            "relativeResidual": 0.002
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 0,
+            "hi": 19,
+            "sample": 81,
+            "target": 1025,
+            "fitted": 1025.64,
+            "relativeResidual": 0.0006
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 20,
+            "hi": 39,
+            "sample": 543,
+            "target": 5577,
+            "fitted": 5582.96,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_biology",
+            "lo": 40,
+            "hi": 60,
+            "sample": 656,
+            "target": 5598,
+            "fitted": 5606.0,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_history",
+            "lo": 0,
+            "hi": 19,
+            "sample": 28,
+            "target": 492,
+            "fitted": 492.21,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_history",
+            "lo": 20,
+            "hi": 39,
+            "sample": 982,
+            "target": 7630,
+            "fitted": 7633.66,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_history",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1777,
+            "target": 9658,
+            "fitted": 9662.27,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 0,
+            "hi": 19,
+            "sample": 37,
+            "target": 693,
+            "fitted": 693.37,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 20,
+            "hi": 39,
+            "sample": 809,
+            "target": 6519,
+            "fitted": 6522.32,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_geography",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1578,
+            "target": 7897,
+            "fitted": 7901.27,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 0,
+            "hi": 19,
+            "sample": 66,
+            "target": 1151,
+            "fitted": 1152.1,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1272,
+            "target": 9799,
+            "fitted": 9808.32,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_civics",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1630,
+            "target": 7833,
+            "fitted": 7840.96,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 620,
+            "target": 7571,
+            "fitted": 7578.42,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 998,
+            "target": 9312,
+            "fitted": 9322.31,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 534,
+            "target": 3902,
+            "fitted": 3906.59,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 733,
+            "target": 5786,
+            "fitted": 5790.7,
+            "relativeResidual": 0.0008
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 735,
+            "target": 4825,
+            "fitted": 4829.46,
+            "relativeResidual": 0.0009
+          },
+          {
+            "subject": "ast_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 792,
+            "target": 4051,
+            "fitted": 4055.27,
+            "relativeResidual": 0.001
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 0,
+            "hi": 19,
+            "sample": 7,
+            "target": 400,
+            "fitted": 400.13,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1432,
+            "target": 13833,
+            "fitted": 13838.42,
+            "relativeResidual": 0.0004
+          },
+          {
+            "subject": "ast_gsat_chinese",
+            "lo": 40,
+            "hi": 60,
+            "sample": 3177,
+            "target": 21589,
+            "fitted": 21600.46,
+            "relativeResidual": 0.0005
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 0,
+            "hi": 19,
+            "sample": 760,
+            "target": 7898,
+            "fitted": 7898.94,
+            "relativeResidual": 0.0001
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1653,
+            "target": 12958,
+            "fitted": 12960.77,
+            "relativeResidual": 0.0002
+          },
+          {
+            "subject": "ast_gsat_english",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2212,
+            "target": 15039,
+            "fitted": 15043.9,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 0,
+            "hi": 19,
+            "sample": 674,
+            "target": 6375,
+            "fitted": 6375.48,
+            "relativeResidual": 7e-05
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 20,
+            "hi": 39,
+            "sample": 2005,
+            "target": 16089,
+            "fitted": 16091.75,
+            "relativeResidual": 0.0002
+          },
+          {
+            "subject": "ast_gsat_mathA",
+            "lo": 40,
+            "hi": 60,
+            "sample": 823,
+            "target": 6718,
+            "fitted": 6719.78,
+            "relativeResidual": 0.0003
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 0,
+            "hi": 19,
+            "sample": 1471,
+            "target": 12050,
+            "fitted": 12048.34,
+            "relativeResidual": -0.0001
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1492,
+            "target": 10971,
+            "fitted": 10970.5,
+            "relativeResidual": -5e-05
+          },
+          {
+            "subject": "ast_gsat_mathB",
+            "lo": 40,
+            "hi": 60,
+            "sample": 655,
+            "target": 5015,
+            "fitted": 5015.47,
+            "relativeResidual": 9e-05
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 0,
+            "hi": 19,
+            "sample": 211,
+            "target": 2320,
+            "fitted": 2319.55,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1020,
+            "target": 10392,
+            "fitted": 10390.44,
+            "relativeResidual": -0.0002
+          },
+          {
+            "subject": "ast_gsat_science",
+            "lo": 40,
+            "hi": 60,
+            "sample": 1232,
+            "target": 11178,
+            "fitted": 11176.76,
+            "relativeResidual": -0.0001
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 0,
+            "hi": 19,
+            "sample": 38,
+            "target": 554,
+            "fitted": 554.0,
+            "relativeResidual": -6e-16
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 20,
+            "hi": 39,
+            "sample": 1328,
+            "target": 12635,
+            "fitted": 12635.0,
+            "relativeResidual": 1e-15
+          },
+          {
+            "subject": "ast_gsat_society",
+            "lo": 40,
+            "hi": 60,
+            "sample": 2244,
+            "target": 15488,
+            "fitted": 15488.0,
+            "relativeResidual": -6e-16
+          }
+        ]
+      }
+    }
+  },
+  "commonSensitivity": {
+    "n": 1483,
+    "baselineMAE": 1.58,
+    "methods": {
+      "reference": {
+        "n": 1483,
+        "standardizedMAE": 1.8,
+        "fixedSetSize": 1483,
+        "missing": 0
+      },
+      "initialize_33071": {
+        "n": 1483,
+        "standardizedMAE": 1.8,
+        "fixedSetSize": 1483,
+        "missing": 0
+      },
+      "initialize_4627": {
+        "n": 1483,
+        "standardizedMAE": 1.79,
+        "fixedSetSize": 1483,
+        "missing": 0
+      },
+      "cap_0.95": {
+        "n": 1483,
+        "standardizedMAE": 1.81,
+        "fixedSetSize": 1483,
+        "missing": 0
+      },
+      "cap_0.99": {
+        "n": 1483,
+        "standardizedMAE": 1.79,
+        "fixedSetSize": 1483,
+        "missing": 0
+      },
+      "total_33071": {
+        "n": 1483,
+        "standardizedMAE": 2.18,
+        "fixedSetSize": 1483,
+        "missing": 0
+      },
+      "keep_zero": {
+        "n": 1483,
+        "standardizedMAE": 1.8,
+        "fixedSetSize": 1483,
+        "missing": 0
+      }
+    }
+  },
+  "ordering": [
+    {
+      "seed": 20261008,
+      "events": 298887,
+      "maxCutoffDifference": 3e-14,
+      "maxMassDifference": 3e-14
+    },
+    {
+      "seed": 20261009,
+      "events": 299521,
+      "maxCutoffDifference": 3e-14,
+      "maxMassDifference": 3e-14
+    },
+    {
+      "seed": 20261010,
+      "events": 298966,
+      "maxCutoffDifference": 3e-14,
+      "maxMassDifference": 3e-14
+    }
+  ],
+  "privacy": "Firestore 僅 get/select；個人原始資料不落地、不列印；輸出為校準格與研究彙總。",
+  "releaseNote": "Error statistics of the sensitivity runs are rounded to two decimals: their department values were not saved, and their fixed sets include departments whose simulated values are withheld in the released files."
+}

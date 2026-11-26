@@ -1,0 +1,85 @@
+{
+  "runId": "ast_20260815T150000Z",
+  "retrievedAt": "2026-09-22T12:27:58.695Z",
+  "candidateCount": 4627,
+  "raking": {
+    "iterations": 84,
+    "nEff": 3456.0570185471374,
+    "sumW": 35911.52667845436,
+    "maxRelativeError": 0.0009032776112329888
+  },
+  "note": "Retrospective reconstruction with the current code rather than a replay of the deployed version; v1 uses Hamilton largest-remainder capacity scaling; probability calibration is not part of this experiment.",
+  "runMetadata": {
+    "startedAt": "2026-08-15T15:00:00.826Z",
+    "completedAt": "2026-08-15T15:01:43.889Z",
+    "nationalBaselineCount": 39213,
+    "algorithmVersion": "ast-da-v3",
+    "sampleCount": 4627,
+    "weighting": {
+      "method": "raking-ipf",
+      "bands": 3,
+      "converged": true,
+      "iterations": 84,
+      "maxRelativeError": 0.0009032776112301022,
+      "totalWeight": 35911.526678454364,
+      "effectiveSampleSize": 3456.0570185471393,
+      "weightMin": 1.968904099677176,
+      "weightMedian": 6.610664093808022,
+      "weightMax": 101.7964038842011,
+      "subjectsUsed": [
+        "ast_physics",
+        "ast_chemistry",
+        "ast_biology",
+        "ast_history",
+        "ast_geography",
+        "ast_civics",
+        "ast_mathA",
+        "ast_mathB",
+        "ast_gsat_chinese",
+        "ast_gsat_english",
+        "ast_gsat_mathA",
+        "ast_gsat_mathB",
+        "ast_gsat_science",
+        "ast_gsat_society"
+      ],
+      "subjectsMissing": []
+    }
+  },
+  "departmentCsvSHA256": "e8630de0e266f92036ec4f1c4eb71965275fbe4c2ced4d7802a0a7397cb56025",
+  "historyAvailabilityWindow": [
+    2024,
+    2025
+  ],
+  "privacy": "Candidate codes, grades, preferences and duplicate flags were read only in memory during the authorised read-only replay; nothing was written to disk or printed; every retained output is a department-level output or an aggregate. Contact details and tokens were not read. For the record-level checks of Supplement S24-S28, a pseudonymized export of the saved inputs (account identifiers replaced by keyed hashes whose key was held only in memory; still treated as personal data, because grades, ordered preferences and update times are close to unique) was written once to the author's computer, outside any cloud-synchronized folder, analysed there in a virtual machine, and deleted afterwards with its intermediate files; only aggregates left that computer.",
+  "analysisPlansSHA256": {
+    "analysis-plan-v015.md": "bb6426afd2d25b9257f01fd8841a90d1ab3072a8e7fb2be485bf57803f2cc119",
+    "analysis-plan-v016.md": "49d0558fa793bff6e96975de997eed9890cfa05ea87a7a38deee81c3d1169722",
+    "analysis-plan-v018.md": "9c045110655c3726635d093068c19b67023a32697fb08d459b8516ffa04be574",
+    "analysis-plan-v022.md": "89c12446a6cbc1397356310efaac3563642fd3014da1d2f20920acb4fad0d1bc",
+    "analysis-plan-v024.md": "9dc46e7ec116cea26afadb83b8beaac28d54500e73895d734f0fdd76a0daee4c",
+    "analysis-plan-v025.md": "9f1df93af403496f23a1e44d25afed10a84a79dc4ed7edf34039f1093d67107f"
+  },
+  "sourceHashes": {
+    "lib/database.db": "ef34272ca184cafe4120b5bcfb8103030f4d86917875bb480eecf07348555ab2",
+    "dev-only/backtest-v3/lib.mjs": "e8af46726bf74d9ef24dfff2568eaea63f6ef9e9af88df66197acfd18f915f9f",
+    "dev-only/simulation-weighting/da-rules.mjs": "3629b6829899419da5a6158cd2c0081ca70f8ffeea2275ff0cd3ee3aa03abe8b",
+    "src/lib/simulation/ast/quota.ts": "5767e9667e019a070354dd2d97b026431ed8d5cc4be07a67c297063ba3b69a78",
+    "src/lib/predict/common/threshold.ts": "cb2fb0f6d138a56b1d88c10d5448ae7899fc466f8991ff3a7a47297b5b2592aa"
+  },
+  "verifiableResearchCommit": "79ec74b8827a0484302c9a6ef3157118238f6270",
+  "aggregateSourceSHA256": "7e87ea01fd86cf06f9bc8bfd4248c36c1ba524dbc2bd90cf21bd61227fcf8ed6",
+  "platformRecordsNote": "sourceHashes are SHA-256 hashes of platform modules and of the frozen admission database (lib/database.db: departmental rules, quotas, past cutoffs and score distributions) at verifiableResearchCommit in the platform repository; the Node scripts check them before running. Candidate records are stored separately on the platform and are not part of this package.",
+  "smallCellSuppression": "Released files withhold the simulated values and filling status of departments with fewer than five platform listings, round released simulated values to two decimals, and leave out the department values of earlier saved runs; data/suppression.json gives the rule. Every statistic in the manuscript and supplement is computed from these files, which form the controlled tier (see tiers).",
+  "combinationWeightProvenance": {
+    "commit": "113fcf07eb43045a89109b501ddb2b4dcafc6523",
+    "committedAt": "2026-08-13T01:44:19+08:00",
+    "file": "dev-only/backtest-v3/final-model.mjs",
+    "gitBlob": "7caae222b0860e997f288b7394c4bdbb5f5c13b0",
+    "line": "const LAMBDA = 0.4;",
+    "note": "Platform repository; the file is not released."
+  },
+  "comparisonSourceSHA256": "fb4f3b972755f81955f1bd8788a8f5e4f8935e9d60a160afe7407e426e06e2c0",
+  "engineCsvSHA256": "45939e3591882eb6f66956c3e058e99131c74bbb7cadd2e990ff9f089dd19e20",
+  "tiers": "Two tiers (v0.26). The controlled tier holds department-benchmark.csv, weighting-granularity-departments.csv and engine-2026.csv with every released simulated value; every statistic in the manuscript and supplement is computed from it, and it goes to the editor and the reviewers only. The public tier, written by make_public_tier.py and described in public-tier.json, withholds v1, v2, Fractional and the alternative calibrations, releases v3 only where the platform display rule holds and v3 differs from Fractional, and adds institution sums for Table 2.",
+  "publicOutputCoarsening": "In the public tier, stored analysis outputs other than public-checks.json, public-tier.json, source audits and synthetic-market outputs are rounded to two decimal places (one significant digit below 0.01), and cells reporting fewer than 10 departments are suppressed, by redact_public_outputs.py; the controlled tier keeps them at full precision."
+}

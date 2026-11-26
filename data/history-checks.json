@@ -1,0 +1,552 @@
+{
+  "note": "exploratory; added after a pre-submission review; not in the dated analysis plans",
+  "n_J2": 1521,
+  "lambda": 0.4,
+  "delta": 1.0,
+  "two_year_history": {
+    "n": 1419,
+    "schools": 58,
+    "mae": {
+      "baseline": 1.59,
+      "h24": 1.97,
+      "h_mean": 1.63,
+      "v3": 1.79,
+      "mix": 1.34,
+      "mix_h_mean": 1.37
+    },
+    "bias": {
+      "baseline": 0.62,
+      "h24": 0.03,
+      "h_mean": 0.33,
+      "v3": 0.57,
+      "mix": 0.6,
+      "mix_h_mean": 0.42
+    },
+    "h_mean_minus_baseline": {
+      "difference": 0.04,
+      "relative": 0.03,
+      "interval": [
+        -0.03,
+        0.12
+      ]
+    },
+    "mix_minus_h_mean": {
+      "difference": -0.3,
+      "relative": -0.18,
+      "interval": [
+        -0.4,
+        -0.2
+      ]
+    },
+    "mix_h_mean_minus_h_mean": {
+      "difference": -0.26,
+      "relative": -0.16,
+      "interval": [
+        -0.34,
+        -0.19
+      ]
+    },
+    "corr_errors_v3_h_mean": 0.27
+  },
+  "placebo": {
+    "S": {
+      "spearman_with_D": 0.54,
+      "flagged": 797,
+      "direction_agreement": 0.8,
+      "auroc_hot": 0.84,
+      "auroc_cold": 0.76
+    },
+    "R": {
+      "spearman_with_D": 0.12,
+      "flagged": 679,
+      "direction_agreement": 0.63,
+      "auroc_hot": 0.52,
+      "auroc_cold": 0.55
+    },
+    "corr_S_R": 0.23,
+    "spearman_D_S_given_R": 0.54
+  },
+  "transitory_shocks": {
+    "var_D": 4.66,
+    "cov_S_D": 3.33,
+    "var_transitory_from_R": 0.78,
+    "var_transitory_from_backtest": 0.79,
+    "share_of_var_D_from_R": 0.17,
+    "share_of_var_D_from_backtest": 0.17,
+    "share_of_cov_SD_from_R": 0.24,
+    "share_of_cov_SD_from_backtest": 0.24,
+    "interval_share_of_var_D_from_R": [
+      0.08,
+      0.24
+    ],
+    "interval_share_of_var_D_from_backtest": [
+      0.08,
+      0.24
+    ],
+    "interval_share_of_cov_SD_from_R": [
+      0.11,
+      0.35
+    ],
+    "interval_share_of_cov_SD_from_backtest": [
+      0.11,
+      0.35
+    ]
+  },
+  "encompassing_two_year": {
+    "n": 1521,
+    "r2_controls_only": 0.33,
+    "r2_S_and_controls": 0.41,
+    "delta_r2_from_S": 0.07,
+    "coef_S_with_controls": 0.21,
+    "coef_controls_with_S": {
+      "level": -0.03,
+      "level_sq": 0.001,
+      "school_gap": 0.04,
+      "rules_changed": -0.04,
+      "quota_change": -1.03,
+      "quota_missing": 0.07,
+      "R": 0.04,
+      "R_missing": 0.1,
+      "popularity": 1.09
+    },
+    "coef_controls_without_S": {
+      "level": -0.03,
+      "level_sq": 0.003,
+      "school_gap": 0.06,
+      "rules_changed": -0.02,
+      "quota_change": -1.27,
+      "quota_missing": -2.55,
+      "R": 0.09,
+      "R_missing": 0.02,
+      "popularity": 1.32
+    },
+    "partial_spearman_D_S_given_controls": 0.41,
+    "interval_delta_r2_from_S": [
+      0.04,
+      0.11
+    ],
+    "interval_coef_S_with_controls": [
+      0.16,
+      0.27
+    ],
+    "interval_partial_spearman_D_S_given_controls": [
+      0.34,
+      0.47
+    ]
+  },
+  "cross_fitted": {
+    "features_history": [
+      "level",
+      "level_sq",
+      "school_gap",
+      "rules_changed",
+      "quota_change",
+      "quota_missing",
+      "R",
+      "R_missing"
+    ],
+    "n": 1521,
+    "mae": {
+      "baseline": 1.6,
+      "mix": 1.35,
+      "rival_history": 1.42,
+      "rival_history_popularity": 1.31,
+      "rival_history_popularity_S": 1.21
+    },
+    "rival_history_minus_baseline": {
+      "difference": -0.18,
+      "relative": -0.11,
+      "interval": [
+        -0.28,
+        -0.08
+      ]
+    },
+    "rival_popularity_minus_baseline": {
+      "difference": -0.29,
+      "relative": -0.18,
+      "interval": [
+        -0.41,
+        -0.17
+      ]
+    },
+    "mix_minus_rival_popularity": {
+      "difference": 0.04,
+      "relative": 0.03,
+      "interval": [
+        -0.06,
+        0.14
+      ]
+    },
+    "adding_S_to_rival": {
+      "difference": -0.1,
+      "relative": -0.07,
+      "interval": [
+        -0.13,
+        -0.06
+      ]
+    }
+  },
+  "baseline_backtest_2025": {
+    "n": 1486,
+    "bias": -0.59,
+    "mae": 1.61,
+    "note": "the baseline method applied to 2024 cutoffs, predicting 2025 cutoffs"
+  },
+  "events": {
+    "shift_ex_ante": -0.59,
+    "mean_D": -0.58,
+    "mean_S": -0.01,
+    "share_D_negative": 0.64,
+    "delta_1": {
+      "uncentred": {
+        "n": 1521,
+        "table_flag_by_event": {
+          "hot": {
+            "hot": 192,
+            "neutral": 164,
+            "cold": 78
+          },
+          "neutral": {
+            "hot": 46,
+            "neutral": 436,
+            "cold": 184
+          },
+          "cold": {
+            "hot": 17,
+            "neutral": 107,
+            "cold": 297
+          }
+        },
+        "hot": {
+          "flags": 434,
+          "events": 255,
+          "precision": 0.44,
+          "recall": 0.75,
+          "peirce": 0.56
+        },
+        "cold": {
+          "flags": 421,
+          "events": 559,
+          "precision": 0.71,
+          "recall": 0.53,
+          "peirce": 0.4
+        },
+        "flagged": 855,
+        "direction_agreement": 0.79,
+        "pesaran_timmermann": {
+          "expected_agreement_if_independent": 0.5,
+          "statistic": 17.7
+        },
+        "mean_S_flagged_hot": 3.17,
+        "mean_D_flagged_hot": 0.71,
+        "mean_S_flagged_cold": -3.36,
+        "mean_D_flagged_cold": -1.92
+      },
+      "centred_ex_ante": {
+        "n": 1521,
+        "table_flag_by_event": {
+          "hot": {
+            "hot": 108,
+            "neutral": 112,
+            "cold": 76
+          },
+          "neutral": {
+            "hot": 38,
+            "neutral": 351,
+            "cold": 264
+          },
+          "cold": {
+            "hot": 15,
+            "neutral": 103,
+            "cold": 454
+          }
+        },
+        "hot": {
+          "flags": 296,
+          "events": 161,
+          "precision": 0.36,
+          "recall": 0.67,
+          "peirce": 0.53
+        },
+        "cold": {
+          "flags": 572,
+          "events": 794,
+          "precision": 0.79,
+          "recall": 0.57,
+          "peirce": 0.41
+        },
+        "flagged": 868,
+        "direction_agreement": 0.83,
+        "pesaran_timmermann": {
+          "expected_agreement_if_independent": 0.58,
+          "statistic": 17.72
+        },
+        "mean_S_flagged_hot": 3.47,
+        "mean_D_flagged_hot": 0.36,
+        "mean_S_flagged_cold": -3.24,
+        "mean_D_flagged_cold": -2.3
+      },
+      "centred_post_hoc": {
+        "n": 1521,
+        "table_flag_by_event": {
+          "hot": {
+            "hot": 264,
+            "neutral": 117,
+            "cold": 54
+          },
+          "neutral": {
+            "hot": 110,
+            "neutral": 452,
+            "cold": 107
+          },
+          "cold": {
+            "hot": 28,
+            "neutral": 159,
+            "cold": 230
+          }
+        },
+        "hot": {
+          "flags": 435,
+          "events": 402,
+          "precision": 0.61,
+          "recall": 0.66,
+          "peirce": 0.5
+        },
+        "cold": {
+          "flags": 417,
+          "events": 391,
+          "precision": 0.55,
+          "recall": 0.59,
+          "peirce": 0.42
+        },
+        "flagged": 852,
+        "direction_agreement": 0.78,
+        "pesaran_timmermann": {
+          "expected_agreement_if_independent": 0.5,
+          "statistic": 16.33
+        },
+        "mean_S_flagged_hot": 3.18,
+        "mean_D_flagged_hot": 1.29,
+        "mean_S_flagged_cold": -3.37,
+        "mean_D_flagged_cold": -1.35
+      }
+    },
+    "delta_2": {
+      "uncentred": {
+        "n": 1521,
+        "table_flag_by_event": {
+          "hot": {
+            "hot": 81,
+            "neutral": 123,
+            "cold": 27
+          },
+          "neutral": {
+            "hot": 42,
+            "neutral": 853,
+            "cold": 137
+          },
+          "cold": {
+            "hot": 5,
+            "neutral": 125,
+            "cold": 128
+          }
+        },
+        "hot": {
+          "flags": 231,
+          "events": 128,
+          "precision": 0.35,
+          "recall": 0.63,
+          "peirce": 0.53
+        },
+        "cold": {
+          "flags": 258,
+          "events": 292,
+          "precision": 0.5,
+          "recall": 0.44,
+          "peirce": 0.33
+        },
+        "flagged": 489,
+        "direction_agreement": 0.82,
+        "pesaran_timmermann": {
+          "expected_agreement_if_independent": 0.51,
+          "statistic": 14.51
+        },
+        "mean_S_flagged_hot": 4.69,
+        "mean_D_flagged_hot": 1.16,
+        "mean_S_flagged_cold": -4.57,
+        "mean_D_flagged_cold": -2.33
+      },
+      "centred_ex_ante": {
+        "n": 1521,
+        "table_flag_by_event": {
+          "hot": {
+            "hot": 50,
+            "neutral": 102,
+            "cold": 20
+          },
+          "neutral": {
+            "hot": 31,
+            "neutral": 786,
+            "cold": 194
+          },
+          "cold": {
+            "hot": 4,
+            "neutral": 116,
+            "cold": 218
+          }
+        },
+        "hot": {
+          "flags": 172,
+          "events": 85,
+          "precision": 0.29,
+          "recall": 0.59,
+          "peirce": 0.5
+        },
+        "cold": {
+          "flags": 338,
+          "events": 432,
+          "precision": 0.64,
+          "recall": 0.5,
+          "peirce": 0.39
+        },
+        "flagged": 510,
+        "direction_agreement": 0.85,
+        "pesaran_timmermann": {
+          "expected_agreement_if_independent": 0.58,
+          "statistic": 14.76
+        },
+        "mean_S_flagged_hot": 4.92,
+        "mean_D_flagged_hot": 0.82,
+        "mean_S_flagged_cold": -4.48,
+        "mean_D_flagged_cold": -2.69
+      },
+      "centred_post_hoc": {
+        "n": 1521,
+        "table_flag_by_event": {
+          "hot": {
+            "hot": 110,
+            "neutral": 103,
+            "cold": 21
+          },
+          "neutral": {
+            "hot": 67,
+            "neutral": 879,
+            "cold": 87
+          },
+          "cold": {
+            "hot": 6,
+            "neutral": 154,
+            "cold": 94
+          }
+        },
+        "hot": {
+          "flags": 234,
+          "events": 183,
+          "precision": 0.47,
+          "recall": 0.6,
+          "peirce": 0.51
+        },
+        "cold": {
+          "flags": 254,
+          "events": 202,
+          "precision": 0.37,
+          "recall": 0.47,
+          "peirce": 0.34
+        },
+        "flagged": 488,
+        "direction_agreement": 0.79,
+        "pesaran_timmermann": {
+          "expected_agreement_if_independent": 0.5,
+          "statistic": 12.94
+        },
+        "mean_S_flagged_hot": 4.67,
+        "mean_D_flagged_hot": 1.73,
+        "mean_S_flagged_cold": -4.59,
+        "mean_D_flagged_cold": -1.77
+      }
+    }
+  },
+  "flags_by_level": {
+    "0-30": {
+      "n": 378,
+      "hot_flags": 186,
+      "hot_flags_that_were_hot": 94,
+      "hot_flags_that_were_cold": 40
+    },
+    "30-40": {
+      "n": 535,
+      "hot_flags": 147,
+      "hot_flags_that_were_hot": 62,
+      "hot_flags_that_were_cold": 25
+    },
+    "40-45": {
+      "n": 237,
+      "hot_flags": 45,
+      "hot_flags_that_were_hot": 15,
+      "hot_flags_that_were_cold": 7
+    },
+    "45-50": {
+      "n": 236,
+      "hot_flags": 42,
+      "hot_flags_that_were_hot": 17,
+      "hot_flags_that_were_cold": 4
+    },
+    "50-60": {
+      "n": 135,
+      "hot_flags": 14,
+      "hot_flags_that_were_hot": 4,
+      "hot_flags_that_were_cold": 2
+    }
+  },
+  "sector": {
+    "public": {
+      "n": 818,
+      "bias_v3": 0.48,
+      "bias_baseline": 0.59,
+      "mae_baseline": 1.34,
+      "mae_mix": 1.1,
+      "mix_minus_baseline": -0.24
+    },
+    "private": {
+      "n": 703,
+      "bias_v3": 0.67,
+      "bias_baseline": 0.58,
+      "mae_baseline": 1.89,
+      "mae_mix": 1.63,
+      "mix_minus_baseline": -0.26
+    }
+  },
+  "rules": {
+    "unchanged": {
+      "n": 1279,
+      "mae_baseline": 1.55,
+      "mae_mix": 1.34,
+      "mix_minus_baseline": -0.21,
+      "share_of_total_gain": 0.69,
+      "direction_agreement": 0.78,
+      "slope_D_on_S": 0.31
+    },
+    "changed": {
+      "n": 242,
+      "mae_baseline": 1.83,
+      "mae_mix": 1.35,
+      "mix_minus_baseline": -0.48,
+      "share_of_total_gain": 0.31,
+      "direction_agreement": 0.85,
+      "slope_D_on_S": 0.5
+    }
+  },
+  "diebold_mariano": {
+    "absolute": {
+      "mean_loss_difference": -0.25,
+      "t": -6.74,
+      "clusters": 59
+    },
+    "squared": {
+      "mean_loss_difference": -1.15,
+      "t": -4.25,
+      "clusters": 59
+    }
+  },
+  "mae_optimal_lambda": 0.4
+}

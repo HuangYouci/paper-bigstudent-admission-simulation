@@ -1,0 +1,582 @@
+{
+  "checkedAt": "2026-10-10T01:58:55.174Z",
+  "node": "v24.19.0",
+  "runId": "ast_20260815T150000Z",
+  "databaseSHA256": "ef34272ca184cafe4120b5bcfb8103030f4d86917875bb480eecf07348555ab2",
+  "counts": {
+    "documents": 4631,
+    "markedDuplicates": 4,
+    "noNormalizedScore": 0,
+    "zeroCleaningPeople": 0,
+    "zeroCleaningFields": 0,
+    "additionalMerged": 0,
+    "effectiveCandidates": 4627
+  },
+  "allocationAudit": {
+    "maxCapacityExcess": 0,
+    "maxSupplyExcess": 1e-14,
+    "minimumMass": 0.002,
+    "blockingPairs": 0,
+    "maxBlockingMass": 4e-15,
+    "positiveBlockingEdges": 318,
+    "eligibleEdges": 119337,
+    "maxReportedWeightDifference": 0,
+    "tolerance": 1e-06,
+    "note": "全部合格邊上限為個人供給；連續阻擋量使用完整比序與較好志願，微小正值可能是浮點誤差。不可行配置僅作診斷。"
+  },
+  "ledger": {
+    "completed": true,
+    "events": 300424,
+    "epsilon": 1e-07,
+    "accounts": {
+      "supply": {
+        "mass": 35911.53,
+        "count": 4627,
+        "maximum": 101.8
+      },
+      "retained": {
+        "mass": 30893.5,
+        "count": 5548,
+        "maximum": 34.47
+      },
+      "noPreferences": {
+        "mass": 175.48,
+        "count": 18,
+        "maximum": 18.4
+      },
+      "exhausted": {
+        "mass": 4842.55,
+        "count": 5119,
+        "maximum": 34.82
+      },
+      "droppedAtPop": {
+        "mass": 0,
+        "count": 0,
+        "maximum": 0
+      },
+      "droppedDisplaced": {
+        "mass": 0,
+        "count": 0,
+        "maximum": 0
+      },
+      "droppedHeld": {
+        "mass": 0,
+        "count": 0,
+        "maximum": 0
+      }
+    },
+    "droppedMass": 0,
+    "dropEvents": 0,
+    "dropMassBound": 0,
+    "balanceResidual": 3e-12
+  },
+  "subjectsInPattern": [
+    "ast_physics",
+    "ast_chemistry",
+    "ast_biology",
+    "ast_history",
+    "ast_geography",
+    "ast_civics",
+    "ast_mathA",
+    "ast_mathB",
+    "ast_gsat_chinese",
+    "ast_gsat_english",
+    "ast_gsat_mathA",
+    "ast_gsat_mathB",
+    "ast_gsat_science",
+    "ast_gsat_society"
+  ],
+  "participationPatternCount": 363,
+  "participationPatterns": [
+    {
+      "pattern": "00000001110000",
+      "records": 5,
+      "mass": 24.3
+    },
+    {
+      "pattern": "00000100110000",
+      "records": 5,
+      "mass": 21.3
+    },
+    {
+      "pattern": "00000100110001",
+      "records": 5,
+      "mass": 45.2
+    },
+    {
+      "pattern": "00000100110101",
+      "records": 13,
+      "mass": 91.2
+    },
+    {
+      "pattern": "00000100111101",
+      "records": 6,
+      "mass": 39.0
+    },
+    {
+      "pattern": "00000101110101",
+      "records": 6,
+      "mass": 31.0
+    },
+    {
+      "pattern": "00000101111101",
+      "records": 24,
+      "mass": 115.9
+    },
+    {
+      "pattern": "00000101111111",
+      "records": 16,
+      "mass": 103.0
+    },
+    {
+      "pattern": "00000111111101",
+      "records": 6,
+      "mass": 45.6
+    },
+    {
+      "pattern": "00000111111111",
+      "records": 9,
+      "mass": 72.3
+    },
+    {
+      "pattern": "00001100110101",
+      "records": 5,
+      "mass": 28.6
+    },
+    {
+      "pattern": "00001101111101",
+      "records": 14,
+      "mass": 59.6
+    },
+    {
+      "pattern": "00010000110000",
+      "records": 7,
+      "mass": 49.1
+    },
+    {
+      "pattern": "00010000110101",
+      "records": 13,
+      "mass": 132.6
+    },
+    {
+      "pattern": "00010100110000",
+      "records": 15,
+      "mass": 67.2
+    },
+    {
+      "pattern": "00010100110001",
+      "records": 14,
+      "mass": 102.6
+    },
+    {
+      "pattern": "00010100110100",
+      "records": 6,
+      "mass": 21.9
+    },
+    {
+      "pattern": "00010100110101",
+      "records": 100,
+      "mass": 652.9
+    },
+    {
+      "pattern": "00010100111101",
+      "records": 43,
+      "mass": 292.3
+    },
+    {
+      "pattern": "00010100111111",
+      "records": 42,
+      "mass": 390.1
+    },
+    {
+      "pattern": "00010101110101",
+      "records": 29,
+      "mass": 158.5
+    },
+    {
+      "pattern": "00010101111101",
+      "records": 35,
+      "mass": 215.8
+    },
+    {
+      "pattern": "00010101111111",
+      "records": 18,
+      "mass": 127.1
+    },
+    {
+      "pattern": "00010111111111",
+      "records": 7,
+      "mass": 68.8
+    },
+    {
+      "pattern": "00011000110001",
+      "records": 7,
+      "mass": 74.5
+    },
+    {
+      "pattern": "00011000110101",
+      "records": 15,
+      "mass": 120.7
+    },
+    {
+      "pattern": "00011100110000",
+      "records": 15,
+      "mass": 55.4
+    },
+    {
+      "pattern": "00011100110001",
+      "records": 27,
+      "mass": 180.5
+    },
+    {
+      "pattern": "00011100110100",
+      "records": 17,
+      "mass": 59.2
+    },
+    {
+      "pattern": "00011100110101",
+      "records": 280,
+      "mass": 1664.7
+    },
+    {
+      "pattern": "00011100110111",
+      "records": 8,
+      "mass": 76.5
+    },
+    {
+      "pattern": "00011100111101",
+      "records": 157,
+      "mass": 970.5
+    },
+    {
+      "pattern": "00011100111111",
+      "records": 77,
+      "mass": 708.0
+    },
+    {
+      "pattern": "00011101110000",
+      "records": 15,
+      "mass": 48.4
+    },
+    {
+      "pattern": "00011101110001",
+      "records": 11,
+      "mass": 80.9
+    },
+    {
+      "pattern": "00011101110100",
+      "records": 11,
+      "mass": 36.3
+    },
+    {
+      "pattern": "00011101110101",
+      "records": 292,
+      "mass": 1588.6
+    },
+    {
+      "pattern": "00011101110111",
+      "records": 16,
+      "mass": 146.8
+    },
+    {
+      "pattern": "00011101111001",
+      "records": 7,
+      "mass": 28.0
+    },
+    {
+      "pattern": "00011101111100",
+      "records": 11,
+      "mass": 38.9
+    },
+    {
+      "pattern": "00011101111101",
+      "records": 609,
+      "mass": 2903.0
+    },
+    {
+      "pattern": "00011101111111",
+      "records": 251,
+      "mass": 1763.6
+    },
+    {
+      "pattern": "00011111110101",
+      "records": 5,
+      "mass": 19.9
+    },
+    {
+      "pattern": "00011111111101",
+      "records": 65,
+      "mass": 348.4
+    },
+    {
+      "pattern": "00011111111111",
+      "records": 63,
+      "mass": 399.0
+    },
+    {
+      "pattern": "00111101111111",
+      "records": 6,
+      "mass": 36.8
+    },
+    {
+      "pattern": "00111111111111",
+      "records": 13,
+      "mass": 90.4
+    },
+    {
+      "pattern": "01100000111010",
+      "records": 6,
+      "mass": 40.9
+    },
+    {
+      "pattern": "01100000111110",
+      "records": 5,
+      "mass": 32.8
+    },
+    {
+      "pattern": "01100000111111",
+      "records": 15,
+      "mass": 161.8
+    },
+    {
+      "pattern": "01100010111010",
+      "records": 15,
+      "mass": 124.3
+    },
+    {
+      "pattern": "01100010111110",
+      "records": 7,
+      "mass": 67.1
+    },
+    {
+      "pattern": "01100010111111",
+      "records": 27,
+      "mass": 349.8
+    },
+    {
+      "pattern": "01111101111111",
+      "records": 10,
+      "mass": 63.2
+    },
+    {
+      "pattern": "01111111111111",
+      "records": 6,
+      "mass": 31.6
+    },
+    {
+      "pattern": "10000010111010",
+      "records": 6,
+      "mass": 82.9
+    },
+    {
+      "pattern": "10000010111110",
+      "records": 5,
+      "mass": 63.8
+    },
+    {
+      "pattern": "10000010111111",
+      "records": 6,
+      "mass": 144.7
+    },
+    {
+      "pattern": "10011111111111",
+      "records": 14,
+      "mass": 122.6
+    },
+    {
+      "pattern": "10111111111111",
+      "records": 5,
+      "mass": 36.7
+    },
+    {
+      "pattern": "11000010110000",
+      "records": 33,
+      "mass": 178.7
+    },
+    {
+      "pattern": "11000010111000",
+      "records": 16,
+      "mass": 100.6
+    },
+    {
+      "pattern": "11000010111010",
+      "records": 272,
+      "mass": 2323.3
+    },
+    {
+      "pattern": "11000010111011",
+      "records": 26,
+      "mass": 338.0
+    },
+    {
+      "pattern": "11000010111110",
+      "records": 71,
+      "mass": 621.3
+    },
+    {
+      "pattern": "11000010111111",
+      "records": 155,
+      "mass": 2191.4
+    },
+    {
+      "pattern": "11000011110000",
+      "records": 5,
+      "mass": 24.8
+    },
+    {
+      "pattern": "11000011111010",
+      "records": 26,
+      "mass": 168.6
+    },
+    {
+      "pattern": "11000011111110",
+      "records": 11,
+      "mass": 69.0
+    },
+    {
+      "pattern": "11000011111111",
+      "records": 41,
+      "mass": 603.6
+    },
+    {
+      "pattern": "11000111111110",
+      "records": 5,
+      "mass": 37.4
+    },
+    {
+      "pattern": "11000111111111",
+      "records": 11,
+      "mass": 85.4
+    },
+    {
+      "pattern": "11011111111111",
+      "records": 23,
+      "mass": 378.9
+    },
+    {
+      "pattern": "11100000111111",
+      "records": 5,
+      "mass": 54.4
+    },
+    {
+      "pattern": "11100010110000",
+      "records": 31,
+      "mass": 188.3
+    },
+    {
+      "pattern": "11100010110001",
+      "records": 5,
+      "mass": 28.1
+    },
+    {
+      "pattern": "11100010111000",
+      "records": 21,
+      "mass": 112.7
+    },
+    {
+      "pattern": "11100010111010",
+      "records": 132,
+      "mass": 999.0
+    },
+    {
+      "pattern": "11100010111011",
+      "records": 94,
+      "mass": 1075.9
+    },
+    {
+      "pattern": "11100010111110",
+      "records": 43,
+      "mass": 390.2
+    },
+    {
+      "pattern": "11100010111111",
+      "records": 269,
+      "mass": 3545.8
+    },
+    {
+      "pattern": "11100011111010",
+      "records": 7,
+      "mass": 48.4
+    },
+    {
+      "pattern": "11100011111011",
+      "records": 8,
+      "mass": 70.9
+    },
+    {
+      "pattern": "11100011111110",
+      "records": 5,
+      "mass": 38.1
+    },
+    {
+      "pattern": "11100011111111",
+      "records": 75,
+      "mass": 799.3
+    },
+    {
+      "pattern": "11100111111111",
+      "records": 27,
+      "mass": 228.6
+    },
+    {
+      "pattern": "11110111111111",
+      "records": 10,
+      "mass": 84.7
+    },
+    {
+      "pattern": "11111111111010",
+      "records": 11,
+      "mass": 63.3
+    },
+    {
+      "pattern": "11111111111011",
+      "records": 11,
+      "mass": 89.6
+    },
+    {
+      "pattern": "11111111111101",
+      "records": 7,
+      "mass": 62.9
+    },
+    {
+      "pattern": "11111111111110",
+      "records": 7,
+      "mass": 25.5
+    },
+    {
+      "pattern": "11111111111111",
+      "records": 191,
+      "mass": 1549.6
+    }
+  ],
+  "participationPatternsSuppressed": {
+    "minimumRecords": 5,
+    "patterns": 271,
+    "records": 425,
+    "mass": 3618.5
+  },
+  "market": {
+    "departments": 1717,
+    "totalCapacity": 32007,
+    "eligibleWishCount": 119337,
+    "eligibleDemandMass": 969702.06,
+    "eligibleSupply": 35736.05,
+    "demandNote": "志願需求質量按邊重複累加，同一人的多個志願不是獨立全國需求。"
+  },
+  "priority": {
+    "exactPriorityTies": 0,
+    "scope": "完整合格清單排序後相鄰候選人比較；只驗證本固定市場，hash沒有最後UID回退。"
+  },
+  "normalLabel": {
+    "threshold": 18,
+    "checked": 1706,
+    "mismatches": 0
+  },
+  "hamilton": {
+    "departments": 1717,
+    "totalCapacity": 32007,
+    "scaledTotalQuota": 3777
+  },
+  "privacy": "僅授權get/select；不保存考生原始資料或鍵，旁錄只保留彙總。",
+  "releaseNote": "Pattern masses rounded to one decimal for release."
+}

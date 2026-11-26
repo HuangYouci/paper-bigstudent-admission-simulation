@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-08",
+  "sourceSHA256": {
+    "115_ast_score_distribution.xls": "0b4f1d32ff72a8d2d554fd3a2ab80bb2f25f02c33163836aebef188d935720e0",
+    "115_gsat_admission_distribution.xls": "af4634b566f0e2f7a1a2674070ed4c8c52c9aa30cc30b6504dd93b49d92b9d55"
+  },
+  "subjects": 14,
+  "levelsChecked": 854,
+  "bandsChecked": 42,
+  "levelMismatches": [],
+  "bandMismatches": 0,
+  "scope": "官方人數與凍結目標一致性，不證明正式登記人口代表性或自選偏好代表性。"
+}

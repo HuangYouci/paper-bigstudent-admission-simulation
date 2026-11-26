@@ -1,0 +1,59 @@
+{
+  "section": "bootstrap",
+  "computedAt": "2026-11-25T14:35:49.458Z",
+  "exportedAt": "2026-11-25T13:04:00.361Z",
+  "recordsWithSanitizedPreferences": {},
+  "spec": "dev-only/review/analysis-plan-v018.md (H6)",
+  "B": 200,
+  "seed": 20261012,
+  "allConverged": true,
+  "maxEmptyCells": 0,
+  "v3MAE": {
+    "p025": 2.05,
+    "p50": 2.17,
+    "p975": 2.3,
+    "mean": 2.17
+  },
+  "mixMAE": {
+    "p025": 1.4,
+    "p50": 1.45,
+    "p975": 1.49,
+    "mean": 1.45
+  },
+  "mixMinusBaseline": {
+    "p025": -0.2,
+    "p50": -0.15,
+    "p975": -0.1,
+    "mean": -0.15
+  },
+  "shareMixBetterThanBaseline": 1,
+  "directionAgreement": {
+    "p025": 0.72,
+    "p50": 0.75,
+    "p975": 0.78,
+    "mean": 0.75
+  },
+  "meanS": {
+    "p025": -0.42,
+    "p50": -0.21,
+    "p975": -0.02,
+    "mean": -0.22
+  },
+  "covered": {
+    "p025": 1471,
+    "p50": 1486,
+    "p975": 1498,
+    "mean": 1485.18
+  },
+  "nEff": {
+    "p025": 2894.16,
+    "p50": 3392.33,
+    "p975": 3572.96,
+    "mean": 3363.84
+  },
+  "departmentsTested": 1406,
+  "officialInside90": 0.81,
+  "medianStandardizedWidth90": 4.21,
+  "note": "Departments with at least 180 valid draws among the released J2 set; department quantiles are kept on the author's computer.",
+  "copyOf": "the bootstrap section of author-checks.json, under the file name that plan v0.22 gives"
+}

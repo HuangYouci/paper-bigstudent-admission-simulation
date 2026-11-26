@@ -1,0 +1,98 @@
+{
+  "table3": {
+    "v2_cutoff_by_order": {
+      "ABC": 150,
+      "ACB": 220,
+      "BAC": 150,
+      "BCA": 220,
+      "CAB": 220,
+      "CBA": 220
+    },
+    "fractional_outcomes": [
+      [
+        [
+          [
+            1,
+            9.0
+          ],
+          [
+            2,
+            3.0
+          ]
+        ],
+        [
+          195,
+          181.66666666666666
+        ]
+      ]
+    ]
+  },
+  "synthetic_markets_per_condition": 200,
+  "synthetic": {
+    "unit": {
+      "v2_blocking": 0,
+      "v2_excess": 0,
+      "v2_order": 0,
+      "fractional_violations": 0,
+      "fractional_order": 0,
+      "max_events": 122,
+      "max_blocking_fractional": 0.0
+    },
+    "uniform": {
+      "v2_blocking": 192,
+      "v2_excess": 199,
+      "v2_order": 35,
+      "fractional_violations": 0,
+      "fractional_order": 0,
+      "max_events": 485,
+      "max_blocking_fractional": 3.552713678800501e-15
+    },
+    "loguniform": {
+      "v2_blocking": 200,
+      "v2_excess": 198,
+      "v2_order": 187,
+      "fractional_violations": 0,
+      "fractional_order": 0,
+      "max_events": 329,
+      "max_blocking_fractional": 3.552713678800501e-15
+    }
+  },
+  "integer_replication": {
+    "markets": 200,
+    "weights": "integers 1-4",
+    "markets_with_difference": 0,
+    "largest_difference": 0.0
+  },
+  "textbook_comparison": {
+    "40x6 uniform": {
+      "mass": 6.217248937900877e-15,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 1.0658141036401503e-14,
+      "markets": 200
+    },
+    "40x6 loguniform": {
+      "mass": 3.552713678800501e-15,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 7.105427357601002e-15,
+      "markets": 200
+    },
+    "400x40 uniform": {
+      "mass": 1.199040866595169e-14,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 2.842170943040401e-14,
+      "markets": 40
+    },
+    "400x40 loguniform": {
+      "mass": 3.552713678800501e-15,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 7.105427357601002e-15,
+      "markets": 40
+    },
+    "event_counts_40x6_uniform": {
+      "markets": 200,
+      "fifo_max": 817,
+      "lifo_max_below_cap": 110488,
+      "lifo_markets_over_1e6_events": 0
+    }
+  }
+}

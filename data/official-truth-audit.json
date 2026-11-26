@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-08",
+  "url": "https://www.uac.edu.tw/115data/115_result_school_data.pdf",
+  "pdfSHA256": "ece6e74cf7050f0e10805f56e16679e33c33265c7bddde437c6d6639dea8668d",
+  "pages": 56,
+  "officialDepartmentRows": 1764,
+  "evaluatedDepartments": 1706,
+  "ordinaryCutoffMismatches": 0,
+  "weightTotalMismatches": 0,
+  "auditCSV_SHA256": "09bb7888377fbbcb2eb5fe7f809f2ae6ba348fdaa01d5682bd037630cfd88db8",
+  "note": "只將普通生錄取分數作為真值；含外加錄取人數不被當成普通生配置容量。"
+}

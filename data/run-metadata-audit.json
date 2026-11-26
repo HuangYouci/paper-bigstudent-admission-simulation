@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-08T13:56:19.061Z",
+  "queryScope": "2026 分科梯次；來源文件目前可查，不表示不可變時間認證",
+  "deadline": "2026-08-08T08:30:00.000Z",
+  "totalRunDocuments": 8,
+  "ast2026RunCount": 8,
+  "beforeDeadlineCount": 5,
+  "latestBeforeDeadline": {
+    "runId": "ast_20260808T035958Z",
+    "startedAt": "2026-08-08T04:00:00.000Z",
+    "completedAt": "2026-08-08T04:01:31.120Z",
+    "sampleCount": 4242,
+    "algorithmVersion": "ast-da-v2",
+    "status": "hidden"
+  },
+  "rows": [
+    {
+      "runId": "ast_20260805T175904Z",
+      "startedAt": "2026-08-05T18:00:00.000Z",
+      "completedAt": "2026-08-05T17:59:35.336Z",
+      "sampleCount": 1634,
+      "algorithmVersion": "ast-da-v1",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260806T120005Z",
+      "startedAt": "2026-08-06T12:00:00.000Z",
+      "completedAt": "2026-08-06T12:00:49.857Z",
+      "sampleCount": 2524,
+      "algorithmVersion": "ast-da-v1",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260807T022008Z",
+      "startedAt": "2026-08-07T02:20:00.000Z",
+      "completedAt": "2026-08-07T02:20:55.450Z",
+      "sampleCount": 3459,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260807T120012Z",
+      "startedAt": "2026-08-07T12:00:00.000Z",
+      "completedAt": "2026-08-07T12:01:21.429Z",
+      "sampleCount": 3768,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260808T035958Z",
+      "startedAt": "2026-08-08T04:00:00.000Z",
+      "completedAt": "2026-08-08T04:01:31.120Z",
+      "sampleCount": 4242,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260808T095000Z",
+      "startedAt": "2026-08-08T09:50:00.502Z",
+      "completedAt": "2026-08-08T09:51:15.432Z",
+      "sampleCount": 4320,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260813T012242Z",
+      "startedAt": "2026-08-13T01:22:42.622Z",
+      "completedAt": "2026-08-13T01:24:05.760Z",
+      "sampleCount": 4482,
+      "algorithmVersion": "ast-da-v3",
+      "status": "hidden"
+    },
+    {
+      "runId": "ast_20260815T150000Z",
+      "startedAt": "2026-08-15T15:00:00.826Z",
+      "completedAt": "2026-08-15T15:01:43.889Z",
+      "sampleCount": 4627,
+      "algorithmVersion": "ast-da-v3",
+      "status": "completed"
+    }
+  ]
+}

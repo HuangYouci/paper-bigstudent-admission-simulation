@@ -1,0 +1,378 @@
+{
+  "spec": "dev-only/review/analysis-plan-v015.md",
+  "lambda": 0.4,
+  "seed": 20260922,
+  "repetitions": 4000,
+  "h1_primary": {
+    "n": 1521,
+    "schools": 59,
+    "mae_mix": 1.35,
+    "mae_v3": 1.82,
+    "mae_baseline": 1.6,
+    "difference_mix_minus_baseline": -0.25,
+    "interval": [
+      -0.33,
+      -0.18
+    ],
+    "relative_change": -0.16,
+    "bias_mix": 0.58,
+    "bias_baseline": 0.58,
+    "raw_mae_mix": 6.52,
+    "raw_mae_baseline": 7.7,
+    "within1_mix": 0.56,
+    "within1_baseline": 0.46,
+    "error_correlation_v3_baseline": 0.21,
+    "error_sd_v3": 2.88,
+    "error_sd_baseline": 2.21
+  },
+  "h1_population": {
+    "population": 1706,
+    "covered": 1665,
+    "coverage": 0.98,
+    "mae_all_covered": 1.52,
+    "only_v3_n": 90,
+    "only_baseline_n": 54,
+    "neither_n": 41
+  },
+  "h1_other_simulators": {
+    "v2": {
+      "n": 1413,
+      "difference_mix_minus_baseline": -0.06,
+      "interval": [
+        -0.15,
+        0.03
+      ],
+      "mae_baseline": 1.49
+    },
+    "fractional": {
+      "n": 1521,
+      "difference_mix_minus_baseline": -0.18,
+      "interval": [
+        -0.25,
+        -0.11
+      ],
+      "mae_baseline": 1.6
+    }
+  },
+  "h1_lambda_curve_descriptive": [
+    {
+      "lambda": 0.0,
+      "mae": 1.6
+    },
+    {
+      "lambda": 0.1,
+      "mae": 1.48
+    },
+    {
+      "lambda": 0.2,
+      "mae": 1.41
+    },
+    {
+      "lambda": 0.3,
+      "mae": 1.36
+    },
+    {
+      "lambda": 0.4,
+      "mae": 1.35
+    },
+    {
+      "lambda": 0.5,
+      "mae": 1.36
+    },
+    {
+      "lambda": 0.6,
+      "mae": 1.41
+    },
+    {
+      "lambda": 0.7,
+      "mae": 1.48
+    },
+    {
+      "lambda": 0.8,
+      "mae": 1.57
+    },
+    {
+      "lambda": 0.9,
+      "mae": 1.69
+    },
+    {
+      "lambda": 1.0,
+      "mae": 1.82
+    }
+  ],
+  "h1_strata": {
+    "applicants_lt20": {
+      "n": 144,
+      "mae_mix": 2.79,
+      "mae_v3": 4.24,
+      "mae_baseline": 3.15,
+      "difference_mix_minus_baseline": -0.36,
+      "interval": [
+        -0.72,
+        -0.02
+      ]
+    },
+    "applicants_ge20": {
+      "n": 1377,
+      "mae_mix": 1.19,
+      "mae_v3": 1.57,
+      "mae_baseline": 1.43,
+      "difference_mix_minus_baseline": -0.24,
+      "interval": [
+        -0.31,
+        -0.18
+      ]
+    },
+    "confidence_normal": {
+      "n": 1403,
+      "mae_mix": 1.22,
+      "mae_v3": 1.6,
+      "mae_baseline": 1.46,
+      "difference_mix_minus_baseline": -0.24,
+      "interval": [
+        -0.31,
+        -0.18
+      ]
+    },
+    "confidence_other": {
+      "n": 118,
+      "mae_mix": 2.85,
+      "mae_v3": 4.41,
+      "mae_baseline": 3.21,
+      "difference_mix_minus_baseline": -0.36,
+      "interval": [
+        -0.78,
+        0.003
+      ]
+    }
+  },
+  "h2": {
+    "delta_1": {
+      "n": 1521,
+      "hot": {
+        "flags": 434,
+        "events": 255,
+        "true_positive": 192,
+        "precision": 0.44,
+        "recall": 0.75
+      },
+      "cold": {
+        "flags": 421,
+        "events": 559,
+        "true_positive": 297,
+        "precision": 0.71,
+        "recall": 0.53
+      },
+      "flagged": 855,
+      "direction_agreement": 0.79,
+      "auroc_hot": 0.83,
+      "auroc_cold": 0.76,
+      "slope_through_origin": 0.34,
+      "spearman": 0.54,
+      "interval_direction_agreement": [
+        0.76,
+        0.83
+      ],
+      "interval_auroc_hot": [
+        0.8,
+        0.86
+      ],
+      "interval_auroc_cold": [
+        0.73,
+        0.79
+      ],
+      "interval_slope": [
+        0.28,
+        0.41
+      ],
+      "interval_spearman": [
+        0.49,
+        0.6
+      ]
+    },
+    "delta_2": {
+      "n": 1521,
+      "hot": {
+        "flags": 231,
+        "events": 128,
+        "true_positive": 81,
+        "precision": 0.35,
+        "recall": 0.63
+      },
+      "cold": {
+        "flags": 258,
+        "events": 292,
+        "true_positive": 128,
+        "precision": 0.5,
+        "recall": 0.44
+      },
+      "flagged": 489,
+      "direction_agreement": 0.82,
+      "auroc_hot": 0.83,
+      "auroc_cold": 0.72,
+      "slope_through_origin": 0.34,
+      "spearman": 0.54,
+      "interval_direction_agreement": [
+        0.78,
+        0.86
+      ],
+      "interval_auroc_hot": [
+        0.79,
+        0.87
+      ],
+      "interval_auroc_cold": [
+        0.67,
+        0.76
+      ],
+      "interval_slope": [
+        0.28,
+        0.41
+      ],
+      "interval_spearman": [
+        0.49,
+        0.6
+      ]
+    }
+  },
+  "h2_strata_delta_1": {
+    "confidence_normal": {
+      "n": 1403,
+      "hot": {
+        "flags": 384,
+        "events": 222,
+        "true_positive": 167,
+        "precision": 0.43,
+        "recall": 0.75
+      },
+      "cold": {
+        "flags": 373,
+        "events": 499,
+        "true_positive": 260,
+        "precision": 0.7,
+        "recall": 0.52
+      },
+      "flagged": 757,
+      "direction_agreement": 0.8,
+      "auroc_hot": 0.83,
+      "auroc_cold": 0.76,
+      "slope_through_origin": 0.36,
+      "spearman": 0.54
+    },
+    "confidence_other": {
+      "n": 118,
+      "hot": {
+        "flags": 50,
+        "events": 33,
+        "true_positive": 25,
+        "precision": 0.5,
+        "recall": 0.76
+      },
+      "cold": {
+        "flags": 48,
+        "events": 60,
+        "true_positive": 37,
+        "precision": 0.77,
+        "recall": 0.62
+      },
+      "flagged": 98,
+      "direction_agreement": 0.78,
+      "auroc_hot": 0.78,
+      "auroc_cold": 0.79,
+      "slope_through_origin": 0.29,
+      "spearman": 0.56
+    },
+    "applicants_lt20": {
+      "n": 144,
+      "hot": {
+        "flags": 56,
+        "events": 40,
+        "true_positive": 28,
+        "precision": 0.5,
+        "recall": 0.7
+      },
+      "cold": {
+        "flags": 62,
+        "events": 77,
+        "true_positive": 48,
+        "precision": 0.77,
+        "recall": 0.62
+      },
+      "flagged": 118,
+      "direction_agreement": 0.77,
+      "auroc_hot": 0.76,
+      "auroc_cold": 0.79,
+      "slope_through_origin": 0.29,
+      "spearman": 0.54
+    },
+    "applicants_ge20": {
+      "n": 1377,
+      "hot": {
+        "flags": 378,
+        "events": 215,
+        "true_positive": 164,
+        "precision": 0.43,
+        "recall": 0.76
+      },
+      "cold": {
+        "flags": 359,
+        "events": 482,
+        "true_positive": 249,
+        "precision": 0.69,
+        "recall": 0.52
+      },
+      "flagged": 737,
+      "direction_agreement": 0.8,
+      "auroc_hot": 0.84,
+      "auroc_cold": 0.76,
+      "slope_through_origin": 0.36,
+      "spearman": 0.54
+    }
+  },
+  "exploratory_controls": {
+    "note": "post-hoc; not in pre-specified plan",
+    "unchanged_rules_n": 1279,
+    "unchanged_mae_baseline": 1.55,
+    "unchanged_mae_raw_prior": 1.81,
+    "unchanged_mae_mix_v3": 1.34,
+    "unchanged_mae_mix_raw_prior": 1.63,
+    "placebo_shuffled_signal_mae": {
+      "p2.5": 1.86,
+      "median": 1.89,
+      "p97.5": 1.94,
+      "draws": 1000
+    }
+  },
+  "exploratory_history_only_signals": {
+    "note": "post-hoc; signals built without 2026 outcomes; delta = 1",
+    "raw_2025_cutoff": {
+      "n": 1521,
+      "direction_agreement": 0.45,
+      "flagged": 659,
+      "spearman": -0.006,
+      "auroc_hot": 0.39,
+      "auroc_cold": 0.54
+    },
+    "grand_mean_of_baseline": {
+      "n": 1521,
+      "direction_agreement": 0.55,
+      "flagged": 1417,
+      "spearman": 0.03,
+      "auroc_hot": 0.7,
+      "auroc_cold": 0.43
+    },
+    "school_mean_of_baseline": {
+      "n": 1521,
+      "direction_agreement": 0.57,
+      "flagged": 1199,
+      "spearman": 0.15,
+      "auroc_hot": 0.64,
+      "auroc_cold": 0.54
+    }
+  },
+  "exploratory_auroc_vs_neutral": {
+    "note": "post-hoc; negatives restricted to departments with |D| < 1",
+    "neutral_n": 707,
+    "hot": 0.8,
+    "cold": 0.72
+  }
+}

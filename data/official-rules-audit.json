@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-25",
+  "url": "https://www.uac.edu.tw/115data/115_result_school_data.pdf",
+  "pdfSHA256": "ece6e74cf7050f0e10805f56e16679e33c33265c7bddde437c6d6639dea8668d",
+  "officialRows": 1764,
+  "practicalSkillRows": 47,
+  "practicalSkillAdmittedIncludingExtra": 450,
+  "nonSkillRows": 1717,
+  "evaluatedDepartments": 1706,
+  "subjectMultiplierMismatches": 0,
+  "tieBreakRecordedAllRows": 589,
+  "rawScoreTieBreakAllRows": 5,
+  "tieBreakRecordedEvaluated": 589,
+  "rawScoreTieBreakEvaluated": 5,
+  "evaluatedAdmittedBelowQuota": 81,
+  "evaluatedAdmittedAboveQuota": 321,
+  "note": "Each subject multiplier of every evaluated department is compared with the frozen 2026 rules. Admitted counts include supernumerary places, so an admitted count below the quota marks an underfilled department but a count above it may reflect supernumerary places or ties.",
+  "auditCSV_SHA256": "e7f64f56409a8ea46135e313369c64542a6e9f4cb60a03696f9aebab1d58f040"
+}

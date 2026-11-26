@@ -1,0 +1,55 @@
+{
+  "note": "exploratory; added after a pre-submission review",
+  "n": 200,
+  "schools": 39,
+  "mae": {
+    "baseline": 1.14,
+    "exact_pr": 1.08,
+    "exact_count": 0.94,
+    "v3": 1.24,
+    "mix": 0.92,
+    "mix_count": 0.78
+  },
+  "bias": {
+    "baseline": 0.57,
+    "exact_pr": 0.46,
+    "exact_count": 0.29,
+    "v3": 0.35,
+    "mix": 0.48,
+    "mix_count": 0.31
+  },
+  "exact_count_minus_baseline": {
+    "difference": -0.2,
+    "interval": [
+      -0.29,
+      -0.11
+    ]
+  },
+  "mix_count_minus_exact_count": {
+    "difference": -0.16,
+    "relative": -0.17,
+    "interval": [
+      -0.28,
+      -0.06
+    ]
+  },
+  "mean_abs_baseline_minus_exact_pr": 0.18,
+  "max_abs_baseline_minus_exact_pr": 0.68,
+  "backtest_2025": {
+    "comonotonic": {
+      "n": 176,
+      "bias": -0.34,
+      "mae": 0.83
+    },
+    "pr": {
+      "n": 176,
+      "bias": -0.4,
+      "mae": 0.83
+    },
+    "count": {
+      "n": 176,
+      "bias": -1.6,
+      "mae": 1.77
+    }
+  }
+}

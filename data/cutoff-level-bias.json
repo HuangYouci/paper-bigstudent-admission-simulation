@@ -1,0 +1,172 @@
+{
+  "spec": "dev-only/review/analysis-plan-v016.md (H5, exploratory)",
+  "n": 1521,
+  "by_baseline_level_pre_result": [
+    {
+      "level": "0-30",
+      "n": 378,
+      "v3": {
+        "bias": 1.35,
+        "mae": 3.14
+      },
+      "baseline": {
+        "bias": 0.16,
+        "mae": 2.27
+      },
+      "mix": {
+        "bias": 0.63,
+        "mae": 2.01
+      }
+    },
+    {
+      "level": "30-40",
+      "n": 535,
+      "v3": {
+        "bias": 0.33,
+        "mae": 1.9
+      },
+      "baseline": {
+        "bias": 1.02,
+        "mae": 1.89
+      },
+      "mix": {
+        "bias": 0.74,
+        "mae": 1.54
+      }
+    },
+    {
+      "level": "40-45",
+      "n": 237,
+      "v3": {
+        "bias": 0.3,
+        "mae": 1.29
+      },
+      "baseline": {
+        "bias": 0.68,
+        "mae": 1.21
+      },
+      "mix": {
+        "bias": 0.53,
+        "mae": 1.04
+      }
+    },
+    {
+      "level": "45-50",
+      "n": 236,
+      "v3": {
+        "bias": 0.3,
+        "mae": 0.75
+      },
+      "baseline": {
+        "bias": 0.32,
+        "mae": 0.83
+      },
+      "mix": {
+        "bias": 0.31,
+        "mae": 0.63
+      }
+    },
+    {
+      "level": "50-60",
+      "n": 135,
+      "v3": {
+        "bias": 0.24,
+        "mae": 0.64
+      },
+      "baseline": {
+        "bias": 0.31,
+        "mae": 0.57
+      },
+      "mix": {
+        "bias": 0.29,
+        "mae": 0.5
+      }
+    }
+  ],
+  "by_actual_level_post_hoc": [
+    {
+      "level": "0-30",
+      "n": 411,
+      "v3": {
+        "bias": 1.52,
+        "mae": 3.21
+      },
+      "baseline": {
+        "bias": 1.08,
+        "mae": 2.51
+      },
+      "mix": {
+        "bias": 1.26,
+        "mae": 2.16
+      }
+    },
+    {
+      "level": "30-40",
+      "n": 535,
+      "v3": {
+        "bias": 0.16,
+        "mae": 1.8
+      },
+      "baseline": {
+        "bias": 0.57,
+        "mae": 1.71
+      },
+      "mix": {
+        "bias": 0.41,
+        "mae": 1.43
+      }
+    },
+    {
+      "level": "40-45",
+      "n": 222,
+      "v3": {
+        "bias": 0.33,
+        "mae": 1.12
+      },
+      "baseline": {
+        "bias": 0.37,
+        "mae": 1.05
+      },
+      "mix": {
+        "bias": 0.35,
+        "mae": 0.85
+      }
+    },
+    {
+      "level": "45-50",
+      "n": 228,
+      "v3": {
+        "bias": 0.25,
+        "mae": 0.71
+      },
+      "baseline": {
+        "bias": 0.15,
+        "mae": 0.81
+      },
+      "mix": {
+        "bias": 0.19,
+        "mae": 0.64
+      }
+    },
+    {
+      "level": "50-60",
+      "n": 125,
+      "v3": {
+        "bias": 0.14,
+        "mae": 0.63
+      },
+      "baseline": {
+        "bias": 0.15,
+        "mae": 0.53
+      },
+      "mix": {
+        "bias": 0.14,
+        "mae": 0.48
+      }
+    }
+  ],
+  "illustration_pool": {
+    "flagged_unchanged_ge60": 274,
+    "opposite_by_at_least_one_grade": 14
+  }
+}

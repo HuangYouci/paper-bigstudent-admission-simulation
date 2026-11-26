@@ -1,0 +1,2350 @@
+{
+  "decision_time_as_of": {
+    "first_run_of_8_august_6_counted": {
+      "gain": -0.12,
+      "relative": -0.08,
+      "runs_used": {
+        "2026-08-05": null,
+        "2026-08-06": "ast_20260805T175904Z",
+        "2026-08-07": "ast_20260806T120005Z",
+        "2026-08-08": "ast_20260807T120012Z"
+      },
+      "share_of_evaluated_gain": 0.49
+    },
+    "strict": {
+      "gain": -0.12,
+      "relative": -0.07,
+      "runs_used": {
+        "2026-08-05": null,
+        "2026-08-06": null,
+        "2026-08-07": "ast_20260806T120005Z",
+        "2026-08-08": "ast_20260807T120012Z"
+      },
+      "share_of_evaluated_gain": 0.48
+    }
+  },
+  "fractional": {
+    "agreement": {
+      "agreement": 0.74,
+      "flagged": 877
+    },
+    "gain": {
+      "gain": -0.18,
+      "institutions": 59,
+      "n": 1521,
+      "p_bootstrap": 0.0,
+      "percentile": [
+        -0.25,
+        -0.11
+      ],
+      "relative": -0.11,
+      "share_interval": [
+        1.0,
+        1.0
+      ],
+      "share_of_total_gain": 1.0,
+      "simultaneous": [
+        -0.25,
+        -0.11
+      ]
+    },
+    "gain_centered": {
+      "gain": -0.23,
+      "institutions": 59,
+      "n": 1521,
+      "p_bootstrap": 0.0,
+      "percentile": [
+        -0.3,
+        -0.16
+      ],
+      "relative": -0.14,
+      "share_interval": [
+        1.0,
+        1.0
+      ],
+      "share_of_total_gain": 1.0,
+      "simultaneous": [
+        -0.3,
+        -0.16
+      ]
+    },
+    "mae": {
+      "baseline": 1.6,
+      "centered_combination": 1.36,
+      "combination": 1.41,
+      "fractional": 1.98
+    },
+    "mean_departure": 0.4,
+    "n": 1521,
+    "share_of_v3_gain_from_interpolation": 0.28
+  },
+  "multiplicity": {
+    "T5 multipliers changed alone": {
+      "bh": 0.28,
+      "holm": 0.73,
+      "p": 0.24
+    },
+    "T5 rules and quota unchanged": {
+      "bh": 0.17,
+      "holm": 0.54,
+      "p": 0.14
+    },
+    "T5 rules unchanged, quota change 0.05-0.35": {
+      "bh": 0.004,
+      "holm": 0.01,
+      "p": 0.002
+    },
+    "T5 rules unchanged, quota change above 0 and at most 0.05": {
+      "bh": 0.02,
+      "holm": 0.07,
+      "p": 0.01
+    },
+    "T5 rules unchanged, quota change above 0.35": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T5 subjects changed": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T6 level 0-30": {
+      "bh": 0.009,
+      "holm": 0.04,
+      "p": 0.004
+    },
+    "T6 level 0-30, central": {
+      "bh": 0.02,
+      "holm": 0.07,
+      "p": 0.01
+    },
+    "T6 level 0-30, east_and_kinmen": {
+      "bh": 0.54,
+      "holm": 1.0,
+      "p": 0.51
+    },
+    "T6 level 0-30, north": {
+      "bh": 0.01,
+      "holm": 0.06,
+      "p": 0.008
+    },
+    "T6 level 0-30, south": {
+      "bh": 0.95,
+      "holm": 1.0,
+      "p": 0.95
+    },
+    "T6 level 30-40": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T6 level 40-45": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T6 level 45-50": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T6 level 50-60": {
+      "bh": 0.02,
+      "holm": 0.07,
+      "p": 0.01
+    }
+  },
+  "multiplicity_quota_adjusted": {
+    "T5 multipliers changed alone": {
+      "bh": 0.24,
+      "holm": 1.0,
+      "p": 0.14
+    },
+    "T5 rules and quota unchanged": {
+      "bh": 0.24,
+      "holm": 1.0,
+      "p": 0.14
+    },
+    "T5 rules unchanged, quota change 0.05-0.35": {
+      "bh": 0.04,
+      "holm": 0.19,
+      "p": 0.02
+    },
+    "T5 rules unchanged, quota change above 0 and at most 0.05": {
+      "bh": 0.04,
+      "holm": 0.19,
+      "p": 0.02
+    },
+    "T5 rules unchanged, quota change above 0.35": {
+      "bh": 0.92,
+      "holm": 1.0,
+      "p": 0.9
+    },
+    "T5 subjects changed": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T6 level 0-30": {
+      "bh": 0.92,
+      "holm": 1.0,
+      "p": 0.73
+    },
+    "T6 level 0-30, central": {
+      "bh": 0.24,
+      "holm": 1.0,
+      "p": 0.12
+    },
+    "T6 level 0-30, east_and_kinmen": {
+      "bh": 0.92,
+      "holm": 1.0,
+      "p": 0.92
+    },
+    "T6 level 0-30, north": {
+      "bh": 0.92,
+      "holm": 1.0,
+      "p": 0.78
+    },
+    "T6 level 0-30, south": {
+      "bh": 0.92,
+      "holm": 1.0,
+      "p": 0.9
+    },
+    "T6 level 30-40": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    },
+    "T6 level 40-45": {
+      "bh": 0.37,
+      "holm": 1.0,
+      "p": 0.25
+    },
+    "T6 level 45-50": {
+      "bh": 0.009,
+      "holm": 0.03,
+      "p": 0.003
+    },
+    "T6 level 50-60": {
+      "bh": 0.0,
+      "holm": 0.0,
+      "p": 0.0
+    }
+  },
+  "n_J2": 1521,
+  "note": "exploratory; added after the seventh round of simulated reviews; department-level files only",
+  "older_history": {
+    "S": {
+      "agreement": 0.8,
+      "flagged": 797
+    },
+    "difference": 0.17,
+    "institutions": 58,
+    "interval": [
+      0.11,
+      0.23
+    ],
+    "n": 1419,
+    "older_history": {
+      "agreement": 0.63,
+      "flagged": 679
+    }
+  },
+  "q_reference": {
+    "Q": {
+      "agreement": 0.75,
+      "flagged": 275
+    },
+    "S": {
+      "agreement": 0.79,
+      "flagged": 855
+    },
+    "S_on_Q_flags": {
+      "agreement": 0.76,
+      "n": 275
+    },
+    "S_on_Q_flags_with_abs_S_at_least_1": {
+      "agreement": 0.79,
+      "flagged": 190
+    },
+    "correlation_S_Q": 0.32,
+    "rules_unchanged_small_Q": {
+      "agreement": 0.8,
+      "flagged": 200
+    }
+  },
+  "quota_adjusted": {
+    "at_least_four_grades": {
+      "eE": 0.07,
+      "eH": 0.08,
+      "eM": 0.06,
+      "eQ": 0.06,
+      "eR": 0.06
+    },
+    "bias": {
+      "eA": 0.57,
+      "eE": 0.51,
+      "eH": 0.58,
+      "eM": 0.58,
+      "eQ": 0.63,
+      "eR": 0.6
+    },
+    "comparisons": {
+      "august_rule_vs_engine": {
+        "gain": -0.16,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.23,
+          -0.08
+        ],
+        "relative": -0.11,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.23,
+          -0.08
+        ]
+      },
+      "combination_vs_baseline": {
+        "gain": -0.25,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.32,
+          -0.18
+        ],
+        "relative": -0.16,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.32,
+          -0.18
+        ]
+      },
+      "combination_vs_engine": {
+        "gain": -0.12,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0005,
+        "percentile": [
+          -0.19,
+          -0.06
+        ],
+        "relative": -0.08,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.19,
+          -0.06
+        ]
+      },
+      "combination_vs_quota_adjusted": {
+        "gain": -0.14,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.2,
+          -0.08
+        ],
+        "relative": -0.09,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.2,
+          -0.08
+        ]
+      },
+      "engine_vs_baseline": {
+        "gain": -0.13,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.17,
+          -0.1
+        ],
+        "relative": -0.08,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.16,
+          -0.09
+        ]
+      },
+      "engine_vs_quota_adjusted": {
+        "gain": -0.02,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.16,
+        "percentile": [
+          -0.04,
+          0.006
+        ],
+        "relative": -0.01,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.04,
+          0.006
+        ]
+      },
+      "quota_adjusted_vs_baseline": {
+        "gain": -0.11,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.16,
+          -0.07
+        ],
+        "relative": -0.07,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.16,
+          -0.07
+        ]
+      },
+      "reanchored_vs_quota_adjusted": {
+        "gain": -0.18,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.25,
+          -0.11
+        ],
+        "relative": -0.12,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.25,
+          -0.11
+        ]
+      },
+      "score_scale_with_engine_vs_engine": {
+        "gain": -0.17,
+        "institutions": 59,
+        "n": 1521,
+        "p_bootstrap": 0.0,
+        "percentile": [
+          -0.24,
+          -0.11
+        ],
+        "relative": -0.12,
+        "share_interval": [
+          1.0,
+          1.0
+        ],
+        "share_of_total_gain": 1.0,
+        "simultaneous": [
+          -0.24,
+          -0.11
+        ]
+      }
+    },
+    "departments_with_quota_change": 1520,
+    "error_correlation": {
+      "v3_baseline": 0.21,
+      "v3_engine": 0.24,
+      "v3_quota_adjusted": 0.25
+    },
+    "intercept_ols_not_used": 0.26,
+    "mae": {
+      "eA": 1.31,
+      "eE": 1.47,
+      "eH": 1.6,
+      "eM": 1.35,
+      "eQ": 1.48,
+      "eR": 1.31,
+      "eSE": 1.29,
+      "eV": 1.82
+    },
+    "mae_optimal_weight_against_engine": [
+      0.34,
+      1.29
+    ],
+    "mae_optimal_weight_against_quota_adjusted": [
+      0.35,
+      1.3
+    ],
+    "slope_lad": -1.91,
+    "slope_ols": -2.23,
+    "slope_ols_rules_unchanged_2024_2025": -1.84,
+    "training_departments": 1310,
+    "training_rules_unchanged": 920
+  },
+  "shift_by_group": {
+    "+0.58": {
+      "all": {
+        "gain_vs_baseline": -0.22,
+        "relative_reanchored_vs_quota_adjusted": -0.08,
+        "relative_vs_baseline": -0.12,
+        "relative_vs_engine": -0.05,
+        "relative_vs_quota_adjusted": -0.07
+      },
+      "multipliers changed alone": {
+        "gain_vs_baseline": -0.15,
+        "relative_vs_baseline": -0.08,
+        "relative_vs_quota_adjusted": -0.09
+      },
+      "rules and quota unchanged": {
+        "gain_vs_baseline": -0.16,
+        "relative_vs_baseline": -0.1,
+        "relative_vs_quota_adjusted": -0.1
+      },
+      "rules unchanged, quota change 0.05-0.35": {
+        "gain_vs_baseline": -0.13,
+        "relative_vs_baseline": -0.07,
+        "relative_vs_quota_adjusted": -0.05
+      },
+      "rules unchanged, quota change above 0 and at most 0.05": {
+        "gain_vs_baseline": -0.13,
+        "relative_vs_baseline": -0.09,
+        "relative_vs_quota_adjusted": -0.09
+      },
+      "rules unchanged, quota change above 0.35": {
+        "gain_vs_baseline": -0.36,
+        "relative_vs_baseline": -0.16,
+        "relative_vs_quota_adjusted": 0.03
+      },
+      "subjects changed": {
+        "gain_vs_baseline": -0.47,
+        "relative_vs_baseline": -0.23,
+        "relative_vs_quota_adjusted": -0.22
+      }
+    },
+    "+1.17": {
+      "all": {
+        "gain_vs_baseline": -0.17,
+        "relative_reanchored_vs_quota_adjusted": -0.05,
+        "relative_vs_baseline": -0.08,
+        "relative_vs_engine": -0.01,
+        "relative_vs_quota_adjusted": -0.04
+      },
+      "multipliers changed alone": {
+        "gain_vs_baseline": -0.1,
+        "relative_vs_baseline": -0.04,
+        "relative_vs_quota_adjusted": -0.06
+      },
+      "rules and quota unchanged": {
+        "gain_vs_baseline": -0.15,
+        "relative_vs_baseline": -0.08,
+        "relative_vs_quota_adjusted": -0.08
+      },
+      "rules unchanged, quota change 0.05-0.35": {
+        "gain_vs_baseline": -0.1,
+        "relative_vs_baseline": -0.05,
+        "relative_vs_quota_adjusted": -0.03
+      },
+      "rules unchanged, quota change above 0 and at most 0.05": {
+        "gain_vs_baseline": -0.06,
+        "relative_vs_baseline": -0.03,
+        "relative_vs_quota_adjusted": -0.03
+      },
+      "rules unchanged, quota change above 0.35": {
+        "gain_vs_baseline": -0.27,
+        "relative_vs_baseline": -0.11,
+        "relative_vs_quota_adjusted": 0.03
+      },
+      "subjects changed": {
+        "gain_vs_baseline": -0.34,
+        "relative_vs_baseline": -0.15,
+        "relative_vs_quota_adjusted": -0.16
+      }
+    },
+    "-0.58": {
+      "all": {
+        "gain_vs_baseline": -0.23,
+        "relative_reanchored_vs_quota_adjusted": -0.11,
+        "relative_vs_baseline": -0.15,
+        "relative_vs_engine": -0.09,
+        "relative_vs_quota_adjusted": -0.09
+      },
+      "multipliers changed alone": {
+        "gain_vs_baseline": -0.13,
+        "relative_vs_baseline": -0.09,
+        "relative_vs_quota_adjusted": -0.11
+      },
+      "rules and quota unchanged": {
+        "gain_vs_baseline": -0.03,
+        "relative_vs_baseline": -0.02,
+        "relative_vs_quota_adjusted": -0.02
+      },
+      "rules unchanged, quota change 0.05-0.35": {
+        "gain_vs_baseline": -0.13,
+        "relative_vs_baseline": -0.09,
+        "relative_vs_quota_adjusted": -0.06
+      },
+      "rules unchanged, quota change above 0 and at most 0.05": {
+        "gain_vs_baseline": -0.25,
+        "relative_vs_baseline": -0.19,
+        "relative_vs_quota_adjusted": -0.19
+      },
+      "rules unchanged, quota change above 0.35": {
+        "gain_vs_baseline": -0.4,
+        "relative_vs_baseline": -0.2,
+        "relative_vs_quota_adjusted": -0.02
+      },
+      "subjects changed": {
+        "gain_vs_baseline": -0.61,
+        "relative_vs_baseline": -0.31,
+        "relative_vs_quota_adjusted": -0.26
+      }
+    },
+    "-1.17": {
+      "all": {
+        "gain_vs_baseline": -0.18,
+        "relative_reanchored_vs_quota_adjusted": -0.06,
+        "relative_vs_baseline": -0.11,
+        "relative_vs_engine": -0.06,
+        "relative_vs_quota_adjusted": -0.04
+      },
+      "multipliers changed alone": {
+        "gain_vs_baseline": -0.05,
+        "relative_vs_baseline": -0.03,
+        "relative_vs_quota_adjusted": -0.03
+      },
+      "rules and quota unchanged": {
+        "gain_vs_baseline": 0.12,
+        "relative_vs_baseline": 0.1,
+        "relative_vs_quota_adjusted": 0.1
+      },
+      "rules unchanged, quota change 0.05-0.35": {
+        "gain_vs_baseline": -0.09,
+        "relative_vs_baseline": -0.06,
+        "relative_vs_quota_adjusted": -0.02
+      },
+      "rules unchanged, quota change above 0 and at most 0.05": {
+        "gain_vs_baseline": -0.23,
+        "relative_vs_baseline": -0.14,
+        "relative_vs_quota_adjusted": -0.14
+      },
+      "rules unchanged, quota change above 0.35": {
+        "gain_vs_baseline": -0.35,
+        "relative_vs_baseline": -0.17,
+        "relative_vs_quota_adjusted": -0.006
+      },
+      "subjects changed": {
+        "gain_vs_baseline": -0.56,
+        "relative_vs_baseline": -0.27,
+        "relative_vs_quota_adjusted": -0.2
+      }
+    },
+    "rules_and_quota_unchanged_levels": {
+      "bias_baseline": 0.66,
+      "bias_v3": 0.05,
+      "gain_after_removing_group_mean_errors": -0.04
+    }
+  },
+  "table5": {
+    "baseline": {
+      "critical_value": 2.65,
+      "groups": {
+        "multipliers changed alone": {
+          "gain": -0.16,
+          "institutions": 37,
+          "n": 63,
+          "p_bootstrap": 0.24,
+          "percentile": [
+            -0.47,
+            0.1
+          ],
+          "relative": -0.1,
+          "share_interval": [
+            -0.02,
+            0.07
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -0.54,
+            0.23
+          ]
+        },
+        "rules and quota unchanged": {
+          "gain": -0.11,
+          "institutions": 46,
+          "n": 167,
+          "p_bootstrap": 0.14,
+          "percentile": [
+            -0.26,
+            0.04
+          ],
+          "relative": -0.09,
+          "share_interval": [
+            -0.02,
+            0.11
+          ],
+          "share_of_total_gain": 0.05,
+          "simultaneous": [
+            -0.31,
+            0.09
+          ]
+        },
+        "rules unchanged, quota change 0.05-0.35": {
+          "gain": -0.14,
+          "institutions": 57,
+          "n": 723,
+          "p_bootstrap": 0.002,
+          "percentile": [
+            -0.23,
+            -0.05
+          ],
+          "relative": -0.1,
+          "share_interval": [
+            0.11,
+            0.4
+          ],
+          "share_of_total_gain": 0.27,
+          "simultaneous": [
+            -0.26,
+            -0.02
+          ]
+        },
+        "rules unchanged, quota change above 0 and at most 0.05": {
+          "gain": -0.22,
+          "institutions": 31,
+          "n": 68,
+          "p_bootstrap": 0.01,
+          "percentile": [
+            -0.43,
+            -0.04
+          ],
+          "relative": -0.18,
+          "share_interval": [
+            0.007,
+            0.08
+          ],
+          "share_of_total_gain": 0.04,
+          "simultaneous": [
+            -0.49,
+            0.05
+          ]
+        },
+        "rules unchanged, quota change above 0.35": {
+          "gain": -0.4,
+          "institutions": 54,
+          "n": 321,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.57,
+            -0.23
+          ],
+          "relative": -0.19,
+          "share_interval": [
+            0.22,
+            0.46
+          ],
+          "share_of_total_gain": 0.34,
+          "simultaneous": [
+            -0.64,
+            -0.17
+          ]
+        },
+        "subjects changed": {
+          "gain": -0.6,
+          "institutions": 50,
+          "n": 179,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.77,
+            -0.44
+          ],
+          "relative": -0.31,
+          "share_interval": [
+            0.19,
+            0.42
+          ],
+          "share_of_total_gain": 0.28,
+          "simultaneous": [
+            -0.82,
+            -0.38
+          ]
+        }
+      }
+    },
+    "engine": {
+      "critical_value": 2.62,
+      "groups": {
+        "multipliers changed alone": {
+          "gain": -0.11,
+          "institutions": 37,
+          "n": 63,
+          "p_bootstrap": 0.38,
+          "percentile": [
+            -0.36,
+            0.15
+          ],
+          "relative": -0.07,
+          "share_interval": [
+            -0.07,
+            0.13
+          ],
+          "share_of_total_gain": 0.04,
+          "simultaneous": [
+            -0.45,
+            0.24
+          ]
+        },
+        "rules and quota unchanged": {
+          "gain": -0.09,
+          "institutions": 46,
+          "n": 167,
+          "p_bootstrap": 0.19,
+          "percentile": [
+            -0.24,
+            0.05
+          ],
+          "relative": -0.08,
+          "share_interval": [
+            -0.06,
+            0.21
+          ],
+          "share_of_total_gain": 0.08,
+          "simultaneous": [
+            -0.28,
+            0.1
+          ]
+        },
+        "rules unchanged, quota change 0.05-0.35": {
+          "gain": -0.08,
+          "institutions": 57,
+          "n": 723,
+          "p_bootstrap": 0.07,
+          "percentile": [
+            -0.16,
+            0.005
+          ],
+          "relative": -0.06,
+          "share_interval": [
+            -0.02,
+            0.61
+          ],
+          "share_of_total_gain": 0.31,
+          "simultaneous": [
+            -0.19,
+            0.03
+          ]
+        },
+        "rules unchanged, quota change above 0 and at most 0.05": {
+          "gain": -0.21,
+          "institutions": 31,
+          "n": 68,
+          "p_bootstrap": 0.02,
+          "percentile": [
+            -0.42,
+            -0.03
+          ],
+          "relative": -0.17,
+          "share_interval": [
+            0.01,
+            0.17
+          ],
+          "share_of_total_gain": 0.08,
+          "simultaneous": [
+            -0.47,
+            0.05
+          ]
+        },
+        "rules unchanged, quota change above 0.35": {
+          "gain": -0.02,
+          "institutions": 54,
+          "n": 321,
+          "p_bootstrap": 0.8,
+          "percentile": [
+            -0.18,
+            0.13
+          ],
+          "relative": -0.01,
+          "share_interval": [
+            -0.38,
+            0.27
+          ],
+          "share_of_total_gain": 0.04,
+          "simultaneous": [
+            -0.23,
+            0.19
+          ]
+        },
+        "subjects changed": {
+          "gain": -0.47,
+          "institutions": 50,
+          "n": 179,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.67,
+            -0.27
+          ],
+          "relative": -0.26,
+          "share_interval": [
+            0.24,
+            0.94
+          ],
+          "share_of_total_gain": 0.45,
+          "simultaneous": [
+            -0.73,
+            -0.21
+          ]
+        }
+      }
+    },
+    "engine_august_rule": {
+      "critical_value": 2.65,
+      "groups": {
+        "multipliers changed alone": {
+          "gain": -0.1,
+          "institutions": 37,
+          "n": 63,
+          "p_bootstrap": 0.46,
+          "percentile": [
+            -0.4,
+            0.17
+          ],
+          "relative": -0.06,
+          "share_interval": [
+            -0.06,
+            0.1
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -0.48,
+            0.28
+          ]
+        },
+        "rules and quota unchanged": {
+          "gain": -0.09,
+          "institutions": 46,
+          "n": 167,
+          "p_bootstrap": 0.22,
+          "percentile": [
+            -0.24,
+            0.06
+          ],
+          "relative": -0.07,
+          "share_interval": [
+            -0.05,
+            0.17
+          ],
+          "share_of_total_gain": 0.06,
+          "simultaneous": [
+            -0.29,
+            0.11
+          ]
+        },
+        "rules unchanged, quota change 0.05-0.35": {
+          "gain": -0.11,
+          "institutions": 57,
+          "n": 723,
+          "p_bootstrap": 0.02,
+          "percentile": [
+            -0.19,
+            -0.02
+          ],
+          "relative": -0.08,
+          "share_interval": [
+            0.09,
+            0.52
+          ],
+          "share_of_total_gain": 0.32,
+          "simultaneous": [
+            -0.22,
+            0.007
+          ]
+        },
+        "rules unchanged, quota change above 0 and at most 0.05": {
+          "gain": -0.23,
+          "institutions": 31,
+          "n": 68,
+          "p_bootstrap": 0.01,
+          "percentile": [
+            -0.45,
+            -0.04
+          ],
+          "relative": -0.19,
+          "share_interval": [
+            0.01,
+            0.14
+          ],
+          "share_of_total_gain": 0.07,
+          "simultaneous": [
+            -0.51,
+            0.04
+          ]
+        },
+        "rules unchanged, quota change above 0.35": {
+          "gain": -0.15,
+          "institutions": 54,
+          "n": 321,
+          "p_bootstrap": 0.1,
+          "percentile": [
+            -0.31,
+            0.03
+          ],
+          "relative": -0.09,
+          "share_interval": [
+            -0.07,
+            0.37
+          ],
+          "share_of_total_gain": 0.19,
+          "simultaneous": [
+            -0.38,
+            0.09
+          ]
+        },
+        "subjects changed": {
+          "gain": -0.44,
+          "institutions": 50,
+          "n": 179,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.62,
+            -0.28
+          ],
+          "relative": -0.25,
+          "share_interval": [
+            0.19,
+            0.62
+          ],
+          "share_of_total_gain": 0.33,
+          "simultaneous": [
+            -0.68,
+            -0.21
+          ]
+        }
+      }
+    },
+    "quota_adjusted": {
+      "critical_value": 2.64,
+      "groups": {
+        "multipliers changed alone": {
+          "gain": -0.2,
+          "institutions": 37,
+          "n": 63,
+          "p_bootstrap": 0.14,
+          "percentile": [
+            -0.45,
+            0.06
+          ],
+          "relative": -0.12,
+          "share_interval": [
+            -0.02,
+            0.16
+          ],
+          "share_of_total_gain": 0.06,
+          "simultaneous": [
+            -0.55,
+            0.15
+          ]
+        },
+        "rules and quota unchanged": {
+          "gain": -0.11,
+          "institutions": 46,
+          "n": 167,
+          "p_bootstrap": 0.14,
+          "percentile": [
+            -0.26,
+            0.04
+          ],
+          "relative": -0.09,
+          "share_interval": [
+            -0.04,
+            0.2
+          ],
+          "share_of_total_gain": 0.08,
+          "simultaneous": [
+            -0.31,
+            0.09
+          ]
+        },
+        "rules unchanged, quota change 0.05-0.35": {
+          "gain": -0.1,
+          "institutions": 57,
+          "n": 723,
+          "p_bootstrap": 0.02,
+          "percentile": [
+            -0.19,
+            -0.02
+          ],
+          "relative": -0.08,
+          "share_interval": [
+            0.08,
+            0.62
+          ],
+          "share_of_total_gain": 0.36,
+          "simultaneous": [
+            -0.22,
+            0.008
+          ]
+        },
+        "rules unchanged, quota change above 0 and at most 0.05": {
+          "gain": -0.22,
+          "institutions": 31,
+          "n": 68,
+          "p_bootstrap": 0.02,
+          "percentile": [
+            -0.43,
+            -0.03
+          ],
+          "relative": -0.18,
+          "share_interval": [
+            0.01,
+            0.15
+          ],
+          "share_of_total_gain": 0.07,
+          "simultaneous": [
+            -0.49,
+            0.06
+          ]
+        },
+        "rules unchanged, quota change above 0.35": {
+          "gain": 0.008,
+          "institutions": 54,
+          "n": 321,
+          "p_bootstrap": 0.9,
+          "percentile": [
+            -0.15,
+            0.16
+          ],
+          "relative": 0.005,
+          "share_interval": [
+            -0.36,
+            0.19
+          ],
+          "share_of_total_gain": -0.01,
+          "simultaneous": [
+            -0.2,
+            0.22
+          ]
+        },
+        "subjects changed": {
+          "gain": -0.52,
+          "institutions": 50,
+          "n": 179,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.7,
+            -0.33
+          ],
+          "relative": -0.28,
+          "share_interval": [
+            0.24,
+            0.82
+          ],
+          "share_of_total_gain": 0.44,
+          "simultaneous": [
+            -0.77,
+            -0.27
+          ]
+        }
+      }
+    },
+    "quota_adjusted_reanchored": {
+      "critical_value": 2.62,
+      "groups": {
+        "multipliers changed alone": {
+          "gain": -0.14,
+          "institutions": 37,
+          "n": 63,
+          "p_bootstrap": 0.22,
+          "percentile": [
+            -0.38,
+            0.08
+          ],
+          "relative": -0.08,
+          "share_interval": [
+            -0.02,
+            0.09
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -0.44,
+            0.17
+          ]
+        },
+        "rules and quota unchanged": {
+          "gain": -0.11,
+          "institutions": 46,
+          "n": 167,
+          "p_bootstrap": 0.14,
+          "percentile": [
+            -0.26,
+            0.04
+          ],
+          "relative": -0.09,
+          "share_interval": [
+            -0.03,
+            0.16
+          ],
+          "share_of_total_gain": 0.07,
+          "simultaneous": [
+            -0.3,
+            0.09
+          ]
+        },
+        "rules unchanged, quota change 0.05-0.35": {
+          "gain": -0.12,
+          "institutions": 57,
+          "n": 723,
+          "p_bootstrap": 0.004,
+          "percentile": [
+            -0.2,
+            -0.04
+          ],
+          "relative": -0.09,
+          "share_interval": [
+            0.14,
+            0.5
+          ],
+          "share_of_total_gain": 0.33,
+          "simultaneous": [
+            -0.23,
+            -0.01
+          ]
+        },
+        "rules unchanged, quota change above 0 and at most 0.05": {
+          "gain": -0.22,
+          "institutions": 31,
+          "n": 68,
+          "p_bootstrap": 0.01,
+          "percentile": [
+            -0.43,
+            -0.04
+          ],
+          "relative": -0.18,
+          "share_interval": [
+            0.009,
+            0.12
+          ],
+          "share_of_total_gain": 0.06,
+          "simultaneous": [
+            -0.49,
+            0.05
+          ]
+        },
+        "rules unchanged, quota change above 0.35": {
+          "gain": -0.17,
+          "institutions": 54,
+          "n": 321,
+          "p_bootstrap": 0.05,
+          "percentile": [
+            -0.33,
+            -0.0001
+          ],
+          "relative": -0.1,
+          "share_interval": [
+            0.002,
+            0.35
+          ],
+          "share_of_total_gain": 0.21,
+          "simultaneous": [
+            -0.39,
+            0.05
+          ]
+        },
+        "subjects changed": {
+          "gain": -0.46,
+          "institutions": 50,
+          "n": 179,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.63,
+            -0.31
+          ],
+          "relative": -0.25,
+          "share_interval": [
+            0.19,
+            0.51
+          ],
+          "share_of_total_gain": 0.31,
+          "simultaneous": [
+            -0.67,
+            -0.25
+          ]
+        }
+      }
+    }
+  },
+  "table6": {
+    "baseline": {
+      "critical_value": 3.15,
+      "groups": {
+        "level 0-30": {
+          "gain": -0.26,
+          "institutions": 32,
+          "n": 378,
+          "p_bootstrap": 0.004,
+          "percentile": [
+            -0.42,
+            -0.1
+          ],
+          "relative": -0.12,
+          "share_interval": [
+            0.11,
+            0.39
+          ],
+          "share_of_total_gain": 0.26,
+          "simultaneous": [
+            -0.52,
+            -0.005
+          ]
+        },
+        "level 0-30, central": {
+          "gain": -0.5,
+          "institutions": 8,
+          "n": 77,
+          "p_bootstrap": 0.01,
+          "percentile": [
+            -0.9,
+            -0.15
+          ],
+          "relative": -0.25,
+          "share_interval": [
+            0.02,
+            0.19
+          ],
+          "share_of_total_gain": 0.1,
+          "simultaneous": [
+            -1.11,
+            0.11
+          ]
+        },
+        "level 0-30, east_and_kinmen": {
+          "gain": -0.19,
+          "institutions": 4,
+          "n": 65,
+          "p_bootstrap": 0.51,
+          "percentile": [
+            -0.48,
+            0.76
+          ],
+          "relative": -0.07,
+          "share_interval": [
+            -0.07,
+            0.13
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -1.24,
+            0.86
+          ]
+        },
+        "level 0-30, north": {
+          "gain": -0.29,
+          "institutions": 14,
+          "n": 163,
+          "p_bootstrap": 0.008,
+          "percentile": [
+            -0.46,
+            -0.1
+          ],
+          "relative": -0.15,
+          "share_interval": [
+            0.02,
+            0.25
+          ],
+          "share_of_total_gain": 0.13,
+          "simultaneous": [
+            -0.58,
+            -0.009
+          ]
+        },
+        "level 0-30, south": {
+          "gain": -0.009,
+          "institutions": 7,
+          "n": 73,
+          "p_bootstrap": 0.95,
+          "percentile": [
+            -0.53,
+            0.26
+          ],
+          "relative": -0.003,
+          "share_interval": [
+            -0.06,
+            0.06
+          ],
+          "share_of_total_gain": 0.002,
+          "simultaneous": [
+            -0.62,
+            0.6
+          ]
+        },
+        "level 30-40": {
+          "gain": -0.35,
+          "institutions": 45,
+          "n": 535,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.47,
+            -0.23
+          ],
+          "relative": -0.18,
+          "share_interval": [
+            0.36,
+            0.61
+          ],
+          "share_of_total_gain": 0.49,
+          "simultaneous": [
+            -0.55,
+            -0.15
+          ]
+        },
+        "level 40-45": {
+          "gain": -0.17,
+          "institutions": 38,
+          "n": 237,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.27,
+            -0.08
+          ],
+          "relative": -0.14,
+          "share_interval": [
+            0.05,
+            0.18
+          ],
+          "share_of_total_gain": 0.11,
+          "simultaneous": [
+            -0.32,
+            -0.02
+          ]
+        },
+        "level 45-50": {
+          "gain": -0.19,
+          "institutions": 25,
+          "n": 236,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.28,
+            -0.11
+          ],
+          "relative": -0.23,
+          "share_interval": [
+            0.05,
+            0.22
+          ],
+          "share_of_total_gain": 0.12,
+          "simultaneous": [
+            -0.32,
+            -0.06
+          ]
+        },
+        "level 50-60": {
+          "gain": -0.07,
+          "institutions": 17,
+          "n": 135,
+          "p_bootstrap": 0.01,
+          "percentile": [
+            -0.17,
+            -0.02
+          ],
+          "relative": -0.12,
+          "share_interval": [
+            0.005,
+            0.05
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -0.19,
+            0.05
+          ]
+        }
+      }
+    },
+    "engine": {
+      "critical_value": 3.05,
+      "groups": {
+        "level 0-30": {
+          "gain": -0.07,
+          "institutions": 32,
+          "n": 378,
+          "p_bootstrap": 0.35,
+          "percentile": [
+            -0.23,
+            0.09
+          ],
+          "relative": -0.03,
+          "share_interval": [
+            -0.31,
+            0.37
+          ],
+          "share_of_total_gain": 0.14,
+          "simultaneous": [
+            -0.31,
+            0.18
+          ]
+        },
+        "level 0-30, central": {
+          "gain": -0.34,
+          "institutions": 8,
+          "n": 77,
+          "p_bootstrap": 0.07,
+          "percentile": [
+            -0.75,
+            0.02
+          ],
+          "relative": -0.18,
+          "share_interval": [
+            -0.009,
+            0.34
+          ],
+          "share_of_total_gain": 0.14,
+          "simultaneous": [
+            -0.94,
+            0.27
+          ]
+        },
+        "level 0-30, east_and_kinmen": {
+          "gain": 0.03,
+          "institutions": 4,
+          "n": 65,
+          "p_bootstrap": 0.98,
+          "percentile": [
+            -0.28,
+            1.1
+          ],
+          "relative": 0.01,
+          "share_interval": [
+            -0.36,
+            0.14
+          ],
+          "share_of_total_gain": -0.01,
+          "simultaneous": [
+            -1.1,
+            1.16
+          ]
+        },
+        "level 0-30, north": {
+          "gain": -0.03,
+          "institutions": 14,
+          "n": 163,
+          "p_bootstrap": 0.72,
+          "percentile": [
+            -0.19,
+            0.13
+          ],
+          "relative": -0.01,
+          "share_interval": [
+            -0.14,
+            0.16
+          ],
+          "share_of_total_gain": 0.02,
+          "simultaneous": [
+            -0.28,
+            0.23
+          ]
+        },
+        "level 0-30, south": {
+          "gain": 0.03,
+          "institutions": 7,
+          "n": 73,
+          "p_bootstrap": 0.83,
+          "percentile": [
+            -0.45,
+            0.27
+          ],
+          "relative": 0.01,
+          "share_interval": [
+            -0.18,
+            0.11
+          ],
+          "share_of_total_gain": -0.01,
+          "simultaneous": [
+            -0.53,
+            0.59
+          ]
+        },
+        "level 30-40": {
+          "gain": -0.22,
+          "institutions": 45,
+          "n": 535,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.33,
+            -0.11
+          ],
+          "relative": -0.12,
+          "share_interval": [
+            0.42,
+            0.98
+          ],
+          "share_of_total_gain": 0.64,
+          "simultaneous": [
+            -0.39,
+            -0.05
+          ]
+        },
+        "level 40-45": {
+          "gain": -0.03,
+          "institutions": 38,
+          "n": 237,
+          "p_bootstrap": 0.45,
+          "percentile": [
+            -0.11,
+            0.04
+          ],
+          "relative": -0.03,
+          "share_interval": [
+            -0.08,
+            0.13
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -0.15,
+            0.09
+          ]
+        },
+        "level 45-50": {
+          "gain": -0.13,
+          "institutions": 25,
+          "n": 236,
+          "p_bootstrap": 0.009,
+          "percentile": [
+            -0.21,
+            -0.04
+          ],
+          "relative": -0.17,
+          "share_interval": [
+            0.04,
+            0.39
+          ],
+          "share_of_total_gain": 0.16,
+          "simultaneous": [
+            -0.26,
+            0.003
+          ]
+        },
+        "level 50-60": {
+          "gain": -0.03,
+          "institutions": 17,
+          "n": 135,
+          "p_bootstrap": 0.2,
+          "percentile": [
+            -0.11,
+            0.01
+          ],
+          "relative": -0.06,
+          "share_interval": [
+            -0.01,
+            0.08
+          ],
+          "share_of_total_gain": 0.02,
+          "simultaneous": [
+            -0.13,
+            0.07
+          ]
+        }
+      }
+    },
+    "engine_august_rule": {
+      "critical_value": 3.05,
+      "groups": {
+        "level 0-30": {
+          "gain": -0.04,
+          "institutions": 32,
+          "n": 378,
+          "p_bootstrap": 0.64,
+          "percentile": [
+            -0.23,
+            0.17
+          ],
+          "relative": -0.02,
+          "share_interval": [
+            -0.45,
+            0.28
+          ],
+          "share_of_total_gain": 0.07,
+          "simultaneous": [
+            -0.35,
+            0.27
+          ]
+        },
+        "level 0-30, central": {
+          "gain": -0.28,
+          "institutions": 8,
+          "n": 77,
+          "p_bootstrap": 0.32,
+          "percentile": [
+            -0.78,
+            0.32
+          ],
+          "relative": -0.15,
+          "share_interval": [
+            -0.14,
+            0.26
+          ],
+          "share_of_total_gain": 0.09,
+          "simultaneous": [
+            -1.2,
+            0.64
+          ]
+        },
+        "level 0-30, east_and_kinmen": {
+          "gain": -0.08,
+          "institutions": 4,
+          "n": 65,
+          "p_bootstrap": 0.75,
+          "percentile": [
+            -0.65,
+            1.15
+          ],
+          "relative": -0.03,
+          "share_interval": [
+            -0.26,
+            0.18
+          ],
+          "share_of_total_gain": 0.02,
+          "simultaneous": [
+            -1.4,
+            1.24
+          ]
+        },
+        "level 0-30, north": {
+          "gain": -0.03,
+          "institutions": 14,
+          "n": 163,
+          "p_bootstrap": 0.81,
+          "percentile": [
+            -0.21,
+            0.21
+          ],
+          "relative": -0.02,
+          "share_interval": [
+            -0.14,
+            0.15
+          ],
+          "share_of_total_gain": 0.02,
+          "simultaneous": [
+            -0.34,
+            0.29
+          ]
+        },
+        "level 0-30, south": {
+          "gain": 0.21,
+          "institutions": 7,
+          "n": 73,
+          "p_bootstrap": 0.16,
+          "percentile": [
+            -0.21,
+            0.47
+          ],
+          "relative": 0.07,
+          "share_interval": [
+            -0.25,
+            0.02
+          ],
+          "share_of_total_gain": -0.06,
+          "simultaneous": [
+            -0.25,
+            0.67
+          ]
+        },
+        "level 30-40": {
+          "gain": -0.27,
+          "institutions": 45,
+          "n": 535,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.39,
+            -0.17
+          ],
+          "relative": -0.16,
+          "share_interval": [
+            0.42,
+            0.95
+          ],
+          "share_of_total_gain": 0.61,
+          "simultaneous": [
+            -0.45,
+            -0.1
+          ]
+        },
+        "level 40-45": {
+          "gain": -0.11,
+          "institutions": 38,
+          "n": 237,
+          "p_bootstrap": 0.005,
+          "percentile": [
+            -0.2,
+            -0.04
+          ],
+          "relative": -0.11,
+          "share_interval": [
+            0.04,
+            0.23
+          ],
+          "share_of_total_gain": 0.11,
+          "simultaneous": [
+            -0.24,
+            0.01
+          ]
+        },
+        "level 45-50": {
+          "gain": -0.17,
+          "institutions": 25,
+          "n": 236,
+          "p_bootstrap": 0.002,
+          "percentile": [
+            -0.25,
+            -0.09
+          ],
+          "relative": -0.22,
+          "share_interval": [
+            0.06,
+            0.37
+          ],
+          "share_of_total_gain": 0.17,
+          "simultaneous": [
+            -0.3,
+            -0.05
+          ]
+        },
+        "level 50-60": {
+          "gain": -0.07,
+          "institutions": 17,
+          "n": 135,
+          "p_bootstrap": 0.0005,
+          "percentile": [
+            -0.18,
+            -0.03
+          ],
+          "relative": -0.14,
+          "share_interval": [
+            0.01,
+            0.1
+          ],
+          "share_of_total_gain": 0.04,
+          "simultaneous": [
+            -0.2,
+            0.05
+          ]
+        }
+      }
+    },
+    "quota_adjusted": {
+      "critical_value": 3.17,
+      "groups": {
+        "level 0-30": {
+          "gain": -0.02,
+          "institutions": 32,
+          "n": 378,
+          "p_bootstrap": 0.73,
+          "percentile": [
+            -0.14,
+            0.11
+          ],
+          "relative": -0.008,
+          "share_interval": [
+            -0.29,
+            0.21
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -0.22,
+            0.18
+          ]
+        },
+        "level 0-30, central": {
+          "gain": -0.2,
+          "institutions": 8,
+          "n": 77,
+          "p_bootstrap": 0.12,
+          "percentile": [
+            -0.56,
+            0.06
+          ],
+          "relative": -0.12,
+          "share_interval": [
+            -0.02,
+            0.2
+          ],
+          "share_of_total_gain": 0.07,
+          "simultaneous": [
+            -0.69,
+            0.29
+          ]
+        },
+        "level 0-30, east_and_kinmen": {
+          "gain": 0.08,
+          "institutions": 4,
+          "n": 65,
+          "p_bootstrap": 0.92,
+          "percentile": [
+            -0.21,
+            0.97
+          ],
+          "relative": 0.03,
+          "share_interval": [
+            -0.27,
+            0.08
+          ],
+          "share_of_total_gain": -0.02,
+          "simultaneous": [
+            -0.91,
+            1.06
+          ]
+        },
+        "level 0-30, north": {
+          "gain": 0.02,
+          "institutions": 14,
+          "n": 163,
+          "p_bootstrap": 0.78,
+          "percentile": [
+            -0.14,
+            0.19
+          ],
+          "relative": 0.01,
+          "share_interval": [
+            -0.16,
+            0.09
+          ],
+          "share_of_total_gain": -0.01,
+          "simultaneous": [
+            -0.24,
+            0.28
+          ]
+        },
+        "level 0-30, south": {
+          "gain": 0.01,
+          "institutions": 7,
+          "n": 73,
+          "p_bootstrap": 0.9,
+          "percentile": [
+            -0.27,
+            0.16
+          ],
+          "relative": 0.003,
+          "share_interval": [
+            -0.08,
+            0.06
+          ],
+          "share_of_total_gain": -0.003,
+          "simultaneous": [
+            -0.34,
+            0.36
+          ]
+        },
+        "level 30-40": {
+          "gain": -0.24,
+          "institutions": 45,
+          "n": 535,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.37,
+            -0.12
+          ],
+          "relative": -0.14,
+          "share_interval": [
+            0.39,
+            0.86
+          ],
+          "share_of_total_gain": 0.62,
+          "simultaneous": [
+            -0.45,
+            -0.04
+          ]
+        },
+        "level 40-45": {
+          "gain": -0.04,
+          "institutions": 38,
+          "n": 237,
+          "p_bootstrap": 0.25,
+          "percentile": [
+            -0.11,
+            0.03
+          ],
+          "relative": -0.04,
+          "share_interval": [
+            -0.04,
+            0.12
+          ],
+          "share_of_total_gain": 0.04,
+          "simultaneous": [
+            -0.15,
+            0.07
+          ]
+        },
+        "level 45-50": {
+          "gain": -0.17,
+          "institutions": 25,
+          "n": 236,
+          "p_bootstrap": 0.003,
+          "percentile": [
+            -0.27,
+            -0.08
+          ],
+          "relative": -0.21,
+          "share_interval": [
+            0.07,
+            0.37
+          ],
+          "share_of_total_gain": 0.19,
+          "simultaneous": [
+            -0.32,
+            -0.02
+          ]
+        },
+        "level 50-60": {
+          "gain": -0.18,
+          "institutions": 17,
+          "n": 135,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.35,
+            -0.1
+          ],
+          "relative": -0.27,
+          "share_interval": [
+            0.04,
+            0.25
+          ],
+          "share_of_total_gain": 0.12,
+          "simultaneous": [
+            -0.39,
+            0.02
+          ]
+        }
+      }
+    },
+    "quota_adjusted_reanchored": {
+      "critical_value": 2.96,
+      "groups": {
+        "level 0-30": {
+          "gain": -0.05,
+          "institutions": 32,
+          "n": 378,
+          "p_bootstrap": 0.55,
+          "percentile": [
+            -0.2,
+            0.13
+          ],
+          "relative": -0.02,
+          "share_interval": [
+            -0.28,
+            0.24
+          ],
+          "share_of_total_gain": 0.07,
+          "simultaneous": [
+            -0.3,
+            0.2
+          ]
+        },
+        "level 0-30, central": {
+          "gain": -0.18,
+          "institutions": 8,
+          "n": 77,
+          "p_bootstrap": 0.44,
+          "percentile": [
+            -0.67,
+            0.37
+          ],
+          "relative": -0.1,
+          "share_interval": [
+            -0.14,
+            0.18
+          ],
+          "share_of_total_gain": 0.05,
+          "simultaneous": [
+            -1.0,
+            0.64
+          ]
+        },
+        "level 0-30, east_and_kinmen": {
+          "gain": -0.12,
+          "institutions": 4,
+          "n": 65,
+          "p_bootstrap": 0.69,
+          "percentile": [
+            -0.46,
+            0.79
+          ],
+          "relative": -0.05,
+          "share_interval": [
+            -0.14,
+            0.16
+          ],
+          "share_of_total_gain": 0.03,
+          "simultaneous": [
+            -1.09,
+            0.85
+          ]
+        },
+        "level 0-30, north": {
+          "gain": -0.03,
+          "institutions": 14,
+          "n": 163,
+          "p_bootstrap": 0.72,
+          "percentile": [
+            -0.17,
+            0.17
+          ],
+          "relative": -0.02,
+          "share_interval": [
+            -0.08,
+            0.12
+          ],
+          "share_of_total_gain": 0.02,
+          "simultaneous": [
+            -0.29,
+            0.22
+          ]
+        },
+        "level 0-30, south": {
+          "gain": 0.12,
+          "institutions": 7,
+          "n": 73,
+          "p_bootstrap": 0.34,
+          "percentile": [
+            -0.2,
+            0.34
+          ],
+          "relative": 0.04,
+          "share_interval": [
+            -0.14,
+            0.02
+          ],
+          "share_of_total_gain": -0.03,
+          "simultaneous": [
+            -0.25,
+            0.49
+          ]
+        },
+        "level 30-40": {
+          "gain": -0.29,
+          "institutions": 45,
+          "n": 535,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.42,
+            -0.17
+          ],
+          "relative": -0.16,
+          "share_interval": [
+            0.4,
+            0.8
+          ],
+          "share_of_total_gain": 0.58,
+          "simultaneous": [
+            -0.48,
+            -0.1
+          ]
+        },
+        "level 40-45": {
+          "gain": -0.13,
+          "institutions": 38,
+          "n": 237,
+          "p_bootstrap": 0.0005,
+          "percentile": [
+            -0.22,
+            -0.06
+          ],
+          "relative": -0.12,
+          "share_interval": [
+            0.05,
+            0.23
+          ],
+          "share_of_total_gain": 0.12,
+          "simultaneous": [
+            -0.25,
+            -0.02
+          ]
+        },
+        "level 45-50": {
+          "gain": -0.18,
+          "institutions": 25,
+          "n": 236,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.25,
+            -0.11
+          ],
+          "relative": -0.22,
+          "share_interval": [
+            0.07,
+            0.31
+          ],
+          "share_of_total_gain": 0.16,
+          "simultaneous": [
+            -0.29,
+            -0.08
+          ]
+        },
+        "level 50-60": {
+          "gain": -0.15,
+          "institutions": 17,
+          "n": 135,
+          "p_bootstrap": 0.0,
+          "percentile": [
+            -0.3,
+            -0.08
+          ],
+          "relative": -0.22,
+          "share_interval": [
+            0.03,
+            0.16
+          ],
+          "share_of_total_gain": 0.08,
+          "simultaneous": [
+            -0.32,
+            0.02
+          ]
+        }
+      }
+    }
+  },
+  "table6_extra": {
+    "level 0-30, south, private": {
+      "gain_vs_baseline": 0.1,
+      "gain_vs_engine": 0.08,
+      "gain_vs_quota_adjusted": 0.05,
+      "n": 57
+    }
+  },
+  "transport": {
+    "all vs baseline": {
+      "gain_2025_composition": -0.3,
+      "gain_2026_composition": -0.25,
+      "interval": [
+        -0.37,
+        -0.23
+      ],
+      "relative_2025_composition": -0.18,
+      "relative_2026_composition": -0.16
+    },
+    "all vs engine": {
+      "gain_2025_composition": -0.16,
+      "gain_2026_composition": -0.12,
+      "interval": [
+        -0.23,
+        -0.09
+      ],
+      "relative_2025_composition": -0.11,
+      "relative_2026_composition": -0.08
+    },
+    "all vs quota_adjusted": {
+      "gain_2025_composition": -0.18,
+      "gain_2026_composition": -0.14,
+      "interval": [
+        -0.24,
+        -0.12
+      ],
+      "relative_2025_composition": -0.12,
+      "relative_2026_composition": -0.09
+    },
+    "composition_2025": {
+      "quota change 0.05-0.35": {
+        "departments": 508,
+        "share": 0.39,
+        "share_2026_J2": 0.48
+      },
+      "quota change above 0.35": {
+        "departments": 271,
+        "share": 0.21,
+        "share_2026_J2": 0.21
+      },
+      "quota change at most 0.05": {
+        "departments": 59,
+        "share": 0.04,
+        "share_2026_J2": 0.04
+      },
+      "rules and quota unchanged": {
+        "departments": 82,
+        "share": 0.06,
+        "share_2026_J2": 0.11
+      },
+      "rules changed": {
+        "departments": 392,
+        "share": 0.3,
+        "share_2026_J2": 0.16
+      }
+    },
+    "rules and quota unchanged vs baseline": {
+      "gain_2025_composition": -0.11,
+      "gain_2026_composition": -0.11,
+      "interval": [
+        -0.26,
+        0.04
+      ],
+      "relative_2025_composition": -0.09,
+      "relative_2026_composition": -0.09
+    },
+    "rules and quota unchanged vs engine": {
+      "gain_2025_composition": -0.09,
+      "gain_2026_composition": -0.09,
+      "interval": [
+        -0.24,
+        0.05
+      ],
+      "relative_2025_composition": -0.08,
+      "relative_2026_composition": -0.08
+    },
+    "rules and quota unchanged vs quota_adjusted": {
+      "gain_2025_composition": -0.11,
+      "gain_2026_composition": -0.11,
+      "interval": [
+        -0.26,
+        0.04
+      ],
+      "relative_2025_composition": -0.09,
+      "relative_2026_composition": -0.09
+    },
+    "rules unchanged vs baseline": {
+      "gain_2025_composition": -0.22,
+      "gain_2026_composition": -0.21,
+      "interval": [
+        -0.3,
+        -0.14
+      ],
+      "relative_2025_composition": -0.14,
+      "relative_2026_composition": -0.13
+    },
+    "rules unchanged vs engine": {
+      "gain_2025_composition": -0.07,
+      "gain_2026_composition": -0.07,
+      "interval": [
+        -0.15,
+        0.007
+      ],
+      "relative_2025_composition": -0.05,
+      "relative_2026_composition": -0.05
+    },
+    "rules unchanged vs quota_adjusted": {
+      "gain_2025_composition": -0.08,
+      "gain_2026_composition": -0.08,
+      "interval": [
+        -0.15,
+        -0.0008
+      ],
+      "relative_2025_composition": -0.05,
+      "relative_2026_composition": -0.06
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-08",
+  "seed": 20261008,
+  "node": "v26.5.0",
+  "generator": {
+    "candidateCount": 40,
+    "departmentCount": 6,
+    "quotas": "獨立離散均勻 0–20",
+    "wishCount": "獨立離散均勻 1–6",
+    "wishOrder": "不重複校系之隨機排列",
+    "score": "各有效邊獨立離散均勻 0–60；同分以固定 uid 排序",
+    "weights": [
+      "固定 1",
+      "連續均勻 [1,4)",
+      "對數均勻 [1,100)"
+    ],
+    "permutationsPerMarket": 3
+  },
+  "scenarios": {
+    "unit": {
+      "markets": 200,
+      "roundBlockingMarkets": 0,
+      "roundCapacityExcessMarkets": 0,
+      "roundOrderDependentMarkets": 0,
+      "fractionalBlockingMarkets": 0,
+      "fractionalOrderDependentMarkets": 0,
+      "maxFractionalMassDifference": 0,
+      "maxFractionalEvents": 112
+    },
+    "uniform_1_4": {
+      "markets": 200,
+      "roundBlockingMarkets": 192,
+      "roundCapacityExcessMarkets": 200,
+      "roundOrderDependentMarkets": 41,
+      "fractionalBlockingMarkets": 0,
+      "fractionalOrderDependentMarkets": 0,
+      "maxFractionalMassDifference": 0,
+      "maxFractionalEvents": 383
+    },
+    "loguniform_1_100": {
+      "markets": 200,
+      "roundBlockingMarkets": 200,
+      "roundCapacityExcessMarkets": 200,
+      "roundOrderDependentMarkets": 172,
+      "fractionalBlockingMarkets": 0,
+      "fractionalOrderDependentMarkets": 0,
+      "maxFractionalMassDifference": 3.552713678800501e-15,
+      "maxFractionalEvents": 307
+    }
+  },
+  "note": "人工分布用於工程病態診斷，不表示真實市場的發生機率、預測誤差或一般定理。"
+}

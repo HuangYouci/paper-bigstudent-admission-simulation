@@ -1,0 +1,37 @@
+{
+  "note": "exploratory, added after the fifth simulated review; synthetic markets only",
+  "platform_function": "dev-only/simulation-weighting/da-rules.mjs runFractionalDA",
+  "platform_commit": "0e0b735a8d3397db5e6ddd33387a85e59128170e",
+  "seed": 20261126,
+  "departments_with_different_rejected_score_sets": 0,
+  "largest_differences": {
+    "40x6 uniform": {
+      "markets": 200,
+      "mass": 5.773159728050814e-15,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 1.4210854715202004e-14,
+      "max_events": 362
+    },
+    "40x6 loguniform": {
+      "markets": 200,
+      "mass": 1.7763568394002505e-15,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 7.105427357601002e-15,
+      "max_events": 339
+    },
+    "400x40 uniform": {
+      "markets": 40,
+      "mass": 1.9539925233402755e-14,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 1.7763568394002505e-14,
+      "max_events": 3832
+    },
+    "400x40 loguniform": {
+      "markets": 40,
+      "mass": 3.552713678800501e-15,
+      "fractional_cutoff": 0.0,
+      "v3_cutoff": 7.105427357601002e-15,
+      "max_events": 3146
+    }
+  }
+}

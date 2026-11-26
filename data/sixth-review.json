@@ -1,0 +1,1129 @@
+{
+  "note": "exploratory; plan v0.25 (section H), written after the sixth round of simulated reviews",
+  "n_J2": 1521,
+  "common_shock": {
+    "-1.17": {
+      "gain": -0.18,
+      "relative": -0.11
+    },
+    "-0.70": {
+      "gain": -0.23,
+      "relative": -0.15
+    },
+    "-0.35": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "+0.00": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "+0.35": {
+      "gain": -0.24,
+      "relative": -0.14
+    },
+    "+0.70": {
+      "gain": -0.21,
+      "relative": -0.11
+    },
+    "+1.17": {
+      "gain": -0.17,
+      "relative": -0.08
+    }
+  },
+  "decision_time": {
+    "run_gains": {
+      "ast_20260805T175904Z": -0.02,
+      "ast_20260806T120005Z": -0.14,
+      "ast_20260807T022008Z": -0.18,
+      "ast_20260807T120012Z": -0.18,
+      "ast_20260808T035958Z": -0.2,
+      "ast_20260808T095000Z": -0.22,
+      "ast_20260813T012242Z": -0.24,
+      "ast_20260815T150000Z": -0.25
+    },
+    "completed_share_by_day": {
+      "2026-08-05": 0.11,
+      "2026-08-06": 0.14,
+      "2026-08-07": 0.34,
+      "2026-08-08": 0.41
+    },
+    "last_run_of_day": {
+      "gain": -0.16,
+      "relative": -0.1,
+      "share_of_evaluated_gain": 0.65
+    },
+    "first_run_of_day": {
+      "gain": -0.15,
+      "relative": -0.09,
+      "share_of_evaluated_gain": 0.58
+    }
+  },
+  "quota_weighted": {
+    "all": {
+      "n": 1521,
+      "mae_baseline": 1.6,
+      "mae_combination": 1.35,
+      "relative": -0.16,
+      "quota_weighted_mae_baseline": 1.52,
+      "quota_weighted_mae_combination": 1.26,
+      "quota_weighted_relative": -0.17,
+      "coverage_departments": 0.97,
+      "coverage_places": 0.99,
+      "departments_with_baseline": 1575
+    },
+    "level 0-30": {
+      "n": 378,
+      "mae_baseline": 2.27,
+      "mae_combination": 2.01,
+      "relative": -0.12,
+      "quota_weighted_mae_baseline": 2.05,
+      "quota_weighted_mae_combination": 1.79,
+      "quota_weighted_relative": -0.12,
+      "coverage_departments": 0.9,
+      "coverage_places": 0.96,
+      "departments_with_baseline": 422
+    },
+    "level 30-40": {
+      "n": 535,
+      "mae_baseline": 1.89,
+      "mae_combination": 1.54,
+      "relative": -0.18,
+      "quota_weighted_mae_baseline": 1.85,
+      "quota_weighted_mae_combination": 1.5,
+      "quota_weighted_relative": -0.19,
+      "coverage_departments": 0.98,
+      "coverage_places": 1.0,
+      "departments_with_baseline": 545
+    },
+    "level 40-45": {
+      "n": 237,
+      "mae_baseline": 1.21,
+      "mae_combination": 1.04,
+      "relative": -0.14,
+      "quota_weighted_mae_baseline": 1.24,
+      "quota_weighted_mae_combination": 1.0,
+      "quota_weighted_relative": -0.19,
+      "coverage_departments": 1.0,
+      "coverage_places": 1.0,
+      "departments_with_baseline": 237
+    },
+    "level 45-50": {
+      "n": 236,
+      "mae_baseline": 0.83,
+      "mae_combination": 0.63,
+      "relative": -0.23,
+      "quota_weighted_mae_baseline": 0.79,
+      "quota_weighted_mae_combination": 0.61,
+      "quota_weighted_relative": -0.24,
+      "coverage_departments": 1.0,
+      "coverage_places": 1.0,
+      "departments_with_baseline": 236
+    },
+    "level 50-61": {
+      "n": 135,
+      "mae_baseline": 0.57,
+      "mae_combination": 0.5,
+      "relative": -0.12,
+      "quota_weighted_mae_baseline": 0.55,
+      "quota_weighted_mae_combination": 0.46,
+      "quota_weighted_relative": -0.16,
+      "coverage_departments": 1.0,
+      "coverage_places": 1.0,
+      "departments_with_baseline": 135
+    },
+    "below 30, north": {
+      "n": 163,
+      "mae_baseline": 2.0,
+      "mae_combination": 1.71,
+      "relative": -0.15,
+      "quota_weighted_mae_baseline": 1.78,
+      "quota_weighted_mae_combination": 1.38,
+      "quota_weighted_relative": -0.22,
+      "coverage_departments": 0.91,
+      "coverage_places": 0.97,
+      "departments_with_baseline": 180
+    },
+    "below 30, central": {
+      "n": 77,
+      "mae_baseline": 2.01,
+      "mae_combination": 1.51,
+      "relative": -0.25,
+      "quota_weighted_mae_baseline": 1.73,
+      "quota_weighted_mae_combination": 1.34,
+      "quota_weighted_relative": -0.22,
+      "coverage_departments": 0.92,
+      "coverage_places": 0.97,
+      "departments_with_baseline": 84
+    },
+    "below 30, south": {
+      "n": 73,
+      "mae_baseline": 2.85,
+      "mae_combination": 2.85,
+      "relative": -0.003,
+      "quota_weighted_mae_baseline": 2.92,
+      "quota_weighted_mae_combination": 2.94,
+      "quota_weighted_relative": 0.008,
+      "coverage_departments": 0.85,
+      "coverage_places": 0.92,
+      "departments_with_baseline": 86
+    },
+    "below 30, east_and_kinmen": {
+      "n": 65,
+      "mae_baseline": 2.59,
+      "mae_combination": 2.4,
+      "relative": -0.07,
+      "quota_weighted_mae_baseline": 2.35,
+      "quota_weighted_mae_combination": 2.44,
+      "quota_weighted_relative": 0.04,
+      "coverage_departments": 0.9,
+      "coverage_places": 0.93,
+      "departments_with_baseline": 72
+    },
+    "below 30, south, private": {
+      "n": 57,
+      "mae_baseline": 3.09,
+      "mae_combination": 3.19,
+      "relative": 0.03,
+      "quota_weighted_mae_baseline": 3.24,
+      "quota_weighted_mae_combination": 3.38,
+      "quota_weighted_relative": 0.04,
+      "coverage_departments": 0.81,
+      "coverage_places": 0.9,
+      "departments_with_baseline": 70
+    },
+    "public": {
+      "n": 818,
+      "mae_baseline": 1.34,
+      "mae_combination": 1.1,
+      "relative": -0.18,
+      "quota_weighted_mae_baseline": 1.29,
+      "quota_weighted_mae_combination": 1.03,
+      "quota_weighted_relative": -0.2,
+      "coverage_departments": 0.99,
+      "coverage_places": 0.99,
+      "departments_with_baseline": 826
+    },
+    "private": {
+      "n": 703,
+      "mae_baseline": 1.89,
+      "mae_combination": 1.63,
+      "relative": -0.14,
+      "quota_weighted_mae_baseline": 1.75,
+      "quota_weighted_mae_combination": 1.49,
+      "quota_weighted_relative": -0.15,
+      "coverage_departments": 0.94,
+      "coverage_places": 0.98,
+      "departments_with_baseline": 749
+    }
+  },
+  "cutpoints": {
+    "south below 25": {
+      "n": 45,
+      "institutions": 6,
+      "gain": 0.33,
+      "relative": 0.13
+    },
+    "south below 27.5": {
+      "n": 60,
+      "institutions": 7,
+      "gain": 0.16,
+      "relative": 0.06
+    },
+    "south below 30": {
+      "n": 73,
+      "institutions": 7,
+      "gain": -0.009,
+      "relative": -0.003
+    },
+    "south below 32.5": {
+      "n": 103,
+      "institutions": 7,
+      "gain": -0.2,
+      "relative": -0.07
+    },
+    "south below 35": {
+      "n": 129,
+      "institutions": 10,
+      "gain": -0.26,
+      "relative": -0.1
+    },
+    "east_and_kinmen below 25": {
+      "n": 38,
+      "institutions": 4,
+      "gain": -0.31,
+      "relative": -0.12
+    },
+    "east_and_kinmen below 27.5": {
+      "n": 48,
+      "institutions": 4,
+      "gain": -0.19,
+      "relative": -0.07
+    },
+    "east_and_kinmen below 30": {
+      "n": 65,
+      "institutions": 4,
+      "gain": -0.19,
+      "relative": -0.07
+    },
+    "east_and_kinmen below 32.5": {
+      "n": 74,
+      "institutions": 4,
+      "gain": -0.34,
+      "relative": -0.12
+    },
+    "east_and_kinmen below 35": {
+      "n": 78,
+      "institutions": 4,
+      "gain": -0.32,
+      "relative": -0.11
+    },
+    "south below 30 by institution": [
+      {
+        "departments": 21,
+        "private": true,
+        "gain": 0.21
+      },
+      {
+        "departments": 21,
+        "private": true,
+        "gain": 0.09
+      },
+      {
+        "departments": 8,
+        "private": true,
+        "gain": null,
+        "suppressed": "fewer than 10 departments"
+      },
+      {
+        "departments": 7,
+        "private": false,
+        "gain": null,
+        "suppressed": "fewer than 10 departments"
+      },
+      {
+        "departments": 7,
+        "private": true,
+        "gain": null,
+        "suppressed": "fewer than 10 departments"
+      },
+      {
+        "departments": 7,
+        "private": false,
+        "gain": null,
+        "suppressed": "fewer than 10 departments"
+      },
+      {
+        "departments": 2,
+        "private": false,
+        "gain": null,
+        "suppressed": "fewer than 10 departments"
+      }
+    ],
+    "by_level_bin": [
+      {
+        "level": [
+          15,
+          20
+        ],
+        "n": 45,
+        "gain": 0.04,
+        "relative": 0.02,
+        "interval": [
+          -0.61,
+          0.57
+        ]
+      },
+      {
+        "level": [
+          20,
+          25
+        ],
+        "n": 130,
+        "gain": -0.07,
+        "relative": -0.03,
+        "interval": [
+          -0.41,
+          0.21
+        ]
+      },
+      {
+        "level": [
+          25,
+          30
+        ],
+        "n": 200,
+        "gain": -0.4,
+        "relative": -0.19,
+        "interval": [
+          -0.55,
+          -0.23
+        ]
+      },
+      {
+        "level": [
+          30,
+          35
+        ],
+        "n": 291,
+        "gain": -0.36,
+        "relative": -0.18,
+        "interval": [
+          -0.51,
+          -0.21
+        ]
+      },
+      {
+        "level": [
+          35,
+          40
+        ],
+        "n": 244,
+        "gain": -0.33,
+        "relative": -0.19,
+        "interval": [
+          -0.49,
+          -0.18
+        ]
+      },
+      {
+        "level": [
+          40,
+          45
+        ],
+        "n": 237,
+        "gain": -0.17,
+        "relative": -0.14,
+        "interval": [
+          -0.27,
+          -0.09
+        ]
+      },
+      {
+        "level": [
+          45,
+          50
+        ],
+        "n": 236,
+        "gain": -0.19,
+        "relative": -0.23,
+        "interval": [
+          -0.27,
+          -0.11
+        ]
+      },
+      {
+        "level": [
+          50,
+          55
+        ],
+        "n": 116,
+        "gain": -0.08,
+        "relative": -0.13,
+        "interval": [
+          -0.17,
+          -0.02
+        ]
+      }
+    ]
+  },
+  "caution": {
+    "below_30": {
+      "baseline": 0.36,
+      "combination": 0.36
+    },
+    "at_least_30": {
+      "baseline": 0.37,
+      "combination": 0.29
+    },
+    "difference_in_change": 0.08,
+    "interval": [
+      0.02,
+      0.15
+    ]
+  },
+  "encompassing": {
+    "hln_baseline_encompasses_v3": {
+      "mean": 3.53,
+      "t": 6.99,
+      "institutions": 59
+    },
+    "hln_v3_encompasses_baseline": {
+      "mean": 6.92,
+      "t": 6.25,
+      "institutions": 59
+    },
+    "slope_through_origin": 0.34,
+    "t_through_origin": 10.4
+  },
+  "placement_ci": {
+    "evaluated divisible": {
+      "more_favorable_lowest": [
+        0.15,
+        [
+          0.12,
+          0.18
+        ]
+      ],
+      "more_favorable_highest": [
+        0.07,
+        [
+          0.06,
+          0.09
+        ]
+      ],
+      "more_favorable_difference": [
+        0.04,
+        0.11
+      ],
+      "only_simulation_lowest": [
+        0.03,
+        [
+          0.02,
+          0.04
+        ]
+      ],
+      "only_simulation_highest": [
+        0.004,
+        [
+          0.002,
+          0.01
+        ]
+      ],
+      "only_simulation_difference": [
+        0.01,
+        0.04
+      ]
+    },
+    "evaluated wholePerson": {
+      "more_favorable_lowest": [
+        0.15,
+        [
+          0.13,
+          0.18
+        ]
+      ],
+      "more_favorable_highest": [
+        0.08,
+        [
+          0.07,
+          0.1
+        ]
+      ],
+      "more_favorable_difference": [
+        0.04,
+        0.1
+      ],
+      "only_simulation_lowest": [
+        0.03,
+        [
+          0.02,
+          0.04
+        ]
+      ],
+      "only_simulation_highest": [
+        0.004,
+        [
+          0.002,
+          0.01
+        ]
+      ],
+      "only_simulation_difference": [
+        0.01,
+        0.04
+      ]
+    },
+    "preDeadline divisible": {
+      "more_favorable_lowest": [
+        0.17,
+        [
+          0.14,
+          0.2
+        ]
+      ],
+      "more_favorable_highest": [
+        0.12,
+        [
+          0.1,
+          0.14
+        ]
+      ],
+      "more_favorable_difference": [
+        0.02,
+        0.09
+      ],
+      "only_simulation_lowest": [
+        0.03,
+        [
+          0.02,
+          0.04
+        ]
+      ],
+      "only_simulation_highest": [
+        0.004,
+        [
+          0.001,
+          0.01
+        ]
+      ],
+      "only_simulation_difference": [
+        0.01,
+        0.04
+      ]
+    },
+    "preDeadline wholePerson": {
+      "more_favorable_lowest": [
+        0.17,
+        [
+          0.14,
+          0.2
+        ]
+      ],
+      "more_favorable_highest": [
+        0.12,
+        [
+          0.1,
+          0.14
+        ]
+      ],
+      "more_favorable_difference": [
+        0.01,
+        0.09
+      ],
+      "only_simulation_lowest": [
+        0.02,
+        [
+          0.01,
+          0.04
+        ]
+      ],
+      "only_simulation_highest": [
+        0.003,
+        [
+          0.001,
+          0.008
+        ]
+      ],
+      "only_simulation_difference": [
+        0.01,
+        0.04
+      ]
+    }
+  },
+  "margins": {
+    "backtest_departments": 1486,
+    "overall_margin": 3.37,
+    "by_level": {
+      "0-30": {
+        "n": 471,
+        "margin": 5.31
+      },
+      "30-40": {
+        "n": 445,
+        "margin": 2.53
+      },
+      "40-45": {
+        "n": 217,
+        "margin": 1.43
+      },
+      "45-50": {
+        "n": 222,
+        "margin": 1.12
+      },
+      "50-61": {
+        "n": 131,
+        "margin": 1.08
+      }
+    },
+    "exceeded_overall_margin": {
+      "baseline": 0.03,
+      "combination": 0.02
+    },
+    "exceeded_level_margin": {
+      "baseline": 0.05,
+      "combination": 0.03
+    },
+    "by_level_exceeded": {
+      "0-30": {
+        "baseline": 0.03,
+        "combination": 0.02
+      },
+      "30-40": {
+        "baseline": 0.04,
+        "combination": 0.03
+      },
+      "40-45": {
+        "baseline": 0.07,
+        "combination": 0.05
+      },
+      "45-50": {
+        "baseline": 0.07,
+        "combination": 0.02
+      },
+      "50-61": {
+        "baseline": 0.03,
+        "combination": 0.01
+      }
+    },
+    "backtest_2025_official_above_prediction": 0.61,
+    "backtest_2025_official_above_by_a_grade": 0.34,
+    "if_2026_errors_shifted_like_2025": {
+      "baseline": 0.18,
+      "combination": 0.17
+    }
+  },
+  "plan_v018": {
+    "departments": 1406,
+    "official_inside_90": 0.81,
+    "median_width_90_grades": 4.21,
+    "replicates": 200,
+    "replicate_v3_mae_median": 2.17
+  },
+  "dose_response": {
+    "groups": {
+      "subjects changed": {
+        "n": 179,
+        "gain": -0.6,
+        "share_of_total_gain": 0.28,
+        "interval": [
+          -0.77,
+          -0.44
+        ],
+        "agreement": 0.9,
+        "flagged": 110
+      },
+      "multipliers changed": {
+        "n": 63,
+        "gain": -0.16,
+        "share_of_total_gain": 0.03,
+        "interval": [
+          -0.45,
+          0.11
+        ],
+        "agreement": 0.72,
+        "flagged": 39
+      },
+      "rules unchanged, quota unchanged": {
+        "n": 167,
+        "gain": -0.11,
+        "share_of_total_gain": 0.05,
+        "interval": [
+          -0.26,
+          0.04
+        ],
+        "agreement": 0.78,
+        "flagged": 74
+      },
+      "rules unchanged, |dlog q| <= 0.05": {
+        "n": 68,
+        "gain": -0.22,
+        "share_of_total_gain": 0.04,
+        "interval": [
+          -0.42,
+          -0.04
+        ],
+        "agreement": 0.88,
+        "flagged": 34
+      },
+      "rules unchanged, 0.05-0.15": {
+        "n": 306,
+        "gain": -0.15,
+        "share_of_total_gain": 0.12,
+        "interval": [
+          -0.26,
+          -0.04
+        ],
+        "agreement": 0.75,
+        "flagged": 165
+      },
+      "rules unchanged, 0.15-0.35": {
+        "n": 417,
+        "gain": -0.13,
+        "share_of_total_gain": 0.15,
+        "interval": [
+          -0.23,
+          -0.03
+        ],
+        "agreement": 0.77,
+        "flagged": 224
+      },
+      "rules unchanged, > 0.35": {
+        "n": 321,
+        "gain": -0.4,
+        "share_of_total_gain": 0.34,
+        "interval": [
+          -0.57,
+          -0.23
+        ],
+        "agreement": 0.8,
+        "flagged": 209
+      },
+      "rules unchanged, 0.05-0.35 (the two middle bins together)": {
+        "n": 723,
+        "gain": -0.14,
+        "share_of_total_gain": 0.27,
+        "interval": [
+          -0.23,
+          -0.05
+        ],
+        "agreement": 0.76,
+        "flagged": 389
+      },
+      "no 2025 quota or rule record": {
+        "n": 1,
+        "gain": null,
+        "share_of_total_gain": null,
+        "interval": null,
+        "agreement": null,
+        "flagged": null,
+        "suppressed": "fewer than 10 departments"
+      }
+    },
+    "regression": {
+      "n": 1520,
+      "intercept": -0.09,
+      "per_unit_dlog_q": -0.45,
+      "subjects_changed": -0.36,
+      "multipliers_changed": 0.06,
+      "intercept_interval": [
+        -0.18,
+        -0.003
+      ]
+    }
+  },
+  "practical": {
+    "worse_than_baseline": 0.37,
+    "worse_by_half_grade": 0.13,
+    "better_by_half_grade": 0.31,
+    "off_by_a_grade_or_more": {
+      "baseline": 0.54,
+      "combination": 0.44
+    },
+    "contribution_by_baseline_error": {
+      "0-1": {
+        "n": 707,
+        "share_of_total_gain": -0.25
+      },
+      "1-2": {
+        "n": 394,
+        "share_of_total_gain": 0.32
+      },
+      "2-4": {
+        "n": 295,
+        "share_of_total_gain": 0.49
+      },
+      "4-inf": {
+        "n": 125,
+        "share_of_total_gain": 0.44
+      }
+    },
+    "weighted_total_mae": {
+      "baseline": 7.7,
+      "combination": 6.52
+    },
+    "listing_weighted_mae": {
+      "baseline": 1.15,
+      "combination": 0.93,
+      "relative": -0.19
+    },
+    "mae_optimal_weight": [
+      0.4,
+      1.35
+    ]
+  },
+  "display_rules": {
+    "thin low level": {
+      "all": {
+        "n": 1521,
+        "fallbacks": 243,
+        "mae": 1.35,
+        "relative_to_baseline": -0.16,
+        "relative_combination": -0.16
+      },
+      "below 30": {
+        "n": 378,
+        "fallbacks": 243,
+        "mae": 2.01,
+        "relative_to_baseline": -0.11,
+        "relative_combination": -0.12
+      },
+      "below 30, south, east and Kinmen": {
+        "n": 138,
+        "fallbacks": 99,
+        "mae": 2.41,
+        "relative_to_baseline": -0.12,
+        "relative_combination": -0.03
+      },
+      "private": {
+        "n": 703,
+        "fallbacks": 183,
+        "mae": 1.62,
+        "relative_to_baseline": -0.14,
+        "relative_combination": -0.14
+      },
+      "officially underfilled": {
+        "n": 45,
+        "fallbacks": 43,
+        "mae": 2.94,
+        "relative_to_baseline": -0.05,
+        "relative_combination": 0.25
+      }
+    },
+    "simulated underfilled": {
+      "all": {
+        "n": 1521,
+        "fallbacks": 45,
+        "mae": 1.34,
+        "relative_to_baseline": -0.16,
+        "relative_combination": -0.16
+      },
+      "below 30": {
+        "n": 378,
+        "fallbacks": 38,
+        "mae": 1.94,
+        "relative_to_baseline": -0.15,
+        "relative_combination": -0.12
+      },
+      "below 30, south, east and Kinmen": {
+        "n": 138,
+        "fallbacks": 21,
+        "mae": 2.53,
+        "relative_to_baseline": -0.07,
+        "relative_combination": -0.03
+      },
+      "private": {
+        "n": 703,
+        "fallbacks": 32,
+        "mae": 1.62,
+        "relative_to_baseline": -0.15,
+        "relative_combination": -0.14
+      },
+      "officially underfilled": {
+        "n": 45,
+        "fallbacks": 12,
+        "mae": 3.5,
+        "relative_to_baseline": 0.13,
+        "relative_combination": 0.25
+      }
+    },
+    "either": {
+      "all": {
+        "n": 1521,
+        "fallbacks": 253,
+        "mae": 1.36,
+        "relative_to_baseline": -0.15,
+        "relative_combination": -0.16
+      },
+      "below 30": {
+        "n": 378,
+        "fallbacks": 246,
+        "mae": 2.01,
+        "relative_to_baseline": -0.11,
+        "relative_combination": -0.12
+      },
+      "below 30, south, east and Kinmen": {
+        "n": 138,
+        "fallbacks": 100,
+        "mae": 2.41,
+        "relative_to_baseline": -0.12,
+        "relative_combination": -0.03
+      },
+      "private": {
+        "n": 703,
+        "fallbacks": 190,
+        "mae": 1.64,
+        "relative_to_baseline": -0.13,
+        "relative_combination": -0.14
+      },
+      "officially underfilled": {
+        "n": 45,
+        "fallbacks": 43,
+        "mae": 2.94,
+        "relative_to_baseline": -0.05,
+        "relative_combination": 0.25
+      }
+    },
+    "quota_status_values": [
+      "filled",
+      "underfilled"
+    ]
+  },
+  "release": {
+    "all": {
+      "n": 1521,
+      "institutions": 59,
+      "relative": -0.16,
+      "gain": -0.25,
+      "agreement": 0.79,
+      "private_share": 0.46
+    },
+    "confidence normal": {
+      "n": 1403,
+      "institutions": 56,
+      "relative": -0.17,
+      "gain": -0.24,
+      "agreement": 0.8,
+      "private_share": 0.44
+    },
+    "at least 10 listings": {
+      "n": 1495,
+      "institutions": 57,
+      "relative": -0.16,
+      "gain": -0.25,
+      "agreement": 0.79,
+      "private_share": 0.45
+    },
+    "at least 20 listings": {
+      "n": 1377,
+      "institutions": 56,
+      "relative": -0.17,
+      "gain": -0.24,
+      "agreement": 0.8,
+      "private_share": 0.44
+    },
+    "confidence_values": [
+      "insufficient",
+      "normal"
+    ]
+  },
+  "filled": {
+    "filled": {
+      "n": 1476,
+      "mae_baseline": 1.55,
+      "mae_v3": 1.69,
+      "mae_combination": 1.27,
+      "gain": -0.28,
+      "interval": [
+        -0.36,
+        -0.21
+      ]
+    },
+    "underfilled": {
+      "n": 45,
+      "mae_baseline": 3.1,
+      "mae_v3": 6.12,
+      "mae_combination": 3.87,
+      "gain": 0.77,
+      "interval": [
+        0.22,
+        1.62
+      ]
+    }
+  },
+  "heterogeneity": {
+    "institutions": 59,
+    "reml_mean": -0.22,
+    "reml_tau": 0.18,
+    "prediction_interval": [
+      -0.6,
+      0.15
+    ],
+    "correlation_gain_with_standard_error": 0.33
+  },
+  "pooling": {
+    "region_by_level": {
+      "tau": 0.11,
+      "mean": -0.29,
+      "cells": {
+        "north below 30": {
+          "n": 163,
+          "raw": -0.29,
+          "se": 0.08,
+          "pooled": -0.29
+        },
+        "north at least 30": {
+          "n": 604,
+          "raw": -0.18,
+          "se": 0.03,
+          "pooled": -0.18
+        },
+        "central below 30": {
+          "n": 77,
+          "raw": -0.5,
+          "se": 0.18,
+          "pooled": -0.35
+        },
+        "central at least 30": {
+          "n": 255,
+          "raw": -0.23,
+          "se": 0.12,
+          "pooled": -0.26
+        },
+        "south below 30": {
+          "n": 73,
+          "raw": -0.009,
+          "se": 0.18,
+          "pooled": -0.21
+        },
+        "south at least 30": {
+          "n": 260,
+          "raw": -0.35,
+          "se": 0.08,
+          "pooled": -0.33
+        },
+        "east_and_kinmen below 30": {
+          "n": 65,
+          "raw": -0.19,
+          "se": 0.3,
+          "pooled": -0.28
+        },
+        "east_and_kinmen at least 30": {
+          "n": 24,
+          "raw": -1.01,
+          "se": 0.25,
+          "pooled": -0.4
+        }
+      }
+    },
+    "structure": {
+      "tau": 0.21,
+      "mean": -0.27,
+      "cells": {
+        "subjects changed": {
+          "n": 179,
+          "raw": -0.6,
+          "se": 0.08,
+          "pooled": -0.56
+        },
+        "multipliers changed": {
+          "n": 63,
+          "raw": -0.16,
+          "se": 0.14,
+          "pooled": -0.19
+        },
+        "rules unchanged, quota changed": {
+          "n": 1112,
+          "raw": -0.22,
+          "se": 0.05,
+          "pooled": -0.22
+        },
+        "rules and quota unchanged": {
+          "n": 167,
+          "raw": -0.11,
+          "se": 0.07,
+          "pooled": -0.13
+        }
+      }
+    }
+  },
+  "no_history": {
+    "n": 89,
+    "mae_v3": 2.93,
+    "bias_v3": -1.04,
+    "mae_synthetic": 3.47,
+    "mae_mix_0.4": 2.52,
+    "mae_mix_0.6": 2.35
+  },
+  "year_shift": {
+    "sd 0.5": {
+      "expected_gain": -0.24,
+      "q10": -0.3,
+      "q90": -0.16
+    },
+    "sd 0.8": {
+      "expected_gain": -0.22,
+      "q10": -0.31,
+      "q90": -0.08
+    }
+  }
+}

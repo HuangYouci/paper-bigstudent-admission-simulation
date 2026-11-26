@@ -1,0 +1,65 @@
+{
+ "J2": 1521,
+ "controlled_tier_sha256": {
+  "department-benchmark.csv": "e8630de0e266f92036ec4f1c4eb71965275fbe4c2ced4d7802a0a7397cb56025",
+  "engine-2026.csv": "45939e3591882eb6f66956c3e058e99131c74bbb7cadd2e990ff9f089dd19e20",
+  "weighting-granularity-departments.csv": "3b23e3107be1a3421f9691f8d5b6e18c46a28897f77937a1dd0a917e154c7a38"
+ },
+ "released_v3": 1384,
+ "released_v3_in_J2": 1333,
+ "rule": "public tier: v1, v2, Fractional and the alternative calibrations withheld; v3, its archived copy and the simulated filling status released only where confidence is normal and v3 differs from Fractional; engine columns that mix in v3 withheld where v3 is withheld",
+ "sha256": {
+  "department-benchmark.csv": "6b51976428b74e21c47a384dfa8eb7dcccc97090440266341ff26c3cbcf5f962",
+  "engine-2026.csv": "4691a6d3912862f0cd9dc77a7c6424d2ff0a37e2b30533aff37992f656760783",
+  "institution-sums.csv": "6f6311cae1399a59cee4982dfed3b8662e2ea33f7276397719faf4602fa720d7"
+ },
+ "table2_sums": {
+  "clusters": 51,
+  "departments_J5": 1361,
+  "institutions_J5": 58,
+  "merged_institutions": 8,
+  "methods": {
+   "baseline": {
+    "released_controlled_tier": 1575,
+    "sum_abs_error": 2000.808808043457,
+    "sum_abs_raw_error": 9687.76974714246,
+    "sum_error": 823.7905211972321,
+    "sum_quota_times_abs_error": 42180.69107176878
+   },
+   "fractional": {
+    "released_controlled_tier": 1611,
+    "sum_abs_error": 2464.3626404778797,
+    "sum_abs_raw_error": 11891.0,
+    "sum_error": 1346.4278119212754,
+    "sum_quota_times_abs_error": 48217.06466422533
+   },
+   "v1": {
+    "released_controlled_tier": 1474,
+    "sum_abs_error": 4525.74354561267,
+    "sum_abs_raw_error": 21848.75,
+    "sum_error": 3632.207129731098,
+    "sum_quota_times_abs_error": 92528.45044765761
+   },
+   "v2": {
+    "released_controlled_tier": 1482,
+    "sum_abs_error": 2968.378583558157,
+    "sum_abs_raw_error": 14227.75,
+    "sum_error": 1461.5813458313803,
+    "sum_quota_times_abs_error": 56921.45615092746
+   },
+   "v3": {
+    "released_controlled_tier": 1611,
+    "sum_abs_error": 2239.0765312758094,
+    "sum_abs_raw_error": 10837.970000000001,
+    "sum_error": 792.9639917086041,
+    "sum_quota_times_abs_error": 44655.732775359975
+   }
+  },
+  "sum_quota": 28879
+ },
+ "withheld_in_J2_by_reason": {
+  "confidence insufficient": 118,
+  "normal but equal to Fractional": 70
+ },
+ "withheld_v3_in_J2": 188
+}

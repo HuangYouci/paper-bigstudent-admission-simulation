@@ -1,0 +1,10 @@
+{
+  "recordDate": "2026-10-10",
+  "departments": 1706,
+  "predictions": 1575,
+  "missing": 131,
+  "predictionsUsingGsat": 1556,
+  "maximumAbsoluteDifference": 0.0,
+  "inputSHA256": "bc667ce55bc18a4bb0e9917004a30f09d320235ec71af684a3ace1dd02d6e7b7",
+  "scope": "重現固定比較器，不宣稱學測15級乘四符合正式60級分換算，也不更換既有基準。"
+}

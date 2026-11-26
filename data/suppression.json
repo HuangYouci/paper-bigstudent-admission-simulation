@@ -1,0 +1,8 @@
+{
+  "rule": "simulated values and filling status withheld when platform listings < 5; released simulated values rounded to two decimals; department values of earlier saved runs not released",
+  "departments": 52,
+  "benchmarkValuesWithheld": 104,
+  "departmentCsvSHA256": "e8630de0e266f92036ec4f1c4eb71965275fbe4c2ced4d7802a0a7397cb56025",
+  "granularityValuesWithheld": 85,
+  "granularityCsvSHA256": "3b23e3107be1a3421f9691f8d5b6e18c46a28897f77937a1dd0a917e154c7a38"
+}

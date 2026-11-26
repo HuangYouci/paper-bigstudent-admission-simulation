@@ -1,0 +1,233 @@
+{
+  "note": "Run-level summaries computed by archived_run_summary.py from the saved run values of departments with at least five listings; the department values themselves are not released.",
+  "rows": [
+    {
+      "runId": "ast_20260805T175904Z",
+      "startedAt": "2026-08-05T18:00:00.000Z",
+      "completedAt": "2026-08-05T17:59:35.336Z",
+      "sampleCount": 1634,
+      "algorithmVersion": "ast-da-v1",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "minimumAssignedScore",
+      "timeOrderValid": false,
+      "supported": 1038,
+      "ownMAE": 4.14,
+      "paired": 1015,
+      "pairedMAE": 4.14,
+      "pairedBaselineMAE": 1.43
+    },
+    {
+      "runId": "ast_20260806T120005Z",
+      "startedAt": "2026-08-06T12:00:00.000Z",
+      "completedAt": "2026-08-06T12:00:49.857Z",
+      "sampleCount": 2524,
+      "algorithmVersion": "ast-da-v1",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "minimumAssignedScore",
+      "timeOrderValid": true,
+      "supported": 1277,
+      "ownMAE": 4.02,
+      "paired": 1236,
+      "pairedMAE": 3.98,
+      "pairedBaselineMAE": 1.47
+    },
+    {
+      "runId": "ast_20260807T022008Z",
+      "startedAt": "2026-08-07T02:20:00.000Z",
+      "completedAt": "2026-08-07T02:20:55.450Z",
+      "sampleCount": 3459,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "minimumAssignedScore",
+      "timeOrderValid": true,
+      "supported": 1378,
+      "ownMAE": 2.61,
+      "paired": 1322,
+      "pairedMAE": 2.57,
+      "pairedBaselineMAE": 1.46
+    },
+    {
+      "runId": "ast_20260807T120012Z",
+      "startedAt": "2026-08-07T12:00:00.000Z",
+      "completedAt": "2026-08-07T12:01:21.429Z",
+      "sampleCount": 3768,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "minimumAssignedScore",
+      "timeOrderValid": true,
+      "supported": 1406,
+      "ownMAE": 2.62,
+      "paired": 1347,
+      "pairedMAE": 2.58,
+      "pairedBaselineMAE": 1.46
+    },
+    {
+      "runId": "ast_20260808T035958Z",
+      "startedAt": "2026-08-08T04:00:00.000Z",
+      "completedAt": "2026-08-08T04:01:31.120Z",
+      "sampleCount": 4242,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "minimumAssignedScore",
+      "timeOrderValid": true,
+      "supported": 1458,
+      "ownMAE": 2.53,
+      "paired": 1389,
+      "pairedMAE": 2.48,
+      "pairedBaselineMAE": 1.47
+    },
+    {
+      "runId": "ast_20260808T095000Z",
+      "startedAt": "2026-08-08T09:50:00.502Z",
+      "completedAt": "2026-08-08T09:51:15.432Z",
+      "sampleCount": 4320,
+      "algorithmVersion": "ast-da-v2",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "minimumAssignedScore",
+      "timeOrderValid": true,
+      "supported": 1460,
+      "ownMAE": 2.38,
+      "paired": 1392,
+      "pairedMAE": 2.32,
+      "pairedBaselineMAE": 1.48
+    },
+    {
+      "runId": "ast_20260813T012242Z",
+      "startedAt": "2026-08-13T01:22:42.622Z",
+      "completedAt": "2026-08-13T01:24:05.760Z",
+      "sampleCount": 4482,
+      "algorithmVersion": "ast-da-v3",
+      "status": "hidden",
+      "departmentDocuments": 1717,
+      "cutoffField": "publishedCutoff",
+      "timeOrderValid": true,
+      "supported": 1612,
+      "ownMAE": 1.93,
+      "paired": 1522,
+      "pairedMAE": 1.88,
+      "pairedBaselineMAE": 1.59
+    },
+    {
+      "runId": "ast_20260815T150000Z",
+      "startedAt": "2026-08-15T15:00:00.826Z",
+      "completedAt": "2026-08-15T15:01:43.889Z",
+      "sampleCount": 4627,
+      "algorithmVersion": "ast-da-v3",
+      "status": "completed",
+      "departmentDocuments": 1717,
+      "cutoffField": "publishedCutoff",
+      "timeOrderValid": true,
+      "supported": 1611,
+      "ownMAE": 1.88,
+      "paired": 1521,
+      "pairedMAE": 1.82,
+      "pairedBaselineMAE": 1.6
+    }
+  ],
+  "commonMetrics": {
+    "n": 1157,
+    "baselineMAE": 1.4,
+    "runs": [
+      {
+        "runId": "ast_20260806T120005Z",
+        "mae": 3.77
+      },
+      {
+        "runId": "ast_20260807T022008Z",
+        "mae": 2.42
+      },
+      {
+        "runId": "ast_20260807T120012Z",
+        "mae": 2.39
+      },
+      {
+        "runId": "ast_20260808T035958Z",
+        "mae": 2.32
+      },
+      {
+        "runId": "ast_20260808T095000Z",
+        "mae": 2.17
+      },
+      {
+        "runId": "ast_20260813T012242Z",
+        "mae": 1.59
+      },
+      {
+        "runId": "ast_20260815T150000Z",
+        "mae": 1.54
+      }
+    ]
+  },
+  "lastOutputBeforeDeadline": {
+    "run": "ast_20260808T035958Z",
+    "algorithm": "v2",
+    "n": 1389,
+    "mae_v2": 2.48,
+    "mae_mix": 1.53,
+    "mae_baseline": 1.47,
+    "mix_minus_baseline": {
+      "difference": 0.06,
+      "relative": 0.04,
+      "interval": [
+        -0.03,
+        0.15
+      ]
+    },
+    "mean_S": 0.72,
+    "baseline_backtest_bias_2025": -0.59,
+    "flags_raw": {
+      "hot": {
+        "flags": 538,
+        "events": 214,
+        "precision": 0.3,
+        "recall": 0.76,
+        "moved_one_grade_the_other_way": 142
+      },
+      "cold": {
+        "flags": 322,
+        "events": 506,
+        "precision": 0.63,
+        "recall": 0.4,
+        "moved_one_grade_the_other_way": 16
+      }
+    },
+    "flags_S_centred_on_own_mean": {
+      "hot": {
+        "flags": 378,
+        "events": 214,
+        "precision": 0.35,
+        "recall": 0.63,
+        "moved_one_grade_the_other_way": 101
+      },
+      "cold": {
+        "flags": 483,
+        "events": 506,
+        "precision": 0.57,
+        "recall": 0.54,
+        "moved_one_grade_the_other_way": 23
+      }
+    },
+    "flags_backtest_bias_removed": {
+      "hot": {
+        "flags": 396,
+        "events": 128,
+        "precision": 0.23,
+        "recall": 0.73,
+        "moved_one_grade_the_other_way": 151
+      },
+      "cold": {
+        "flags": 444,
+        "events": 731,
+        "precision": 0.73,
+        "recall": 0.45,
+        "moved_one_grade_the_other_way": 14
+      }
+    }
+  }
+}

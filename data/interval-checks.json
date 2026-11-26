@@ -1,0 +1,857 @@
+{
+  "note": "exploratory; added after the second and third rounds of simulated pre-submission reviews",
+  "level": 0.8,
+  "n": 1521,
+  "fixed": {
+    "coverage": 0.8,
+    "median_width": 4.19,
+    "official_above_interval": 0.05,
+    "official_below_interval": 0.15,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.47,
+        "median_width": 4.15,
+        "official_above_interval": 0.14
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.64,
+        "median_width": 4.15,
+        "official_above_interval": 0.1
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.82,
+        "median_width": 4.19,
+        "official_above_interval": 0.04
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.94,
+        "median_width": 4.25,
+        "official_above_interval": 0.02
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.98,
+        "median_width": 4.25,
+        "official_above_interval": 0.01
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.65,
+        "median_width": 4.12,
+        "official_above_interval": 0.12
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.75,
+        "median_width": 4.19,
+        "official_above_interval": 0.05
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.87,
+        "median_width": 4.24,
+        "official_above_interval": 0.03
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.97,
+        "median_width": 4.26,
+        "official_above_interval": 0.008
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.99,
+        "median_width": 4.27,
+        "official_above_interval": 0.0
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.83,
+        "median_width": 4.23,
+        "official_above_interval": 0.05
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.47,
+        "median_width": 4.15,
+        "official_above_interval": 0.14
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.54,
+        "median_width": 4.15,
+        "official_above_interval": 0.17
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.84,
+        "median_width": 4.24,
+        "official_above_interval": 0.04
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 17,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "scaled": {
+    "coverage": 0.8,
+    "median_width": 3.85,
+    "official_above_interval": 0.06,
+    "official_below_interval": 0.14,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.73,
+        "median_width": 7.91,
+        "official_above_interval": 0.07
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.76,
+        "median_width": 5.6,
+        "official_above_interval": 0.07
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.8,
+        "median_width": 4.04,
+        "official_above_interval": 0.04
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.83,
+        "median_width": 2.66,
+        "official_above_interval": 0.05
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.87,
+        "median_width": 1.73,
+        "official_above_interval": 0.06
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.74,
+        "median_width": 5.33,
+        "official_above_interval": 0.1
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.8,
+        "median_width": 4.48,
+        "official_above_interval": 0.05
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.81,
+        "median_width": 3.14,
+        "official_above_interval": 0.03
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.87,
+        "median_width": 2.22,
+        "official_above_interval": 0.03
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.82,
+        "median_width": 1.66,
+        "official_above_interval": 0.04
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.81,
+        "median_width": 3.67,
+        "official_above_interval": 0.05
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.74,
+        "median_width": 8.18,
+        "official_above_interval": 0.06
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.7,
+        "median_width": 5.55,
+        "official_above_interval": 0.12
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.82,
+        "median_width": 3.59,
+        "official_above_interval": 0.04
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 15,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "fixed_90": {
+    "coverage": 0.9,
+    "median_width": 6.31,
+    "official_above_interval": 0.03,
+    "official_below_interval": 0.07,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.66,
+        "median_width": 6.26,
+        "official_above_interval": 0.1
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.8,
+        "median_width": 6.26,
+        "official_above_interval": 0.06
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.93,
+        "median_width": 6.31,
+        "official_above_interval": 0.01
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.98,
+        "median_width": 6.38,
+        "official_above_interval": 0.002
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 1.0,
+        "median_width": 6.38,
+        "official_above_interval": 0.0
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.78,
+        "median_width": 6.23,
+        "official_above_interval": 0.07
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.88,
+        "median_width": 6.31,
+        "official_above_interval": 0.01
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.97,
+        "median_width": 6.35,
+        "official_above_interval": 0.01
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.99,
+        "median_width": 6.38,
+        "official_above_interval": 0.004
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 1.0,
+        "median_width": 6.4,
+        "official_above_interval": 0.0
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.92,
+        "median_width": 6.31,
+        "official_above_interval": 0.02
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.67,
+        "median_width": 6.26,
+        "official_above_interval": 0.08
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.77,
+        "median_width": 6.26,
+        "official_above_interval": 0.06
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.92,
+        "median_width": 6.31,
+        "official_above_interval": 0.02
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 6,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "scaled_90": {
+    "coverage": 0.9,
+    "median_width": 5.13,
+    "official_above_interval": 0.03,
+    "official_below_interval": 0.08,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.88,
+        "median_width": 10.53,
+        "official_above_interval": 0.01
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.87,
+        "median_width": 7.46,
+        "official_above_interval": 0.04
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.9,
+        "median_width": 5.38,
+        "official_above_interval": 0.02
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.92,
+        "median_width": 3.53,
+        "official_above_interval": 0.03
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.92,
+        "median_width": 2.3,
+        "official_above_interval": 0.04
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.85,
+        "median_width": 7.14,
+        "official_above_interval": 0.05
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.89,
+        "median_width": 5.97,
+        "official_above_interval": 0.02
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.93,
+        "median_width": 4.18,
+        "official_above_interval": 0.02
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.94,
+        "median_width": 2.95,
+        "official_above_interval": 0.01
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.92,
+        "median_width": 2.23,
+        "official_above_interval": 0.02
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.9,
+        "median_width": 4.88,
+        "official_above_interval": 0.03
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.88,
+        "median_width": 10.87,
+        "official_above_interval": 0.008
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.84,
+        "median_width": 7.36,
+        "official_above_interval": 0.05
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.91,
+        "median_width": 4.79,
+        "official_above_interval": 0.02
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 4,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "scaled_equal_tailed": {
+    "coverage": 0.8,
+    "median_width": 3.55,
+    "official_above_interval": 0.1,
+    "official_below_interval": 0.1,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.75,
+        "median_width": 7.32,
+        "official_above_interval": 0.11
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.76,
+        "median_width": 5.17,
+        "official_above_interval": 0.12
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.8,
+        "median_width": 3.73,
+        "official_above_interval": 0.09
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.82,
+        "median_width": 2.46,
+        "official_above_interval": 0.1
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.83,
+        "median_width": 1.59,
+        "official_above_interval": 0.12
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.71,
+        "median_width": 4.92,
+        "official_above_interval": 0.16
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.79,
+        "median_width": 4.13,
+        "official_above_interval": 0.1
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.84,
+        "median_width": 2.91,
+        "official_above_interval": 0.08
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.86,
+        "median_width": 2.05,
+        "official_above_interval": 0.06
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.87,
+        "median_width": 1.54,
+        "official_above_interval": 0.05
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.8,
+        "median_width": 3.38,
+        "official_above_interval": 0.1
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.75,
+        "median_width": 7.52,
+        "official_above_interval": 0.1
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.66,
+        "median_width": 5.09,
+        "official_above_interval": 0.2
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.82,
+        "median_width": 3.32,
+        "official_above_interval": 0.09
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 9,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "scaled_with_S": {
+    "coverage": 0.8,
+    "median_width": 3.8,
+    "official_above_interval": 0.05,
+    "official_below_interval": 0.15,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.75,
+        "median_width": 8.06,
+        "official_above_interval": 0.06
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.75,
+        "median_width": 5.65,
+        "official_above_interval": 0.06
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.8,
+        "median_width": 4.0,
+        "official_above_interval": 0.04
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.83,
+        "median_width": 2.64,
+        "official_above_interval": 0.05
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.87,
+        "median_width": 1.78,
+        "official_above_interval": 0.05
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.75,
+        "median_width": 5.44,
+        "official_above_interval": 0.08
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.79,
+        "median_width": 4.46,
+        "official_above_interval": 0.05
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.82,
+        "median_width": 3.13,
+        "official_above_interval": 0.03
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.86,
+        "median_width": 2.21,
+        "official_above_interval": 0.02
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.82,
+        "median_width": 1.66,
+        "official_above_interval": 0.04
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.8,
+        "median_width": 3.65,
+        "official_above_interval": 0.05
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.75,
+        "median_width": 8.42,
+        "official_above_interval": 0.04
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.77,
+        "median_width": 6.49,
+        "official_above_interval": 0.08
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.8,
+        "median_width": 3.55,
+        "official_above_interval": 0.05
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 15,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "scaled_with_S_equal_tailed": {
+    "coverage": 0.8,
+    "median_width": 3.41,
+    "official_above_interval": 0.1,
+    "official_below_interval": 0.1,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.75,
+        "median_width": 7.26,
+        "official_above_interval": 0.11
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.77,
+        "median_width": 5.11,
+        "official_above_interval": 0.11
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.8,
+        "median_width": 3.59,
+        "official_above_interval": 0.08
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.82,
+        "median_width": 2.37,
+        "official_above_interval": 0.11
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.83,
+        "median_width": 1.62,
+        "official_above_interval": 0.12
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.72,
+        "median_width": 4.92,
+        "official_above_interval": 0.16
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.78,
+        "median_width": 4.01,
+        "official_above_interval": 0.1
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.83,
+        "median_width": 2.82,
+        "official_above_interval": 0.08
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.87,
+        "median_width": 1.99,
+        "official_above_interval": 0.06
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.88,
+        "median_width": 1.49,
+        "official_above_interval": 0.05
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.8,
+        "median_width": 3.27,
+        "official_above_interval": 0.1
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.75,
+        "median_width": 7.54,
+        "official_above_interval": 0.1
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.7,
+        "median_width": 5.79,
+        "official_above_interval": 0.18
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.81,
+        "median_width": 3.18,
+        "official_above_interval": 0.09
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 11,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "mondrian": {
+    "coverage": 0.8,
+    "median_width": 3.85,
+    "official_above_interval": 0.05,
+    "official_below_interval": 0.15,
+    "bins": {
+      "0-19": {
+        "n": 144,
+        "coverage": 0.81,
+        "median_width": 8.76,
+        "official_above_interval": 0.04
+      },
+      "20-39": {
+        "n": 295,
+        "coverage": 0.8,
+        "median_width": 6.23,
+        "official_above_interval": 0.05
+      },
+      "40-79": {
+        "n": 521,
+        "coverage": 0.8,
+        "median_width": 4.05,
+        "official_above_interval": 0.04
+      },
+      "80-159": {
+        "n": 422,
+        "coverage": 0.8,
+        "median_width": 2.43,
+        "official_above_interval": 0.06
+      },
+      "160+": {
+        "n": 139,
+        "coverage": 0.8,
+        "median_width": 1.48,
+        "official_above_interval": 0.07
+      }
+    },
+    "level_bins": {
+      "0-30": {
+        "n": 378,
+        "coverage": 0.77,
+        "median_width": 5.93,
+        "official_above_interval": 0.08
+      },
+      "30-40": {
+        "n": 535,
+        "coverage": 0.81,
+        "median_width": 4.49,
+        "official_above_interval": 0.05
+      },
+      "40-45": {
+        "n": 237,
+        "coverage": 0.81,
+        "median_width": 3.04,
+        "official_above_interval": 0.03
+      },
+      "45-50": {
+        "n": 236,
+        "coverage": 0.83,
+        "median_width": 2.02,
+        "official_above_interval": 0.03
+      },
+      "50-60": {
+        "n": 135,
+        "coverage": 0.8,
+        "median_width": 1.5,
+        "official_above_interval": 0.04
+      }
+    },
+    "label": {
+      "normal": {
+        "n": 1403,
+        "coverage": 0.8,
+        "median_width": 3.54,
+        "official_above_interval": 0.05
+      },
+      "insufficient": {
+        "n": 118,
+        "coverage": 0.81,
+        "median_width": 9.14,
+        "official_above_interval": 0.03
+      }
+    },
+    "abs_S": {
+      "4+": {
+        "n": 201,
+        "coverage": 0.75,
+        "median_width": 6.14,
+        "official_above_interval": 0.1
+      },
+      "below 4": {
+        "n": 1320,
+        "coverage": 0.81,
+        "median_width": 3.46,
+        "official_above_interval": 0.04
+      }
+    },
+    "institutions": {
+      "with_at_least_5_departments": 54,
+      "coverage_below_70_percent": 12,
+      "expected_if_departments_independent": 5.95
+    }
+  },
+  "event_probabilities_delta_1": {
+    "upward": {
+      "base_rate": 0.17,
+      "brier_climatology": 0.14,
+      "brier_historical": 0.14,
+      "brier_combination": 0.11,
+      "skill_historical_vs_climatology": 0.01,
+      "skill_combination_vs_climatology": 0.23,
+      "skill_combination_vs_historical": 0.22
+    },
+    "downward": {
+      "base_rate": 0.37,
+      "brier_climatology": 0.23,
+      "brier_historical": 0.21,
+      "brier_combination": 0.17,
+      "skill_historical_vs_climatology": 0.1,
+      "skill_combination_vs_climatology": 0.27,
+      "skill_combination_vs_historical": 0.19
+    }
+  },
+  "baseline_cross_year": {
+    "fitted_on": "2025 backtest of the baseline method",
+    "n_fit": 1486,
+    "n_test": 1521,
+    "coverage_2026": 0.73,
+    "coverage_2026_after_removing_2026_mean_bias": 0.76,
+    "mean_bias_2026": 0.58
+  }
+}

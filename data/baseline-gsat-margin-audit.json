@@ -1,0 +1,31 @@
+{
+  "recordDate": "2026-10-10",
+  "years": [
+    2025,
+    2026
+  ],
+  "subjectsPerYear": 6,
+  "levelsChecked": 192,
+  "countMismatches": 0,
+  "cumulativeMismatches": 0,
+  "sourceSHA256": {
+    "114_gsat_score_distribution.xls": "41c435add813d62388d6bb8faee8fdc853479549cd89a0b48c5407e418e93b67",
+    "115_gsat_score_distribution.xls": "64292456e05b6f5738311cd312f01987d31456eac52d8bf06708a71950505016"
+  },
+  "frozenDatabaseSHA256": "ef34272ca184cafe4120b5bcfb8103030f4d86917875bb480eecf07348555ab2",
+  "totals": {
+    "2025:gsat_chinese": 117817,
+    "2025:gsat_english": 117866,
+    "2025:gsat_mathA": 90576,
+    "2025:gsat_mathB": 95521,
+    "2025:gsat_society": 93800,
+    "2025:gsat_science": 77520,
+    "2026:gsat_chinese": 118026,
+    "2026:gsat_english": 118169,
+    "2026:gsat_mathA": 90579,
+    "2026:gsat_mathB": 97536,
+    "2026:gsat_society": 97889,
+    "2026:gsat_science": 78382
+  },
+  "scope": "核對基準實際使用的全體學測15級邊際；不把乘四視為官方60級換算，不證明分發者代表性。"
+}

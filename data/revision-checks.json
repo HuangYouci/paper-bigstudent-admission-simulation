@@ -1,0 +1,6750 @@
+{
+  "note": "exploratory; added after the fourth round of simulated pre-submission reviews",
+  "n_J2": 1521,
+  "tails": {
+    "excess_kurtosis": {
+      "eH": 4.7,
+      "eV": 7.89,
+      "eM": 5.76
+    },
+    "split_at_two_grades": {
+      "within": {
+        "baseline": 1.14,
+        "v3": 1.11,
+        "v3_minus_baseline": -0.04,
+        "interval": [
+          -0.09,
+          0.02
+        ]
+      },
+      "beyond": {
+        "baseline": 0.45,
+        "v3": 0.72,
+        "v3_minus_baseline": 0.26,
+        "interval": [
+          0.14,
+          0.4
+        ]
+      }
+    },
+    "v3_closer_than_baseline": 0.51,
+    "at_least_four_grades": {
+      "baseline": 0.08,
+      "v3": 0.12,
+      "combination": 0.06
+    },
+    "mae_without_own_largest_5pct": {
+      "baseline": 1.33,
+      "v3": 1.42,
+      "combination": 1.09
+    },
+    "exceedance_crossing": 1.63,
+    "large_v3_errors": {
+      "n": 182,
+      "fewer_than_20_listings": {
+        "among_large": 0.32,
+        "among_all": 0.09
+      },
+      "level_below_30": {
+        "among_large": 0.6,
+        "among_all": 0.25
+      },
+      "simulation_underfilled": {
+        "among_large": 0.1,
+        "among_all": 0.03
+      }
+    },
+    "without_those_kinds": {
+      "n": 1099,
+      "mae_baseline": 1.29,
+      "mae_v3": 1.3,
+      "mae_combination": 1.08,
+      "relative_gain": -0.17,
+      "gain": -0.22,
+      "interval": [
+        -0.29,
+        -0.15
+      ]
+    },
+    "s_at_least_8": {
+      "n": 61,
+      "share_of_sum_S2": 0.52,
+      "share_of_v3_minus_baseline_gap": 0.88
+    }
+  },
+  "slopes": {
+    "least_squares": 0.34,
+    "huber": 0.36,
+    "least_absolute_deviations": 0.39,
+    "huber_interval": [
+      0.31,
+      0.43
+    ],
+    "lad_interval": [
+      0.32,
+      0.45
+    ],
+    "by_abs_S": {
+      "0-2": {
+        "n": 1032,
+        "slope": 0.53
+      },
+      "2-4": {
+        "n": 288,
+        "slope": 0.46
+      },
+      "4-8": {
+        "n": 140,
+        "slope": 0.4
+      },
+      "8-inf": {
+        "n": 61,
+        "slope": 0.24
+      }
+    }
+  },
+  "structure": {
+    "n": 167,
+    "gain": -0.11,
+    "relative": -0.09,
+    "interval": [
+      -0.26,
+      0.04
+    ],
+    "most_influential": {
+      "paired_difference": -4.11,
+      "S": -10.28,
+      "official_quota": 6,
+      "listings": 14
+    },
+    "without_it": {
+      "n": 166,
+      "gain": -0.08,
+      "relative": -0.07,
+      "interval": [
+        -0.21,
+        0.05
+      ]
+    },
+    "without_worst": {
+      "paired_difference": 3.71,
+      "S": -15.36,
+      "official_quota": 5,
+      "n": 166,
+      "gain": -0.13,
+      "relative": -0.11,
+      "interval": [
+        -0.28,
+        0.001
+      ]
+    },
+    "hodges_lehmann": -0.08,
+    "hodges_lehmann_interval": [
+      -0.18,
+      -0.005
+    ]
+  },
+  "accuracy": {
+    "rmse_relative": -0.12,
+    "median_relative": -0.23,
+    "institutions_where_combination_beats_baseline": {
+      "wins": 47,
+      "institutions": 59,
+      "sign_test_p": 5e-06
+    },
+    "institutions_where_v3_beats_baseline": {
+      "wins": 23,
+      "institutions": 59,
+      "sign_test_p": 0.12
+    },
+    "quota_weighted": {
+      "baseline": 1.52,
+      "v3": 1.62,
+      "combination": 1.26,
+      "v3_minus_baseline": 0.1,
+      "combination_relative": -0.17
+    },
+    "interpolation_share_of_gain": {
+      "n": 1521,
+      "gain_v3": -0.25,
+      "gain_fractional": -0.18,
+      "v3_minus_fractional": -0.07,
+      "interval": [
+        -0.09,
+        -0.05
+      ],
+      "share": 0.28
+    },
+    "v2_weights": {
+      "0.119": -0.06,
+      "0.400": -0.04,
+      "n": 1413
+    }
+  },
+  "decision": {
+    "k": {
+      "1": {
+        "tau": 0.5,
+        "loio_2026": {
+          "loss_baseline": 0.77,
+          "loss_combination": 0.65,
+          "share_of_evpi_captured": 0.16,
+          "interval": [
+            0.12,
+            0.2
+          ]
+        },
+        "rules_and_quota_unchanged": {
+          "n": 167,
+          "share_of_evpi_captured": 0.04,
+          "interval": [
+            -0.11,
+            0.17
+          ]
+        },
+        "backtest_2025": {
+          "loss_baseline": 0.86,
+          "loss_combination": 0.74,
+          "share_of_evpi_captured": 0.14,
+          "interval": [
+            0.1,
+            0.17
+          ]
+        },
+        "best_weight": {
+          "weight": 0.4,
+          "loss": 0.65,
+          "loss_at_0.4_relative_to_best": 0.0
+        }
+      },
+      "3": {
+        "tau": 0.75,
+        "loio_2026": {
+          "loss_baseline": 0.63,
+          "loss_combination": 0.51,
+          "share_of_evpi_captured": 0.19,
+          "interval": [
+            0.15,
+            0.22
+          ]
+        },
+        "rules_and_quota_unchanged": {
+          "n": 167,
+          "share_of_evpi_captured": 0.05,
+          "interval": [
+            -0.12,
+            0.19
+          ]
+        },
+        "backtest_2025": {
+          "loss_baseline": 0.7,
+          "loss_combination": 0.63,
+          "share_of_evpi_captured": 0.1,
+          "interval": [
+            0.06,
+            0.13
+          ]
+        },
+        "best_weight": {
+          "weight": 0.4,
+          "loss": 0.51,
+          "loss_at_0.4_relative_to_best": 0.0
+        }
+      },
+      "9": {
+        "tau": 0.9,
+        "loio_2026": {
+          "loss_baseline": 0.39,
+          "loss_combination": 0.32,
+          "share_of_evpi_captured": 0.18,
+          "interval": [
+            0.13,
+            0.23
+          ]
+        },
+        "rules_and_quota_unchanged": {
+          "n": 167,
+          "share_of_evpi_captured": -0.02,
+          "interval": [
+            -0.29,
+            0.18
+          ]
+        },
+        "backtest_2025": {
+          "loss_baseline": 0.45,
+          "loss_combination": 0.42,
+          "share_of_evpi_captured": 0.07,
+          "interval": [
+            0.03,
+            0.1
+          ]
+        },
+        "best_weight": {
+          "weight": 0.35,
+          "loss": 0.32,
+          "loss_at_0.4_relative_to_best": 0.003
+        }
+      },
+      "19": {
+        "tau": 0.95,
+        "loio_2026": {
+          "loss_baseline": 0.25,
+          "loss_combination": 0.21,
+          "share_of_evpi_captured": 0.17,
+          "interval": [
+            0.11,
+            0.23
+          ]
+        },
+        "rules_and_quota_unchanged": {
+          "n": 167,
+          "share_of_evpi_captured": -0.05,
+          "interval": [
+            -0.32,
+            0.16
+          ]
+        },
+        "backtest_2025": {
+          "loss_baseline": 0.28,
+          "loss_combination": 0.26,
+          "share_of_evpi_captured": 0.07,
+          "interval": [
+            0.03,
+            0.11
+          ]
+        },
+        "best_weight": {
+          "weight": 0.35,
+          "loss": 0.21,
+          "loss_at_0.4_relative_to_best": 0.006
+        }
+      }
+    },
+    "crps": {
+      "baseline": 1.16,
+      "combination": 0.98,
+      "skill": 0.15,
+      "interval": [
+        0.11,
+        0.19
+      ]
+    },
+    "exceeds_prediction_by_more_than": {
+      "0": {
+        "baseline": 0.36,
+        "combination": 0.36,
+        "difference": -0.005,
+        "interval": [
+          -0.03,
+          0.02
+        ]
+      },
+      "0.5": {
+        "baseline": 0.25,
+        "combination": 0.21,
+        "difference": -0.04,
+        "interval": [
+          -0.06,
+          -0.02
+        ]
+      },
+      "1": {
+        "baseline": 0.17,
+        "combination": 0.12,
+        "difference": -0.04,
+        "interval": [
+          -0.06,
+          -0.02
+        ]
+      },
+      "1.5": {
+        "baseline": 0.12,
+        "combination": 0.08,
+        "difference": -0.04,
+        "interval": [
+          -0.05,
+          -0.02
+        ]
+      },
+      "2": {
+        "baseline": 0.08,
+        "combination": 0.06,
+        "difference": -0.03,
+        "interval": [
+          -0.04,
+          -0.01
+        ]
+      },
+      "3": {
+        "baseline": 0.04,
+        "combination": 0.03,
+        "difference": -0.01,
+        "interval": [
+          -0.02,
+          -0.005
+        ]
+      }
+    },
+    "margin_for_risk": {
+      "0.10": {
+        "baseline": 1.67,
+        "combination": 1.23,
+        "saving": 0.44,
+        "interval": [
+          0.26,
+          0.68
+        ]
+      },
+      "0.05": {
+        "baseline": 2.75,
+        "combination": 2.22,
+        "saving": 0.53,
+        "interval": [
+          0.23,
+          0.89
+        ]
+      }
+    }
+  },
+  "equity": {
+    "regions": {
+      "north": {
+        "n": 767,
+        "institutions": 30,
+        "private_share": 0.52,
+        "mae_baseline": 1.3,
+        "mae_v3": 1.52,
+        "mae_combination": 1.1,
+        "bias_baseline": 0.36,
+        "bias_v3": 0.25,
+        "gain": -0.2,
+        "relative": -0.15,
+        "interval": [
+          -0.27,
+          -0.14
+        ],
+        "above_baseline": 0.17,
+        "above_combination": 0.12,
+        "below_baseline": 0.29,
+        "below_combination": 0.22,
+        "combination_worse_by_half_grade": 0.11,
+        "fewer_than_20_listings": 0.06
+      },
+      "central": {
+        "n": 332,
+        "institutions": 13,
+        "private_share": 0.62,
+        "mae_baseline": 1.76,
+        "mae_v3": 1.84,
+        "mae_combination": 1.46,
+        "bias_baseline": 0.59,
+        "bias_v3": 0.73,
+        "gain": -0.3,
+        "relative": -0.17,
+        "interval": [
+          -0.5,
+          -0.1
+        ],
+        "above_baseline": 0.2,
+        "above_combination": 0.15,
+        "below_baseline": 0.39,
+        "below_combination": 0.38,
+        "combination_worse_by_half_grade": 0.15,
+        "fewer_than_20_listings": 0.09
+      },
+      "south": {
+        "n": 333,
+        "institutions": 13,
+        "private_share": 0.26,
+        "mae_baseline": 1.79,
+        "mae_v3": 2.01,
+        "mae_combination": 1.52,
+        "bias_baseline": 1.03,
+        "bias_v3": 0.84,
+        "gain": -0.27,
+        "relative": -0.15,
+        "interval": [
+          -0.44,
+          -0.12
+        ],
+        "above_baseline": 0.11,
+        "above_combination": 0.09,
+        "below_baseline": 0.48,
+        "below_combination": 0.4,
+        "combination_worse_by_half_grade": 0.12,
+        "fewer_than_20_listings": 0.11
+      },
+      "east_and_kinmen": {
+        "n": 89,
+        "institutions": 4,
+        "private_share": 0.11,
+        "mae_baseline": 2.78,
+        "mae_v3": 3.63,
+        "mae_combination": 2.37,
+        "bias_baseline": 0.84,
+        "bias_v3": 1.61,
+        "gain": -0.41,
+        "relative": -0.15,
+        "interval": null,
+        "above_baseline": 0.26,
+        "above_combination": 0.2,
+        "below_baseline": 0.51,
+        "below_combination": 0.53,
+        "combination_worse_by_half_grade": 0.28,
+        "fewer_than_20_listings": 0.3
+      }
+    },
+    "region_by_level": {
+      "north|below_30": {
+        "n": 163,
+        "institutions": 14,
+        "private_share": 0.96,
+        "mae_baseline": 2.0,
+        "mae_v3": 2.55,
+        "mae_combination": 1.71,
+        "bias_baseline": 0.29,
+        "bias_v3": 0.77,
+        "gain": -0.29,
+        "relative": -0.15,
+        "interval": [
+          -0.45,
+          -0.11
+        ],
+        "above_baseline": 0.28,
+        "above_combination": 0.21,
+        "below_baseline": 0.35,
+        "below_combination": 0.3,
+        "combination_worse_by_half_grade": 0.19,
+        "fewer_than_20_listings": 0.21
+      },
+      "north|30_and_above": {
+        "n": 604,
+        "institutions": 26,
+        "private_share": 0.41,
+        "mae_baseline": 1.11,
+        "mae_v3": 1.24,
+        "mae_combination": 0.94,
+        "bias_baseline": 0.37,
+        "bias_v3": 0.11,
+        "gain": -0.18,
+        "relative": -0.16,
+        "interval": [
+          -0.24,
+          -0.13
+        ],
+        "above_baseline": 0.14,
+        "above_combination": 0.1,
+        "below_baseline": 0.27,
+        "below_combination": 0.19,
+        "combination_worse_by_half_grade": 0.09,
+        "fewer_than_20_listings": 0.02
+      },
+      "central|below_30": {
+        "n": 77,
+        "institutions": 8,
+        "private_share": 0.77,
+        "mae_baseline": 2.01,
+        "mae_v3": 2.2,
+        "mae_combination": 1.51,
+        "bias_baseline": -0.79,
+        "bias_v3": 0.81,
+        "gain": -0.5,
+        "relative": -0.25,
+        "interval": [
+          -0.87,
+          -0.17
+        ],
+        "above_baseline": 0.42,
+        "above_combination": 0.29,
+        "below_baseline": 0.19,
+        "below_combination": 0.23,
+        "combination_worse_by_half_grade": 0.14,
+        "fewer_than_20_listings": 0.27
+      },
+      "central|30_and_above": {
+        "n": 255,
+        "institutions": 12,
+        "private_share": 0.57,
+        "mae_baseline": 1.68,
+        "mae_v3": 1.74,
+        "mae_combination": 1.45,
+        "bias_baseline": 1.01,
+        "bias_v3": 0.71,
+        "gain": -0.23,
+        "relative": -0.14,
+        "interval": [
+          -0.49,
+          -0.03
+        ],
+        "above_baseline": 0.13,
+        "above_combination": 0.11,
+        "below_baseline": 0.45,
+        "below_combination": 0.43,
+        "combination_worse_by_half_grade": 0.16,
+        "fewer_than_20_listings": 0.04
+      },
+      "south|below_30": {
+        "n": 73,
+        "institutions": 7,
+        "private_share": 0.78,
+        "mae_baseline": 2.85,
+        "mae_v3": 4.52,
+        "mae_combination": 2.85,
+        "bias_baseline": 1.03,
+        "bias_v3": 2.59,
+        "gain": -0.009,
+        "relative": -0.003,
+        "interval": [
+          -0.45,
+          0.25
+        ],
+        "above_baseline": 0.26,
+        "above_combination": 0.18,
+        "below_baseline": 0.51,
+        "below_combination": 0.55,
+        "combination_worse_by_half_grade": 0.34,
+        "fewer_than_20_listings": 0.38
+      },
+      "south|30_and_above": {
+        "n": 260,
+        "institutions": 10,
+        "private_share": 0.11,
+        "mae_baseline": 1.49,
+        "mae_v3": 1.31,
+        "mae_combination": 1.15,
+        "bias_baseline": 1.02,
+        "bias_v3": 0.35,
+        "gain": -0.35,
+        "relative": -0.23,
+        "interval": [
+          -0.52,
+          -0.21
+        ],
+        "above_baseline": 0.07,
+        "above_combination": 0.06,
+        "below_baseline": 0.47,
+        "below_combination": 0.35,
+        "combination_worse_by_half_grade": 0.06,
+        "fewer_than_20_listings": 0.03
+      },
+      "east_and_kinmen|below_30": {
+        "n": 65,
+        "institutions": 4,
+        "private_share": 0.05,
+        "mae_baseline": 2.59,
+        "mae_v3": 4.17,
+        "mae_combination": 2.4,
+        "bias_baseline": -0.06,
+        "bias_v3": 2.02,
+        "gain": -0.19,
+        "relative": -0.07,
+        "interval": null,
+        "above_baseline": 0.35,
+        "above_combination": 0.26,
+        "below_baseline": 0.42,
+        "below_combination": 0.46,
+        "combination_worse_by_half_grade": 0.35,
+        "fewer_than_20_listings": 0.34
+      },
+      "east_and_kinmen|30_and_above": {
+        "n": 24,
+        "institutions": 4,
+        "private_share": 0.29,
+        "mae_baseline": 3.29,
+        "mae_v3": 2.15,
+        "mae_combination": 2.29,
+        "bias_baseline": 3.26,
+        "bias_v3": 0.49,
+        "gain": -1.01,
+        "relative": -0.31,
+        "interval": null,
+        "above_baseline": 0.0,
+        "above_combination": 0.04,
+        "below_baseline": 0.75,
+        "below_combination": 0.71,
+        "combination_worse_by_half_grade": 0.08,
+        "fewer_than_20_listings": 0.21
+      },
+      "north_and_central|below_30": {
+        "n": 240,
+        "institutions": 22,
+        "private_share": 0.9,
+        "mae_baseline": 2.0,
+        "mae_v3": 2.44,
+        "mae_combination": 1.64,
+        "bias_baseline": -0.05,
+        "bias_v3": 0.79,
+        "gain": -0.36,
+        "relative": -0.18,
+        "interval": [
+          -0.53,
+          -0.21
+        ],
+        "above_baseline": 0.32,
+        "above_combination": 0.23,
+        "below_baseline": 0.3,
+        "below_combination": 0.28,
+        "combination_worse_by_half_grade": 0.17,
+        "fewer_than_20_listings": 0.23
+      },
+      "south_east_and_kinmen|below_30": {
+        "n": 138,
+        "institutions": 11,
+        "private_share": 0.43,
+        "mae_baseline": 2.73,
+        "mae_v3": 4.36,
+        "mae_combination": 2.64,
+        "bias_baseline": 0.52,
+        "bias_v3": 2.32,
+        "gain": -0.09,
+        "relative": -0.03,
+        "interval": [
+          -0.39,
+          0.23
+        ],
+        "above_baseline": 0.3,
+        "above_combination": 0.22,
+        "below_baseline": 0.46,
+        "below_combination": 0.51,
+        "combination_worse_by_half_grade": 0.35,
+        "fewer_than_20_listings": 0.36
+      }
+    },
+    "levels": {
+      "0-30": {
+        "n": 378,
+        "institutions": 32,
+        "private_share": 0.73,
+        "mae_baseline": 2.27,
+        "mae_v3": 3.14,
+        "mae_combination": 2.01,
+        "bias_baseline": 0.16,
+        "bias_v3": 1.35,
+        "gain": -0.26,
+        "relative": -0.12,
+        "interval": [
+          -0.42,
+          -0.1
+        ],
+        "above_baseline": 0.31,
+        "above_combination": 0.23,
+        "below_baseline": 0.36,
+        "below_combination": 0.36,
+        "combination_worse_by_half_grade": 0.24,
+        "fewer_than_20_listings": 0.28,
+        "quota_share": 0.23
+      },
+      "30-40": {
+        "n": 535,
+        "institutions": 45,
+        "private_share": 0.59,
+        "mae_baseline": 1.89,
+        "mae_v3": 1.9,
+        "mae_combination": 1.54,
+        "bias_baseline": 1.02,
+        "bias_v3": 0.33,
+        "gain": -0.35,
+        "relative": -0.18,
+        "interval": [
+          -0.48,
+          -0.23
+        ],
+        "above_baseline": 0.16,
+        "above_combination": 0.15,
+        "below_baseline": 0.47,
+        "below_combination": 0.39,
+        "combination_worse_by_half_grade": 0.15,
+        "fewer_than_20_listings": 0.06
+      },
+      "40-45": {
+        "n": 237,
+        "institutions": 38,
+        "private_share": 0.26,
+        "mae_baseline": 1.21,
+        "mae_v3": 1.29,
+        "mae_combination": 1.04,
+        "bias_baseline": 0.68,
+        "bias_v3": 0.3,
+        "gain": -0.17,
+        "relative": -0.14,
+        "interval": [
+          -0.27,
+          -0.09
+        ],
+        "above_baseline": 0.1,
+        "above_combination": 0.07,
+        "below_baseline": 0.39,
+        "below_combination": 0.32,
+        "combination_worse_by_half_grade": 0.07,
+        "fewer_than_20_listings": 0.02
+      },
+      "45-50": {
+        "n": 236,
+        "institutions": 25,
+        "private_share": 0.12,
+        "mae_baseline": 0.83,
+        "mae_v3": 0.75,
+        "mae_combination": 0.63,
+        "bias_baseline": 0.32,
+        "bias_v3": 0.3,
+        "gain": -0.19,
+        "relative": -0.23,
+        "interval": [
+          -0.27,
+          -0.11
+        ],
+        "above_baseline": 0.09,
+        "above_combination": 0.03,
+        "below_baseline": 0.24,
+        "below_combination": 0.15,
+        "combination_worse_by_half_grade": 0.05,
+        "fewer_than_20_listings": 0.0
+      },
+      "50-61": {
+        "n": 135,
+        "institutions": 17,
+        "private_share": 0.18,
+        "mae_baseline": 0.57,
+        "mae_v3": 0.64,
+        "mae_combination": 0.5,
+        "bias_baseline": 0.31,
+        "bias_v3": 0.24,
+        "gain": -0.07,
+        "relative": -0.12,
+        "interval": [
+          -0.16,
+          -0.02
+        ],
+        "above_baseline": 0.04,
+        "above_combination": 0.02,
+        "below_baseline": 0.14,
+        "below_combination": 0.09,
+        "combination_worse_by_half_grade": 0.02,
+        "fewer_than_20_listings": 0.02
+      }
+    },
+    "sector": {
+      "public": {
+        "n": 818,
+        "institutions": 30,
+        "private_share": 0.0,
+        "mae_baseline": 1.34,
+        "mae_v3": 1.41,
+        "mae_combination": 1.1,
+        "bias_baseline": 0.59,
+        "bias_v3": 0.48,
+        "gain": -0.24,
+        "relative": -0.18,
+        "interval": [
+          -0.34,
+          -0.15
+        ],
+        "above_baseline": 0.12,
+        "above_combination": 0.08,
+        "below_baseline": 0.36,
+        "below_combination": 0.29,
+        "combination_worse_by_half_grade": 0.1,
+        "fewer_than_20_listings": 0.05
+      },
+      "private": {
+        "n": 703,
+        "institutions": 29,
+        "private_share": 1.0,
+        "mae_baseline": 1.89,
+        "mae_v3": 2.3,
+        "mae_combination": 1.63,
+        "bias_baseline": 0.58,
+        "bias_v3": 0.67,
+        "gain": -0.26,
+        "relative": -0.14,
+        "interval": [
+          -0.36,
+          -0.16
+        ],
+        "above_baseline": 0.22,
+        "above_combination": 0.17,
+        "below_baseline": 0.38,
+        "below_combination": 0.34,
+        "combination_worse_by_half_grade": 0.17,
+        "fewer_than_20_listings": 0.14
+      }
+    },
+    "interval_coverage": {
+      "all": {
+        "scaled": 0.8,
+        "calibrated_within_level": 0.8
+      },
+      "level 0-30": {
+        "scaled": 0.74,
+        "calibrated_within_level": 0.8
+      },
+      "level 30-40": {
+        "scaled": 0.8,
+        "calibrated_within_level": 0.8
+      },
+      "level 40-45": {
+        "scaled": 0.81,
+        "calibrated_within_level": 0.8
+      },
+      "level 45-50": {
+        "scaled": 0.87,
+        "calibrated_within_level": 0.8
+      },
+      "level 50-61": {
+        "scaled": 0.82,
+        "calibrated_within_level": 0.81
+      },
+      "public": {
+        "scaled": 0.84,
+        "calibrated_within_level": 0.82
+      },
+      "private": {
+        "scaled": 0.76,
+        "calibrated_within_level": 0.78
+      },
+      "region south": {
+        "scaled": 0.76,
+        "calibrated_within_level": 0.75
+      },
+      "region east_and_kinmen": {
+        "scaled": 0.69,
+        "calibrated_within_level": 0.73
+      },
+      "region central": {
+        "scaled": 0.77,
+        "calibrated_within_level": 0.77
+      },
+      "region north": {
+        "scaled": 0.85,
+        "calibrated_within_level": 0.84
+      },
+      "south, east and Kinmen below 30": {
+        "scaled": 0.63,
+        "calibrated_within_level": 0.7
+      }
+    },
+    "withheld": {
+      "n": 52,
+      "private": 49
+    },
+    "below_30_by_simulated_filling": {
+      "filled": {
+        "n": 340,
+        "bias_v3": 1.1,
+        "mae_v3": 2.96
+      },
+      "underfilled": {
+        "n": 38,
+        "bias_v3": 3.58,
+        "mae_v3": 4.78
+      }
+    },
+    "underfilled": {
+      "simulation": 45,
+      "official": 45,
+      "both": 12
+    }
+  },
+  "level_shift": {
+    "-1.0": {
+      "gain": -0.31,
+      "relative": -0.19
+    },
+    "-1.0 centered": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "-0.5": {
+      "gain": -0.29,
+      "relative": -0.18
+    },
+    "-0.5 centered": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "+0.5": {
+      "gain": -0.18,
+      "relative": -0.11
+    },
+    "+0.5 centered": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "+0.8": {
+      "gain": -0.13,
+      "relative": -0.08
+    },
+    "+0.8 centered": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "+1.0": {
+      "gain": -0.08,
+      "relative": -0.05
+    },
+    "+1.0 centered": {
+      "gain": -0.25,
+      "relative": -0.16
+    },
+    "+1.3": {
+      "gain": -0.02,
+      "relative": -0.01
+    },
+    "+1.3 centered": {
+      "gain": -0.25,
+      "relative": -0.16
+    }
+  },
+  "contrasts": {
+    "subjects_changed_vs_rules_unchanged": {
+      "n_a": 179,
+      "n_b": 1279,
+      "gain_a": -0.6,
+      "gain_b": -0.21,
+      "difference": -0.39,
+      "interval": [
+        -0.59,
+        -0.2
+      ]
+    },
+    "quota_unchanged_vs_changed_among_unchanged_weights": {
+      "n_a": 167,
+      "n_b": 1112,
+      "gain_a": -0.11,
+      "gain_b": -0.22,
+      "difference": 0.11,
+      "interval": [
+        -0.04,
+        0.3
+      ]
+    },
+    "south_east_kinmen_vs_north_central_below_30": {
+      "n_a": 138,
+      "n_b": 240,
+      "gain_a": -0.09,
+      "gain_b": -0.36,
+      "difference": 0.27,
+      "interval": [
+        -0.08,
+        0.64
+      ]
+    },
+    "level_below_30_vs_30_and_above": {
+      "n_a": 378,
+      "n_b": 1143,
+      "gain_a": -0.26,
+      "gain_b": -0.25,
+      "difference": -0.02,
+      "interval": [
+        -0.19,
+        0.15
+      ]
+    },
+    "fewer_than_20_vs_at_least_20_listings": {
+      "n_a": 144,
+      "n_b": 1377,
+      "gain_a": -0.36,
+      "gain_b": -0.24,
+      "difference": -0.12,
+      "interval": [
+        -0.49,
+        0.2
+      ]
+    },
+    "private_vs_public": {
+      "n_a": 703,
+      "n_b": 818,
+      "gain_a": -0.26,
+      "gain_b": -0.24,
+      "difference": -0.02,
+      "interval": [
+        -0.16,
+        0.13
+      ]
+    }
+  },
+  "support": {
+    "below_30|listings_per_place_lt3": {
+      "n": 243,
+      "institutions": 30,
+      "gain": -0.01,
+      "relative": -0.005,
+      "bias_v3": 1.86,
+      "above_baseline": 0.16,
+      "above_combination": 0.14,
+      "interval": [
+        -0.25,
+        0.23
+      ]
+    },
+    "below_30|listings_per_place_ge3": {
+      "n": 135,
+      "institutions": 28,
+      "gain": -0.72,
+      "relative": -0.32,
+      "bias_v3": 0.43,
+      "above_baseline": 0.59,
+      "above_combination": 0.39,
+      "interval": [
+        -0.98,
+        -0.51
+      ]
+    },
+    "below_30|spearman": {
+      "S_with_D": 0.49,
+      "popularity_with_D": 0.58
+    },
+    "30_and_above|listings_per_place_lt3": {
+      "n": 346,
+      "institutions": 50,
+      "gain": -0.45,
+      "relative": -0.21,
+      "bias_v3": 0.36,
+      "above_baseline": 0.05,
+      "above_combination": 0.09,
+      "interval": [
+        -0.61,
+        -0.29
+      ]
+    },
+    "30_and_above|listings_per_place_ge3": {
+      "n": 797,
+      "institutions": 50,
+      "gain": -0.16,
+      "relative": -0.15,
+      "bias_v3": 0.29,
+      "above_baseline": 0.15,
+      "above_combination": 0.09,
+      "interval": [
+        -0.22,
+        -0.1
+      ]
+    },
+    "30_and_above|spearman": {
+      "S_with_D": 0.56,
+      "popularity_with_D": 0.46
+    }
+  },
+  "specifications": {
+    "specifications": 480,
+    "improved": 480,
+    "relative_quantiles": {
+      "p05": -0.22,
+      "p50": -0.1,
+      "p95": -0.03
+    },
+    "mae_relative_range": [
+      -0.17,
+      -0.06
+    ],
+    "worst_mae": {
+      "simulator": "fractional",
+      "centered": false,
+      "set": "all 1,575 with a baseline, fallback",
+      "lambda": 0.11,
+      "measure": "MAE",
+      "baseline": 1.68,
+      "combination": 1.58,
+      "relative": -0.06
+    },
+    "results": [
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.49,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.16,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 1.04,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.15,
+        "relative": -0.02
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.41,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.07,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.93,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.41,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.08,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.92,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.41,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.1,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.9,
+        "relative": -0.18
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.41,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.1,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.91,
+        "relative": -0.18
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.42,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.13,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.93,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.34,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.89,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.95,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.02
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.26,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.81,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.87,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.26,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.81,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.85,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.26,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.83,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.85,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.26,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.83,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.85,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.1,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.26,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.85,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.87,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.1,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.46,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.14,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.98,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.02
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.4,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.08,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.91,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.4,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.09,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.9,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.41,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.12,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.89,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.41,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.13,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.89,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.43,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.16,
+        "relative": -0.04
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.92,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.11,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.46,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 1.02,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.15,
+        "relative": -0.02
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.37,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.0,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.91,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.36,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.01,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.9,
+        "relative": -0.18
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.37,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.02,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.89,
+        "relative": -0.19
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.37,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.02,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.89,
+        "relative": -0.19
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.38,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.05,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.91,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.58,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.4,
+        "relative": -0.04
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 1.06,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.15,
+        "relative": -0.02
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.5,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.32,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.96,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.5,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.33,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.95,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.5,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.35,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.93,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.51,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.35,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.93,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.52,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.38,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.94,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.48,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.14,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 1.02,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.15,
+        "relative": -0.01
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.37,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.03,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.91,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.36,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.03,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.87,
+        "relative": -0.21
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.36,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.05,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.87,
+        "relative": -0.22
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.36,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.05,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.86,
+        "relative": -0.22
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.37,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.07,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.85,
+        "relative": -0.23
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.33,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.88,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.95,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.01
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.23,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.77,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.86,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.22,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.77,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.83,
+        "relative": -0.18
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.21,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.78,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.81,
+        "relative": -0.2
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.21,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.78,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.81,
+        "relative": -0.21
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.22,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.8,
+        "relative": -0.1
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.79,
+        "relative": -0.22
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.45,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.13,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.97,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.01
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.37,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.05,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.9,
+        "relative": -0.14
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.36,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.06,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.87,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.37,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.08,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.85,
+        "relative": -0.19
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.37,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.08,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.85,
+        "relative": -0.19
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.38,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.11,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.83,
+        "relative": -0.21
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.02
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.45,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.09,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 1.0,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.16,
+        "relative": -0.01
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.33,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.97,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.89,
+        "relative": -0.19
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.32,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.96,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.86,
+        "relative": -0.22
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.32,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.97,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.84,
+        "relative": -0.24
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.32,
+        "relative": -0.16
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.97,
+        "relative": -0.12
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.83,
+        "relative": -0.25
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.32,
+        "relative": -0.15
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.99,
+        "relative": -0.11
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.82,
+        "relative": -0.25
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.57,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.39,
+        "relative": -0.05
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 1.06,
+        "relative": -0.06
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.16,
+        "relative": -0.01
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.47,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.29,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.93,
+        "relative": -0.17
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.46,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.29,
+        "relative": -0.09
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.9,
+        "relative": -0.19
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.46,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.31,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.89,
+        "relative": -0.21
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.46,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.31,
+        "relative": -0.08
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.88,
+        "relative": -0.21
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.46,
+        "relative": -0.13
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.33,
+        "relative": -0.07
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.87,
+        "relative": -0.22
+      },
+      {
+        "simulator": "fractional",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.14,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.48,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.14,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 1.03,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.15,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.36,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.01,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.91,
+        "relative": -0.18
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.01,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.87,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.01,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.85,
+        "relative": -0.23
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.02,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.85,
+        "relative": -0.23
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.03,
+        "relative": -0.11
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.84,
+        "relative": -0.24
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.33,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.87,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.94,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.22,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.75,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.85,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.2,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.74,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.83,
+        "relative": -0.18
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.19,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.74,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.8,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.19,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.74,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.79,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.19,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.75,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.79,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.44,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.13,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.96,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.35,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.02,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.89,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.34,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.02,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.87,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.34,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.04,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.84,
+        "relative": -0.2
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.34,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.04,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.83,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.35,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.06,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.83,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.13,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.45,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.09,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 1.0,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.16,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.32,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.94,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.88,
+        "relative": -0.19
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.31,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.93,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.86,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.3,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.93,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.84,
+        "relative": -0.24
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.3,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.93,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.83,
+        "relative": -0.24
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.3,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.94,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.82,
+        "relative": -0.25
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.57,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.39,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 1.06,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.16,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.45,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.27,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.94,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.27,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.89,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.28,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.87,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.28,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.88,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.29,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.87,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": false,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.48,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.14,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 1.03,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.15,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.36,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.01,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.91,
+        "relative": -0.18
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.01,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.87,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.01,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.85,
+        "relative": -0.23
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.02,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.85,
+        "relative": -0.23
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.6,
+        "combination": 1.35,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.28,
+        "combination": 2.03,
+        "relative": -0.11
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.11,
+        "combination": 0.85,
+        "relative": -0.23
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.33,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.87,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.94,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.22,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.75,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.85,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.21,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.74,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.83,
+        "relative": -0.18
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.2,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.74,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.8,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.2,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.75,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.8,
+        "relative": -0.21
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.43,
+        "combination": 1.2,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.0,
+        "combination": 1.75,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.01,
+        "combination": 0.79,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, at least 20 listings",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.44,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.13,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.97,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.14,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.35,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.03,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.89,
+        "relative": -0.15
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.03
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.35,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.03,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.87,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.35,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.05,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.85,
+        "relative": -0.19
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.35,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.05,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.85,
+        "relative": -0.19
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.55,
+        "combination": 1.36,
+        "relative": -0.12
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.26,
+        "combination": 2.07,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.05,
+        "combination": 0.84,
+        "relative": -0.2
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, rules unchanged",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.16,
+        "combination": 0.12,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.45,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 2.09,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 1.0,
+        "relative": -0.08
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.16,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.32,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.94,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.88,
+        "relative": -0.19
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.31,
+        "relative": -0.16
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.93,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.86,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.3,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.93,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.84,
+        "relative": -0.24
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.3,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.93,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.83,
+        "relative": -0.24
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.56,
+        "combination": 1.3,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.24,
+        "combination": 1.95,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.1,
+        "combination": 0.82,
+        "relative": -0.25
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "J2, filled by the simulation",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.12,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.57,
+        "relative": -0.07
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.39,
+        "relative": -0.05
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 1.06,
+        "relative": -0.06
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.11,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.16,
+        "relative": -0.01
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.46,
+        "relative": -0.13
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.28,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.94,
+        "relative": -0.17
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.3,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.27,
+        "relative": -0.1
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.89,
+        "relative": -0.2
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.35,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.28,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.88,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.39,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.28,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.88,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.4,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "MAE",
+        "baseline": 1.68,
+        "combination": 1.44,
+        "relative": -0.14
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "RMSE",
+        "baseline": 2.51,
+        "combination": 2.3,
+        "relative": -0.09
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "median absolute error",
+        "baseline": 1.12,
+        "combination": 0.87,
+        "relative": -0.22
+      },
+      {
+        "simulator": "v3",
+        "centered": true,
+        "set": "all 1,575 with a baseline, fallback",
+        "lambda": 0.44,
+        "measure": "share at least one grade above",
+        "baseline": 0.17,
+        "combination": 0.13,
+        "relative": -0.04
+      }
+    ]
+  },
+  "fifth_review": {
+    "official_underfilled": {
+      "all_1706": {
+        "n": 81,
+        "vacancies": 491,
+        "institutions": 13,
+        "withheld_fewer_than_5_listings": 19,
+        "rate_among_withheld": 0.37,
+        "rate_among_others": 0.04
+      },
+      "J2": {
+        "n": 45,
+        "institutions": 11,
+        "mae": {
+          "baseline": 3.1,
+          "v3": 6.12,
+          "combination": 3.87
+        },
+        "bias": {
+          "baseline": 2.21,
+          "v3": 5.69,
+          "combination": 3.6
+        },
+        "official_above_by_1": {
+          "baseline": 0.16,
+          "combination": 0.04
+        },
+        "official_below_by_1": {
+          "baseline": 0.58,
+          "combination": 0.8
+        },
+        "gain": 0.77,
+        "relative": 0.25,
+        "fewer_than_20_listings": 0.47,
+        "interval": [
+          0.22,
+          1.62
+        ]
+      },
+      "J2_simulation_not_filled": 12,
+      "J2_upward_flags": {
+        "n": 33,
+        "moved_up_1": 6,
+        "moved_down_1": 15
+      }
+    },
+    "simulated_filling_status": {
+      "not_filled_in_J2": 45,
+      "officially_underfilled": 12,
+      "private": 32
+    },
+    "below_30_by_region": {
+      "north": {
+        "n": 163,
+        "institutions": 14,
+        "mae": {
+          "baseline": 2.0,
+          "v3": 2.55,
+          "combination": 1.71
+        },
+        "bias": {
+          "baseline": 0.29,
+          "v3": 0.77,
+          "combination": 0.49
+        },
+        "official_above_by_1": {
+          "baseline": 0.28,
+          "combination": 0.21
+        },
+        "official_below_by_1": {
+          "baseline": 0.35,
+          "combination": 0.3
+        },
+        "gain": -0.29,
+        "relative": -0.15,
+        "fewer_than_20_listings": 0.21,
+        "interval": [
+          -0.45,
+          -0.11
+        ]
+      },
+      "central": {
+        "n": 77,
+        "institutions": 8,
+        "mae": {
+          "baseline": 2.01,
+          "v3": 2.2,
+          "combination": 1.51
+        },
+        "bias": {
+          "baseline": -0.79,
+          "v3": 0.81,
+          "combination": -0.15
+        },
+        "official_above_by_1": {
+          "baseline": 0.42,
+          "combination": 0.29
+        },
+        "official_below_by_1": {
+          "baseline": 0.19,
+          "combination": 0.23
+        },
+        "gain": -0.5,
+        "relative": -0.25,
+        "fewer_than_20_listings": 0.27,
+        "interval": [
+          -0.87,
+          -0.17
+        ]
+      },
+      "south": {
+        "n": 73,
+        "institutions": 7,
+        "mae": {
+          "baseline": 2.85,
+          "v3": 4.52,
+          "combination": 2.85
+        },
+        "bias": {
+          "baseline": 1.03,
+          "v3": 2.59,
+          "combination": 1.66
+        },
+        "official_above_by_1": {
+          "baseline": 0.26,
+          "combination": 0.18
+        },
+        "official_below_by_1": {
+          "baseline": 0.51,
+          "combination": 0.55
+        },
+        "gain": -0.009,
+        "relative": -0.003,
+        "fewer_than_20_listings": 0.38,
+        "interval": [
+          -0.45,
+          0.25
+        ]
+      },
+      "east_and_kinmen": {
+        "n": 65,
+        "institutions": 4,
+        "mae": {
+          "baseline": 2.59,
+          "v3": 4.17,
+          "combination": 2.4
+        },
+        "bias": {
+          "baseline": -0.06,
+          "v3": 2.02,
+          "combination": 0.77
+        },
+        "official_above_by_1": {
+          "baseline": 0.35,
+          "combination": 0.26
+        },
+        "official_below_by_1": {
+          "baseline": 0.42,
+          "combination": 0.46
+        },
+        "gain": -0.19,
+        "relative": -0.07,
+        "fewer_than_20_listings": 0.34
+      }
+    },
+    "below_30_south_private": {
+      "n": 57,
+      "institutions": 4,
+      "mae": {
+        "baseline": 3.09,
+        "v3": 5.18,
+        "combination": 3.19
+      },
+      "bias": {
+        "baseline": 1.43,
+        "v3": 3.26,
+        "combination": 2.16
+      },
+      "official_above_by_1": {
+        "baseline": 0.23,
+        "combination": 0.14
+      },
+      "official_below_by_1": {
+        "baseline": 0.56,
+        "combination": 0.65
+      },
+      "gain": 0.1,
+      "relative": 0.03,
+      "fewer_than_20_listings": 0.46
+    },
+    "below_30_south_public": {
+      "n": 16,
+      "institutions": 3,
+      "mae": {
+        "baseline": 2.02,
+        "v3": 2.15,
+        "combination": 1.63
+      },
+      "bias": {
+        "baseline": -0.36,
+        "v3": 0.21,
+        "combination": -0.13
+      },
+      "official_above_by_1": {
+        "baseline": 0.38,
+        "combination": 0.31
+      },
+      "official_below_by_1": {
+        "baseline": 0.31,
+        "combination": 0.19
+      },
+      "gain": -0.39,
+      "relative": -0.19,
+      "fewer_than_20_listings": 0.12
+    },
+    "level_bands": {
+      "0-30": {
+        "n": 378,
+        "institutions": 32,
+        "mae": {
+          "baseline": 2.27,
+          "v3": 3.14,
+          "combination": 2.01
+        },
+        "bias": {
+          "baseline": 0.16,
+          "v3": 1.35,
+          "combination": 0.63
+        },
+        "official_above_by_1": {
+          "baseline": 0.31,
+          "combination": 0.23
+        },
+        "official_below_by_1": {
+          "baseline": 0.36,
+          "combination": 0.36
+        },
+        "gain": -0.26,
+        "relative": -0.12,
+        "fewer_than_20_listings": 0.28,
+        "interval": [
+          -0.42,
+          -0.1
+        ]
+      },
+      "30-40": {
+        "n": 535,
+        "institutions": 45,
+        "mae": {
+          "baseline": 1.89,
+          "v3": 1.9,
+          "combination": 1.54
+        },
+        "bias": {
+          "baseline": 1.02,
+          "v3": 0.33,
+          "combination": 0.74
+        },
+        "official_above_by_1": {
+          "baseline": 0.16,
+          "combination": 0.15
+        },
+        "official_below_by_1": {
+          "baseline": 0.47,
+          "combination": 0.39
+        },
+        "gain": -0.35,
+        "relative": -0.18,
+        "fewer_than_20_listings": 0.06,
+        "interval": [
+          -0.48,
+          -0.23
+        ]
+      },
+      "40-45": {
+        "n": 237,
+        "institutions": 38,
+        "mae": {
+          "baseline": 1.21,
+          "v3": 1.29,
+          "combination": 1.04
+        },
+        "bias": {
+          "baseline": 0.68,
+          "v3": 0.3,
+          "combination": 0.53
+        },
+        "official_above_by_1": {
+          "baseline": 0.1,
+          "combination": 0.07
+        },
+        "official_below_by_1": {
+          "baseline": 0.39,
+          "combination": 0.32
+        },
+        "gain": -0.17,
+        "relative": -0.14,
+        "fewer_than_20_listings": 0.02,
+        "interval": [
+          -0.27,
+          -0.09
+        ]
+      },
+      "45-50": {
+        "n": 236,
+        "institutions": 25,
+        "mae": {
+          "baseline": 0.83,
+          "v3": 0.75,
+          "combination": 0.63
+        },
+        "bias": {
+          "baseline": 0.32,
+          "v3": 0.3,
+          "combination": 0.31
+        },
+        "official_above_by_1": {
+          "baseline": 0.09,
+          "combination": 0.03
+        },
+        "official_below_by_1": {
+          "baseline": 0.24,
+          "combination": 0.15
+        },
+        "gain": -0.19,
+        "relative": -0.23,
+        "fewer_than_20_listings": 0.0,
+        "interval": [
+          -0.27,
+          -0.11
+        ]
+      },
+      "50-61": {
+        "n": 135,
+        "institutions": 17,
+        "mae": {
+          "baseline": 0.57,
+          "v3": 0.64,
+          "combination": 0.5
+        },
+        "bias": {
+          "baseline": 0.31,
+          "v3": 0.24,
+          "combination": 0.29
+        },
+        "official_above_by_1": {
+          "baseline": 0.04,
+          "combination": 0.02
+        },
+        "official_below_by_1": {
+          "baseline": 0.14,
+          "combination": 0.09
+        },
+        "gain": -0.07,
+        "relative": -0.12,
+        "fewer_than_20_listings": 0.02,
+        "interval": [
+          -0.16,
+          -0.02
+        ]
+      }
+    },
+    "table5_family": {
+      "critical_value": 3.15,
+      "groups": {
+        "level 0-30": {
+          "n": 378,
+          "institutions": 32,
+          "gain": -0.26,
+          "percentile": [
+            -0.42,
+            -0.1
+          ],
+          "simultaneous": [
+            -0.52,
+            -0.005
+          ]
+        },
+        "level 30-40": {
+          "n": 535,
+          "institutions": 45,
+          "gain": -0.35,
+          "percentile": [
+            -0.47,
+            -0.23
+          ],
+          "simultaneous": [
+            -0.55,
+            -0.15
+          ]
+        },
+        "level 40-45": {
+          "n": 237,
+          "institutions": 38,
+          "gain": -0.17,
+          "percentile": [
+            -0.27,
+            -0.08
+          ],
+          "simultaneous": [
+            -0.32,
+            -0.02
+          ]
+        },
+        "level 45-50": {
+          "n": 236,
+          "institutions": 25,
+          "gain": -0.19,
+          "percentile": [
+            -0.28,
+            -0.11
+          ],
+          "simultaneous": [
+            -0.32,
+            -0.06
+          ]
+        },
+        "level 50-61": {
+          "n": 135,
+          "institutions": 17,
+          "gain": -0.07,
+          "percentile": [
+            -0.17,
+            -0.02
+          ],
+          "simultaneous": [
+            -0.19,
+            0.05
+          ]
+        },
+        "below 30, north": {
+          "n": 163,
+          "institutions": 14,
+          "gain": -0.29,
+          "percentile": [
+            -0.46,
+            -0.1
+          ],
+          "simultaneous": [
+            -0.58,
+            -0.009
+          ]
+        },
+        "below 30, central": {
+          "n": 77,
+          "institutions": 8,
+          "gain": -0.5,
+          "percentile": [
+            -0.9,
+            -0.15
+          ],
+          "simultaneous": [
+            -1.11,
+            0.11
+          ]
+        },
+        "below 30, south": {
+          "n": 73,
+          "institutions": 7,
+          "gain": -0.009,
+          "percentile": [
+            -0.53,
+            0.26
+          ],
+          "simultaneous": [
+            -0.62,
+            0.6
+          ]
+        },
+        "below 30, east_and_kinmen": {
+          "n": 65,
+          "institutions": 4,
+          "gain": -0.19,
+          "percentile": [
+            -0.48,
+            0.76
+          ],
+          "simultaneous": [
+            -1.24,
+            0.86
+          ]
+        }
+      }
+    },
+    "flags_by_level_and_sector": {
+      "below_30|public": {
+        "n": 102,
+        "up_flag_share": 0.58,
+        "down_flag_share": 0.25,
+        "up_precision": 0.49,
+        "up_moved_down_1": 0.25,
+        "down_precision": 0.56,
+        "down_moved_up_1": 0.12
+      },
+      "below_30|private": {
+        "n": 276,
+        "up_flag_share": 0.46,
+        "down_flag_share": 0.29,
+        "up_precision": 0.51,
+        "up_moved_down_1": 0.2,
+        "down_precision": 0.68,
+        "down_moved_up_1": 0.06
+      },
+      "30_and_above|public": {
+        "n": 716,
+        "up_flag_share": 0.19,
+        "down_flag_share": 0.24,
+        "up_precision": 0.36,
+        "up_moved_down_1": 0.18,
+        "down_precision": 0.79,
+        "down_moved_up_1": 0.01
+      },
+      "30_and_above|private": {
+        "n": 427,
+        "up_flag_share": 0.27,
+        "down_flag_share": 0.34,
+        "up_precision": 0.43,
+        "up_moved_down_1": 0.12,
+        "down_precision": 0.64,
+        "down_moved_up_1": 0.05
+      },
+      "below_30|south_east_kinmen": {
+        "n": 138,
+        "up_flag_share": 0.57,
+        "down_flag_share": 0.27,
+        "up_precision": 0.44,
+        "up_moved_down_1": 0.31,
+        "down_precision": 0.65,
+        "down_moved_up_1": 0.14
+      }
+    },
+    "flag_moves": {
+      "observed": {
+        "flagged": 855,
+        "sign_agreement": 0.79,
+        "moved_1_in_flagged_direction": 0.57,
+        "moved_1_against": 0.11,
+        "up_precision": 0.44,
+        "down_precision": 0.71,
+        "departures_of_1": 814,
+        "departures_flagged_same_direction": 489
+      },
+      "permuted_within_level_deciles": {
+        "sign_agreement": {
+          "mean": 0.52,
+          "interval": [
+            0.49,
+            0.55
+          ]
+        },
+        "moved_1_in_flagged_direction": {
+          "mean": 0.31,
+          "interval": [
+            0.29,
+            0.34
+          ]
+        },
+        "moved_1_against": {
+          "mean": 0.28,
+          "interval": [
+            0.25,
+            0.3
+          ]
+        },
+        "up_precision": {
+          "mean": 0.22,
+          "interval": [
+            0.19,
+            0.25
+          ]
+        },
+        "down_precision": {
+          "mean": 0.4,
+          "interval": [
+            0.37,
+            0.44
+          ]
+        }
+      }
+    },
+    "intervals": {
+      "median_width_combination": 3.85,
+      "median_width_baseline_same_model": 4.68,
+      "coverage_baseline_same_model": 0.8,
+      "equal_tailed": {
+        "median_width": 3.55,
+        "coverage": 0.8,
+        "official_above": 0.1,
+        "official_below": 0.1
+      },
+      "common_shift": {
+        "shift -1.17, pad 0.0": {
+          "coverage": 0.7,
+          "official_above": 0.25,
+          "official_below": 0.05
+        },
+        "shift -1.17, pad 0.7": {
+          "coverage": 0.87,
+          "official_above": 0.1,
+          "official_below": 0.03
+        },
+        "shift -0.70, pad 0.0": {
+          "coverage": 0.78,
+          "official_above": 0.14,
+          "official_below": 0.08
+        },
+        "shift -0.70, pad 0.7": {
+          "coverage": 0.9,
+          "official_above": 0.06,
+          "official_below": 0.05
+        },
+        "shift -0.35, pad 0.0": {
+          "coverage": 0.82,
+          "official_above": 0.08,
+          "official_below": 0.1
+        },
+        "shift -0.35, pad 0.7": {
+          "coverage": 0.91,
+          "official_above": 0.03,
+          "official_below": 0.06
+        },
+        "shift +0.00, pad 0.0": {
+          "coverage": 0.8,
+          "official_above": 0.06,
+          "official_below": 0.14
+        },
+        "shift +0.00, pad 0.7": {
+          "coverage": 0.9,
+          "official_above": 0.02,
+          "official_below": 0.08
+        },
+        "shift +0.35, pad 0.0": {
+          "coverage": 0.74,
+          "official_above": 0.03,
+          "official_below": 0.22
+        },
+        "shift +0.35, pad 0.7": {
+          "coverage": 0.89,
+          "official_above": 0.02,
+          "official_below": 0.1
+        },
+        "shift +0.70, pad 0.0": {
+          "coverage": 0.66,
+          "official_above": 0.02,
+          "official_below": 0.32
+        },
+        "shift +0.70, pad 0.7": {
+          "coverage": 0.84,
+          "official_above": 0.01,
+          "official_below": 0.14
+        }
+      }
+    },
+    "interval_subgroups": {
+      "fewer_than_20_listings": {
+        "n": 144,
+        "institutions": 36,
+        "coverage": 0.73,
+        "official_above": 0.07,
+        "interval": [
+          0.64,
+          0.81
+        ]
+      },
+      "level_below_30": {
+        "n": 378,
+        "institutions": 32,
+        "coverage": 0.74,
+        "official_above": 0.1,
+        "interval": [
+          0.68,
+          0.8
+        ]
+      },
+      "private": {
+        "n": 703,
+        "institutions": 29,
+        "coverage": 0.76,
+        "official_above": 0.08,
+        "interval": [
+          0.7,
+          0.81
+        ]
+      },
+      "south_east_kinmen_below_30": {
+        "n": 138,
+        "institutions": 11,
+        "coverage": 0.63,
+        "official_above": 0.11,
+        "interval": [
+          0.54,
+          0.72
+        ]
+      },
+      "abs_S_at_least_4": {
+        "n": 201,
+        "institutions": 46,
+        "coverage": 0.7,
+        "official_above": 0.12,
+        "interval": [
+          0.64,
+          0.76
+        ]
+      }
+    },
+    "single_source": {
+      "v3_only": {
+        "n": 90,
+        "mae": 2.91,
+        "bias": -1.01,
+        "coverage_with_median_J2_half_width": 0.54
+      },
+      "baseline_only": {
+        "n": 54,
+        "mae": 4.07,
+        "bias": 1.58,
+        "coverage_with_median_J2_half_width": 0.46
+      }
+    },
+    "fallback_rule": {
+      "n_any_prediction": 1665,
+      "mae_fallback": 1.52,
+      "n_with_baseline": 1575,
+      "mae_baseline": 1.68,
+      "mae_fallback_on_baseline_set": 1.44
+    },
+    "release_threshold": {
+      "at least 5 listings": {
+        "n": 1521,
+        "institutions": 59,
+        "mae_baseline": 1.6,
+        "mae_combination": 1.35,
+        "relative": -0.16,
+        "above_baseline": 0.17,
+        "above_combination": 0.12,
+        "sign_agreement": 0.79
+      },
+      "at least 10 listings": {
+        "n": 1495,
+        "institutions": 57,
+        "mae_baseline": 1.57,
+        "mae_combination": 1.32,
+        "relative": -0.16,
+        "above_baseline": 0.16,
+        "above_combination": 0.12,
+        "sign_agreement": 0.79
+      },
+      "at least 20 listings": {
+        "n": 1377,
+        "institutions": 56,
+        "mae_baseline": 1.43,
+        "mae_combination": 1.19,
+        "relative": -0.17,
+        "above_baseline": 0.16,
+        "above_combination": 0.12,
+        "sign_agreement": 0.8
+      },
+      "values_on_quarter_grid": {
+        "v1": {
+          "released": 1474,
+          "on_grid": 1474,
+          "on_grid_fewer_than_20_listings": 118
+        },
+        "v2": {
+          "released": 1482,
+          "on_grid": 1482,
+          "on_grid_fewer_than_20_listings": 110
+        },
+        "fractional": {
+          "released": 1611,
+          "on_grid": 1611,
+          "on_grid_fewer_than_20_listings": 187
+        },
+        "v3": {
+          "released": 1611,
+          "on_grid": 191,
+          "on_grid_fewer_than_20_listings": 88
+        }
+      },
+      "v3_equal_to_fractional": {
+        "n": 146,
+        "fewer_than_20_listings": 82
+      }
+    },
+    "institution_heterogeneity": {
+      "institutions": 59,
+      "worse_with_combination": 12,
+      "used_in_meta_analysis": 59,
+      "random_effects_mean": -0.22,
+      "tau": 0.15,
+      "I2": 0.63,
+      "prediction_interval": [
+        -0.53,
+        0.1
+      ]
+    }
+  }
+}

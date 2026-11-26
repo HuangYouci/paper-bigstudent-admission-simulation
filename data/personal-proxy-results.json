@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-10T13:41:11.416Z",
+  "runId": "ast_20260815T150000Z",
+  "access": {
+    "readOnly": true,
+    "projectedFields": [
+      "duplicateOf",
+      "input.wishes",
+      "result.status",
+      "result.assignedDeptGroupId",
+      "result.assignedWishRank",
+      "result.wishScores"
+    ],
+    "totalDocuments": 4631,
+    "excludedMirrors": 4,
+    "contactFieldsRead": false,
+    "tokensRead": false,
+    "individualRecordsSaved": false
+  },
+  "officialCutoffSource": {
+    "path": "sources/benchmark-snapshot.md",
+    "sha256": "7e87ea01fd86cf06f9bc8bfd4248c36c1ba524dbc2bd90cf21bd61227fcf8ed6",
+    "departments": 1706,
+    "audit": "data/official-truth-audit.json"
+  },
+  "interpretation": "保存模擬結果與官方一般生門檻重建的落點一致性；不是核實會員實際錄取結果的準確率。",
+  "assumptions": [
+    "平台填報成績與志願成立，並不代表已核實正式成績或志願卡",
+    "保存 wishScores 的合格性判定沿用，沒有重新確認正式檢定、術科或特殊身分",
+    "舊口徑將同分視為達標；不確定性診斷另保留同分與缺門檻的可能結果",
+    "保存文件為目前可讀版本，不是外部不可變封存"
+  ],
+  "counts": {
+    "total": 4627,
+    "bothAssigned": 4101,
+    "sameDepartment": 2513,
+    "proxyEarlierWish": 1110,
+    "proxyLaterWish": 478,
+    "simulatedOnlyAssigned": 43,
+    "proxyOnlyAssigned": 171,
+    "bothUnassigned": 312
+  },
+  "statuses": {
+    "unassigned": 465,
+    "assigned": 4144,
+    "no_eligible_wishes": 18
+  },
+  "rates": {
+    "sameDepartmentAmongBothAssigned": 0.61,
+    "sameDepartmentAmongAllRecords": 0.54,
+    "sameOutcomeIncludingBothUnassigned": 0.61,
+    "meanAbsoluteWishRankDifferenceAmongBothAssigned": 1.76
+  },
+  "uncertainty": {
+    "determinate": 4193,
+    "reachableTieRecords": 434,
+    "reachableMissingCutoffRecords": 0,
+    "agreementLowerCount": 2711,
+    "agreementUpperCount": 2989,
+    "agreementLowerRate": 0.59,
+    "agreementUpperRate": 0.65,
+    "interpretation": "在保存成績、志願與檢定判定成立的一般生門檻模型下，同分與缺門檻的可能結果界限；不是信賴區間或本人錄取準確率界限。"
+  }
+}
